@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>January 5, 1967: The Negro on campus</title>
+<meta charset="utf-8">
+<meta name="description" content="Digital analysis edition of a 1967 The Diamondback article">
+<meta name="author" content="Jessica H. Lu">
+
+<script src="js/CETEI.js"></script>
+
+<link rel="stylesheet" href="css/CETEIcean.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+
+<div id="TEI"></div>
+
+<script>
+var CETEIcean = new CETEI()
+CETEIcean.getHTML5("data/01 05 1967.xml", function(data) {
+document.getElementById("TEI").appendChild(data)
+})
+</script>
+
+</body>
+</html>
