@@ -120,6 +120,21 @@
           <langUsage>
               <language ident="en-US">United States English</language>
           </langUsage>
+          <particDesc>
+              <org>
+                  <orgName xml:id="UMD" ref="https://lccn.loc.gov/n79054042">University of Maryland, College Park</orgName>
+                  <idno type="LCAF">n79054042</idno>
+                  <placeName>
+                      <settlement>College Park</settlement>
+                      <region>Maryland (<abbr>M.D.</abbr>)</region>
+                      <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                  </placeName>
+              </org>
+              <personGrp>
+                  <persName xml:id="BLK">Black and African American people</persName>
+                  <note>This person group is necessary for the reading and interpretation of this text, as this text often uses "the negro" (gendered male) to generalize about all black and African Americans.</note>
+              </personGrp>
+          </particDesc>
       </profileDesc>
       <revisionDesc>
           <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
@@ -127,50 +142,61 @@
   </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
   <text>
       <body>
-         <p>
-            Negroes on white campus
-            Apprehension limits racial interaction
-
-            By HOLLACE GOLDBERG
-            Third in a series
-
+        <div>
+            <head rend="center">
+                <title type="main">Negroes on white campus</title>
+                <title type="sub">Apprehension limits racial interaction</title>
+            </head>
+        </div>
+        <div rend="center">
+            <byline>By <persName ref="#HG">HOLLACE GOLDBERG</persName></byline>
+            <p>Third in a series</p>
+        </div>
+        <div>
+            <p>
             What is it like to be a Negro<lb/>
             student on a white campus? Each<lb/>
-            Negro student has his own per-<lb/>
+            Negro student has his own per-
             sonal opinion.
-
-            "There’s no difference,“ main<lb/>
+            </p>
+            <p>
+            "There’s no difference,“ main-
             tained one sophomore, “Negro is<lb/>
             just a legal term the white man<lb/>
             made up for convenience."
-
+            </p>
+            <p>
             “No, our culture is different,"<lb/>
             projected a dark-skinned boy.<lb/>
             "It’s composed of <persName>James Brown</persName><lb/>
             and the Supremes."
-
+            </p>
+            <p>
             "They stare at me in class when<lb/>
             we discuss slavery or Africa,"<lb/>
             noted one young girl. “I guess<lb/>
             it’s out of curiosity."
-
+            </p>
+            <p>
             "People yell out of car windows<lb/>
             at me," put in an adamant coed,<lb/>
             cursing the University under her<lb/>
-            breath. This was Doris, a dis-<lb/>
+            breath. This was Doris, a dis-
             satisfied Negro, bitter towards<lb/>
             her four years at the University.<lb/>
-            Doris sells Black power but-<lb/>
+            Doris sells Black power but-
             tons, “a quarter for Negroes, a<lb/>
             dollar for whites."
-
+            </p>
+            <p>
             "You can’t write an article on<lb/>
             Negroes," she told this reporter.<lb/>
             "Anything you write, white people<lb/>
             will think is interesting... but to<lb/>
             colored people it won’t mean a
             thing."
-
+            </p>
+            <p>
             Only colored people know and<lb/>
             understand colored people, she<lb/>
             maintains. This seems to be<lb/>
@@ -179,9 +205,10 @@
             which to generalize about the<lb/>
             200-400 colored undergraduates<lb/>
             on campus.
-
-            The Negroes compose a hete-<lb/>
-            rogeneous population, demarcat-<lb/>
+            </p>
+            <p>
+            The Negroes compose a hete-
+            rogeneous population, demarcat-
             ed from the rest of the student<lb/>
             body by skin color and/or a few<lb/>
             tables in the Main Dining Hall<lb/>
@@ -190,7 +217,8 @@
             experiences largely dissimilar,<lb/>
             and even their skin tones are of<lb/>
             different shades.
-
+            </p>
+            <p>
             This is an article about the<lb/>
             Negro students in the Union. They<lb/>
             comprise an amorphous group of<lb/>
@@ -198,42 +226,50 @@
             er in the cafeteria every after<lb/>
             noon to eat, “shoot the breeze”<lb/>
             and play pinochle.
-
+            </p>
+            <p>
             Who are they? How do they<lb/>
             mingle with white students? These<lb/>
             are glimpses of the experiences<lb/>
             they relate as they sip Cokes<lb/>
             and munch on pizza between<lb/>
             classes.
-
+            </p>
+            <p>
             Social events is a major topic<lb/>
             these students discuss when<lb/>
             viewing their interaction with<lb/>
             whites.
-
+            </p>
+            <p>
             “At dorm deserts, I don’t really<lb/>
             fit in,” said Gary, a cool College<lb/>
             Joe who talks fast and smiles a<lb/>
             lot. “They don’t play our kind of<lb/>
             music.”
-
+            </p>
+            <p>
             “At one desert,” he continued<lb/>
             wryly, “I asked a white girl to<lb/>
             dance. She refused me, so I sat<lb/>
             down.”
-
-            Later, he noticed the girl <choice><orig>danc-<lb/>
-            ing</orig><reg>dancing</reg></choice> with white boys. He went over<lb/>
+            </p>
+            <p>
+            Later, he noticed the girl <choice><orig>danc-
+            ing</orig><reg>dancing</reg></choice><lb/>
+            with white boys. He went over<lb/>
             to her and asked her for the next<lb/>
             record."
-
+            </p>
+            <p>
             “Her girl friends were pushing<lb/>
-            her to dance with me,” he re-<lb/>
+            her to dance with me,” he re-
             called. “So she did. We danced,<lb/>
             and in the middle of the record<lb/>
             she burst into tears and ran to<lb/>
             her housemother.”
-
+            </p>
+            <p>
             Deducing a moral from his<lb/>
             story, Gary declared, “I don't<lb/>
             care if they don’t want to dance<lb/>
@@ -241,15 +277,17 @@
             each desert they’d make a list of<lb/>
             girls who won’t dance with me so<lb/>
             I'll know."
-
+            </p>
+            <p>
             On the whole, Gary encounters<lb/>
             little "open" prejudice in his<lb/>
             dormitory. However, Donna, a<lb/>
             calm, attractive Negro student,<lb/>
-            prefers to live at home and com-<lb/>
+            prefers to live at home and com-
             mute rather than to room in a<lb/>
             dormitory.
-
+            </p>
+            <p>
             At summer orientation last<lb/>
             July, she explained, she was the<lb/>
             only Negro in her tour group.<lb/>
@@ -257,232 +295,282 @@
             to see a Negro. They said<lb/>
             nothing against me, but they<lb/>
             stared as if they didn’t expect
-
-            Negroes note white preconceptions
-
+            </p>
+        </div>
+        <pb/>
+        <div>
+            <head rend="center">
+                <title type="sub">Negroes note white preconceptions</title>
+            </head>
+        </div>
+        <div>
+            <p>
             to see a Negro in their group."
-
+            </p>
+            <p>
             “I used to live in Philadelphia,"<lb/>
             Donna continued. "I was in the<lb/>
             minority... so I got used to the<lb/>
             feeling of being the only one there<lb/>
             and people staring."
-
+            </p>
+            <p>
             But this feeling is "kind of<lb/>
             lonely," and that was why Donna<lb/>
             “declined living on campus--be<lb/>
             cause of summer orientation."
-
+            </p>
+            <p>
             "I haven’t had any problems<lb/>
             with any students in class," she<lb/>
             continued. “They even come to<lb/>
             me and ask me for help. They<lb/>
             don’t judge you by your color, but<lb/>
-            by what you can do." But Donna
-            still prefers to live at home,
+            by what you can do." But Donna<lb/>
+            still prefers to live at home,<lb/>
             rather than on campus.
-
-            Another commuter, Alphonso,
-            was part of a nucleus of Negro
-            students who tried to establish
+            </p>
+            <p>
+            Another commuter, Alphonso,<lb/>
+            was part of a nucleus of Negro<lb/>
+            students who tried to establish<lb/>
             a “bi-racial" fraternity on cam-
-            pus last spring. Plans were made
-            to establish Omega Psi Phi, but
+            pus last spring. Plans were made<lb/>
+            to establish Omega Psi Phi, but<lb/>
             due to a start late in the semes-
-            ter, the group was unable to
+            ter, the group was unable to<lb/>
             start a chapter.
-
-            Meeting ‘awkward’
-
-            “Many people who wanted to
+            </p>
+        </div>
+        <div>
+            <head rend="center">
+                <title type="sub">Meeting ‘awkward’</title>
+            </head>
+        </div>
+        <div>
+            <p>
+            “Many people who wanted to<lb/>
             become charter members com-
-            muted from Baltimore," Alphonso
-            explained. It was “awkward for
-            them to come back for a meeting
-            at night." Also, a set sum of
-            money had to be laid down within
-            a one-week time limit. Gary
-            feels that this payment deadline
+            muted from Baltimore," Alphonso<lb/>
+            explained. It was “awkward for<lb/>
+            them to come back for a meeting<lb/>
+            at night." Also, a set sum of<lb/>
+            money had to be laid down within<lb/>
+            a one-week time limit. Gary<lb/>
+            feels that this payment deadline<lb/>
             prevented the group from gen-
-            erating more immediate interest.
-
-            Dwayne, a commuter who
-            spends part of each afternoon in
-            the Union improving his game of
-            pinochle, explained why he would
+            erating more immediate interest.<lb/>
+            </p>
+            <p>
+            Dwayne, a commuter who<lb/>
+            spends part of each afternoon in<lb/>
+            the Union improving his game of<lb/>
+            pinochle, explained why he would<lb/>
             like to establish a fraternity.
-
+            </p>
+            <p>
             “Everybody likes to have some-
-            thing when they graduate, a group
-            to call back together, a group to
-            talk up old times. It’s good to
-            be able to come back and look
+            thing when they graduate, a group<lb/>
+            to call back together, a group to<lb/>
+            talk up old times. It’s good to<lb/>
+            be able to come back and look<lb/>
             at the work you have done."
-
-            He and Alphonso also note
-            that a fraternity would give the
+            </p>
+            <p>
+            He and Alphonso also note<lb/>
+            that a fraternity would give the<lb/>
             Negro students a chance to par-
             ticipate in Homecoming, to com-
-            pete in athletic events, and to
+            pete in athletic events, and to<lb/>
             gain a voice in campus affairs.
-
-            Other Negroes disagree. They
-            see little unity in a “bi-racial"
-            fraternity, they anticipate that
-            Negroes would remain together,
+            </p>
+            <p>
+            Other Negroes disagree. They<lb/>
+            see little unity in a “bi-racial"<lb/>
+            fraternity, they anticipate that<lb/>
+            Negroes would remain together,<lb/>
             and this would not alter signifi-
             cantly their present rate of in-
             teraction with whites.
-
-            Another student added that
-            although Negroes have been
+            </p>
+            <p>
+            Another student added that<lb/>
+            although Negroes have been<lb/>
             “shunner" from “going into fra-
-            ternities, “I would not join a
-            fraternity simply (only) because
+            ternities, “I would not join a<lb/>
+            fraternity simply (only) because<lb/>
             it was black."
-
-            None of the 24 social frater
-            nities on campus are racially
+            </p>
+            <p>
+            None of the 24 social frater-
+            nities on campus are racially<lb/>
             integrated with whites and Ne-
-            groes. The fraternities have
-            no discriminatory clauses in
-            their charters, but attitudinal
+            groes. The fraternities have<lb/>
+            no discriminatory clauses in<lb/>
+            their charters, but attitudinal<lb/>
             barriers and apprehensive feel-
-            ings seem to bar a Negro from
+            ings seem to bar a Negro from<lb/>
             pledging a white house.
-
-            These feelings are not fostered
-            by white students alone. Negroes
-            find they are reluctant to rush
-            a white fraternity. They doubt
-            that they would be pledged, and
-            if they were, they wonder if they
+            </p>
+            <p>
+            These feelings are not fostered<lb/>
+            by white students alone. Negroes<lb/>
+            find they are reluctant to rush<lb/>
+            a white fraternity. They doubt<lb/>
+            that they would be pledged, and<lb/>
+            if they were, they wonder if they<lb/>
             could be accepted as a brother.
-
+            </p>
+            <p>
             Also, at parties, could the Ne-
-            groes bring white dates without
-            offending or shocking the alumni
+            groes bring white dates without<lb/>
+            offending or shocking the alumni<lb/>
             and brothers?
-
-            Interdating
-
-            These Negroes do interdate.
-            They state that white girls are
-            generally more friendly toward
+            </p>
+        </div>
+        <div>
+            <head rend="center">
+                <title type="sub">Interdating</title>
+            </head>
+        </div>
+        <div>
+            <p>
+            These Negroes do interdate.<lb/>
+            They state that white girls are<lb/>
+            generally more friendly toward<lb/>
             their race than white boys.
-
-            White people, they note, seem
-            very concerned with pressures
-            exerted by their friends. Negro
-            boys dating white coeds have been
-            told that when their dates return
-            to the dormitory, every one in
-            the hall flocks around them to
+            </p>
+            <p>
+            White people, they note, seem<lb/>
+            very concerned with pressures<lb/>
+            exerted by their friends. Negro<lb/>
+            boys dating white coeds have been<lb/>
+            told that when their dates return<lb/>
+            to the dormitory, every one in<lb/>
+            the hall flocks around them to<lb/>
             ask questions.
-
-            If a Negro mixes socially with
+            </p>
+            <p>
+            If a Negro mixes socially with<lb/>
             whites, however, peer-group re-
-            action is minimal. Explained
-            Gary, “If you’re in the group,
-            you’re in... We don’t care...
+            action is minimal. Explained<lb/>
+            Gary, “If you’re in the group,<lb/>
+            you’re in... We don’t care...<lb/>
             You do what you want to do."
-
-            White girls, they note, expect
-            Negro boys to be fast on a date.
-            They are surprised when they
+            </p>
+            <p>
+            White girls, they note, expect<lb/>
+            Negro boys to be fast on a date.<lb/>
+            They are surprised when they<lb/>
             find Negro behavior to the con-
-            trary. According to several
-            Negro boys, colored girls are
+            trary. According to several<lb/>
+            Negro boys, colored girls are<lb/>
             “a lot more shy than white girls."
-
-            “They don’t do things in pub
-            lic," explained one boy. “On the
-            Mall, I’ve seen things Negro girls
+            </p>
+            <p>
+            “They don’t do things in pub-
+            lic," explained one boy. “On the<lb/>
+            Mall, I’ve seen things Negro girls<lb/>
             won’t do."
-
-            Sorority obstacle
-
-            One thing Negro girls can’t do,
-            it seems, is join a sorority.
-            Last year, two Negro girls went
-            through fall sorority rush. One
-            girl received no invitations to
-            the second round of parties, but
-            the other girl was invited back
-            to several houses. However,
-            after this second group of par
+            </p>
+        </div>
+        <div>
+            <head rend="center">
+                <title type="sub">Sorority obstacle</title>
+            </head>
+        </div>
+        <div>
+            <p>
+            One thing Negro girls can’t do,<lb/>
+            it seems, is join a sorority.<lb/>
+            Last year, two Negro girls went<lb/>
+            through fall sorority rush. One<lb/>
+            girl received no invitations to<lb/>
+            the second round of parties, but<lb/>
+            the other girl was invited back<lb/>
+            to several houses. However,<lb/>
+            after this second group of par-
             ties, that girl was dropped too.
-
-            This year another girl, Sharon,
-            signed up for rush. Cute, petite
-            and well-dressed, Sharon said
-            she went through rush because
-            she had taken it for granted that
-            “you go to college, and you join
+            </p>
+            <p>
+            This year another girl, Sharon,<lb/>
+            signed up for rush. Cute, petite<lb/>
+            and well-dressed, Sharon said<lb/>
+            she went through rush because<lb/>
+            she had taken it for granted that<lb/>
+            “you go to college, and you join<lb/>
             a sorority."
-
-            “I was disappointed not to see
-            some Negroes in the sororities,"
-            she said. “Out of 18 sororities,
-            you would expect to see one. I
-            was shocked. Especially on a
-            campus this size. Rush was sup
+            </p>
+            <p>
+            “I was disappointed not to see<lb/>
+            some Negroes in the sororities,"<lb/>
+            she said. “Out of 18 sororities,<lb/>
+            you would expect to see one. I<lb/>
+            was shocked. Especially on a<lb/>
+            campus this size. Rush was sup-
             posed to be so open and all."
-
-            During rush, she reports,
-            “everybody was nice." After open
-            house she was invited back to ten
-            houses. But for “set of four"
-            parties, she received no return
+            </p>
+            <p>
+            During rush, she reports,<lb/>
+            “everybody was nice." After open<lb/>
+            house she was invited back to ten<lb/>
+            houses. But for “set of four"<lb/>
+            parties, she received no return<lb/>
             bids.
-
-            Negroes may join the service
+            </p>
+            <p>
+            Negroes may join the service<lb/>
             fraternity and sorority on cam-
-            pus. Of the students interviewed,
+            pus. Of the students interviewed,<lb/>
             one was a member of Gamma Sig-
-            ma Sigma sorority. Others were
-            members of the marching band,
-            P.E Majors Club, the football
+            ma Sigma sorority. Others were<lb/>
+            members of the marching band,<lb/>
+            P.E Majors Club, the football<lb/>
             team, and the chess club.
-
-            A perusal through Terrapin
-            yearbooks shows that other
+            </p>
+            <p>
+            A perusal through Terrapin<lb/>
+            yearbooks shows that other<lb/>
             colored students are in Univer-
             sity Theater productions, publi-
-            cations staffs, ROTC groups, the
-            Nursing Club, the M Club and the
+            cations staffs, ROTC groups, the<lb/>
+            Nursing Club, the M Club and the<lb/>
             Pharmacy Club.
-
-            But even in these groups, there
+            </p>
+            <p>
+            But even in these groups, there<lb/>
             are only one or two Negro mem-
-            bers. The low proportion of
-            Negro students on campus is not
-            the lone factor preventing large
-            Negro participation in campus
+            bers. The low proportion of<lb/>
+            Negro students on campus is not<lb/>
+            the lone factor preventing large<lb/>
+            Negro participation in campus<lb/>
             activities.
-
-            The Negroes in the union
+            </p>
+            <p>
+            The Negroes in the union<lb/>
             "group" feel that a veil of ap-
-            prehension limits Negro-white
-            interaction outside of class. This
-            cloak of apprehension is the last
-            barrier for a Negro student to
-            overcome before he will vie for
-            acceptance in an all-white group.
-            This cloak of apprehension is
-            the last barrier that a white
-            person must overcome before he
+            prehension limits Negro-white<lb/>
+            interaction outside of class. This<lb/>
+            cloak of apprehension is the last<lb/>
+            barrier for a Negro student to<lb/>
+            overcome before he will vie for<lb/>
+            acceptance in an all-white group.<lb/>
+            This cloak of apprehension is<lb/>
+            the last barrier that a white<lb/>
+            person must overcome before he<lb/>
             will forget color, disregard nega-
-            tive peer-group reactions and
-            boldly sit down at a Negro table
+            tive peer-group reactions and<lb/>
+            boldly sit down at a Negro table<lb/>
             in the Union.
-
-            Part of Friday’s installment
-            was incorrectly organized to
-            due a mechanical mistake.
-            The Diamondback regrets the
+            </p>
+            <p>
+            Part of Friday’s installment<lb/>
+            was incorrectly organized to<lb/>
+            due a mechanical mistake.<lb/>
+            The Diamondback regrets the<lb/>
             error.
-         </p>
+            </p>
+        </div>
       </body>
   </text>
 </TEI>

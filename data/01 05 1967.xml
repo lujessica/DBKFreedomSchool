@@ -258,7 +258,7 @@
                   </person>
                   <personGrp>
                       <persName xml:id="BLK">Black and African American people</persName>
-                      <note>This person group is necessary for the reading and interpretation of this text, as this text often uses "the negro" to generalize about all black and African Americans.</note>
+                      <note>This person group is necessary for the reading and interpretation of this text, as this text often uses "the negro" (gendered male) to generalize about all black and African Americans.</note>
                   </personGrp>
                   <personGrp>
                       <persName xml:id="USM">University System of Maryland (<abbr>U.S.M.</abbr>) Board of Regents</persName>
