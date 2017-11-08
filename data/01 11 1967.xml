@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Negro on campus: Racial issues down since 1954</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+                <persName xml:id="JLU">Jessica H. Lu</persName>
+                <orgName xml:id="AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+            </author>
+            <respStmt> <!-- Take note that each person/responsibility gets its own responsibility statement. Responsibility statements provide an opportunity to make visible the workflow and shared labor of a project -->
+                <resp>Encoded by</resp>
+                <persName ref="#JLU">Jessica H. Lu</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Edited by staff at</resp>
+                <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (MITH)</orgName>
+            </respStmt>
+            <respStmt>
+                <resp>Original TEI template provided by</resp>
+                <persName xml:id="RV">Raffaele Viglianti, PhD</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Student newspapers archived and provided by</resp>
+                <orgName xml:id="UA">University Archives
+                    <placeName>University of Maryland
+                        <settlement>College Park</settlement>
+                        <region>Maryland</region>
+                    </placeName>
+                </orgName>
+            </respStmt>
+            <funder ref="https://mellon.org">The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+             <edition n="1">First edition</edition>
+         </editionStmt>
+         <extent>
+             <measure unit="pages" quantity="2">1 page of original source material</measure>
+         </extent>
+         <publicationStmt>
+             <publisher>
+                 <orgName ref="#AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+             </publisher>
+             <pubPlace>
+                 <settlement>College Park</settlement>
+                 <region>Maryland</region>
+             </pubPlace>
+             <date when="2017-11-13">November 13, 2017</date>
+             <availability status="free"> <!-- For digital research projects, another common status may be "restricted," which would be further explained immediately below as "Available for academic research purposes only." -->
+                 <p>In the public domain.</p>
+             </availability>
+         </publicationStmt>
+         <seriesStmt>
+             <title>Machine-Readable Texts for the Study of Freedom in UMD Student Newspaper Coverage of African American Life</title>
+             <respStmt>
+                 <resp>Compiled and edited by</resp>
+                 <persName ref="#JLU">Jessica H. Lu</persName>
+             </respStmt>
+         </seriesStmt>
+         <sourceDesc> <!-- Remember, this provides information about the original source(s) from which the digital text is derived. -->
+             <listBibl>
+             <biblStruct>
+                 <analytic>
+                     <title type="main">The Negro on campus</title>
+                     <title type="sub">Racial issues down since 1954</title>
+                     <author>
+                         <persName xml:id="HG">Hollace Goldberg</persName>
+                     </author>
+                 </analytic>
+                 <monogr>
+                     <title level="j">The Diamondback</title>
+                     <imprint>
+                         <publisher>Maryland Media Inc.</publisher>
+                         <pubPlace>
+                             <region>College Park</region>
+                             <settlement>Maryland</settlement>
+                         </pubPlace>
+                         <date when="1967-01-11">January 11, 1967</date>
+                     </imprint>
+                     <biblScope unit="volume">59</biblScope>
+                     <biblScope unit="number">55</biblScope>
+                     <biblScope unit="page">3</biblScope>
+                 </monogr>
+             </biblStruct>
+             <bibl xml:id="LU">
+                 <title>Reckoning with Freedom: Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+                 <author>
+                     <persName ref="#JLU">Jessica H. Lu</persName>
+                 </author>
+             </bibl>
+             <bibl>
+                 <interpGrp resp="#LU" type="idea"> <!-- Search for "interGrp" in the TEI guidelines to learn more about how we can use this element to conduct an ideational analysis! -->
+                     <desc>Ideational analysis of freedom, as defined by the 19th century rhetoric of the Freedmen's Bureau.</desc>
+                     <interp xml:id="LAND">Land</interp>
+                     <interp xml:id="LAB">Labor</interp>
+                     <interp xml:id="EDU">Education</interp>
+                     <interp xml:id="REL">Relief</interp>
+                     <interp xml:id="JUST">Justice</interp>
+                 </interpGrp>
+             </bibl>
+             </listBibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+          <editorialDecl>
+              <p>All typographical errors have been preserved. When possible, suggested corrections are provided.</p>
+              <p>Structural formatting has been partially preserved. Page jumps and paragraphs have been retained, along with most line breaks. However, column breaks have not.</p>
+              <hyphenation eol="all">
+                 <p>All end-of-line hyphenation has been regularized.</p>
+             </hyphenation>
+          </editorialDecl>
+          <projectDesc>
+              <p>This project aims to provide students, scholars, and practitioners with a basic introduction to the Text Encoding Initiative (TEI), in the hopes that XML training will help foster critical scholarship at the intersections of African American history, culture, and digital humanities. This free training has been provided as part of the <date from="2017" to ="2018">2017-2018</date><orgName ref="#AADHUM">AADHum</orgName> series of digital humanities incubators.</p> <!-- Use this space to craft an abstract that defines or describes the scope and purpose of the project -->
+          </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+          <langUsage>
+              <language ident="en-US">United States English</language>
+          </langUsage>
+      </profileDesc>
+      <revisionDesc>
+          <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
+      </revisionDesc>
+  </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
+  <text>
+      <body>
+         <p>
+            The Negro on campus
+            Racial issues down since 1954
+
+            By HOLLACE GOLDBERG
+
+            Since the Supreme Court’s
+            school desegregation decision in
+            1954, the University has slowly
+            dropped all racial tones from its
+            hiring, housing and admissions
+            policies.
+
+            In 1964 the Board of Regents
+            ordered that questions of race
+            be deleted from application
+            forms. A student's race could
+            be requested only after he had
+            been admitted to the University,
+            and then only for statistical pur-
+            poses.
+
+            The housing office also deleted
+            race questions from its forms,
+            but continued to request pictures
+            of students seeking dormitory
+            rooms. Negro students felt this
+            was done to avoid inter-racial
+            room assignments. Though such
+            a policy was never spelled out,
+            observation indicated this to be
+            true.
+
+            Under housing policies initiat-
+            ed this fall, no student’s picture
+            is requested. Housing Director
+            Margaret Lloyd said that previous
+            housing directors might have
+            used the pictures to match up
+            Negro roommates, but her
+            present policy forbids such “sub-
+            jective" assignments.
+            “It is my determination that
+            we eliminate anything that smacks
+            of discrimination," Miss Lloyd
+            declared. “I can’t see that the
+            color of the skin has anything
+            more to do with a person than
+            the color of their hair."
+
+            Roommates, she explained, are
+            at present matched objectively.
+            “If you don’t request a room-
+            mate and a hall, you are assigned
+            by electronic data processes."
+            The computer, she noted, is a
+            “random" not a “racial" machine.
+
+            If a white student rooming with
+            a Negro complains of “roommate
+            incompatibility" due to race, Miss
+            Lloyd handles this complaint
+            much as she would any other. The
+            students are asked to try to work
+            things out. But if the situation
+            remains unstatisfactory, the
+            "complaining student is moved."
+            Miss Lloyd added that such
+            problems are often “more pa-
+            rental than student," and arise
+            infrequently.
+
+            Off-campus housing is another
+            matter. Negroes have always
+            had difficulty securing rooms
+            and apartments near campus.
+            According to the testimony of
+            Bill Jonas, a commuter, he and
+            another Negro submitted an ap-
+            plication in person for an apart-
+            ment, leaving a $5O room deposit.
+            Hearing no word after a month,
+            “we called H.G. Smithy Realtors
+            and they in turn said ‘hold on a
+            minute.' No one ever came back
+            to the phone," related Jones.
+
+            "A week later, we received
+            (through the mall) our request for
+            application—-denied. We called,
+            and a week later our check came
+            back. We had no time to raise
+            any issues about it.
+
+            "After that, well, I Just stayed
+            in Washington with my aunt."
+
+            According to off-campus hous-
+            ing director Doyal P. Royal, the
+            University aids students seeking
+            off-campus housing by keeping a
+            "public list of public facilities."
+            However, until last July that list
+            included many houses and apart-
+            ments that were closed to colored
+            students.
+
+            Months of protests, picket lines,
+            pressure groups and politics
+            forced the University to revise
+            its “public" list over the summer
+            of 1966. A new form, sent out
+            to area landlords, stated:
+            “We cannot accept your listing
+            if your only reason for not accept-
+            ing the student is because of race,
+            color, national origin or reli-
+            gion."
+
+            Reflecting on the new policy,
+            Royal said, “Last summer we
+            decided to try to please every-
+            body and neutralize the card."
+            As a result, last year's 400-
+            apartment list has dwindled.
+            "Only one large apartment house
+            remains on the list," he said.
+
+            Removed from housing office
+            policies is the University's ath-
+            letics program. In his depart-
+            ment, asserted Director of
+            Athletics William W. Cobey, “the
+            policy has been simply that any
+            student enrolled at the University
+            is welcome to come out for
+            athletics." Ball players are not
+            chosen by their color, they must
+            qualify academically and athleti
+            cally.
+
+            Furthermore, the athletic de-
+            partment keeps no record of an
+            athlete’s race. Cobey could not
+            recall the date when the first
+            Negro athlete competed for the
+            University in intercollegiate var-
+            sity ball. However, a perusal
+            of Terrapin yearbooks shows that
+            the swim team was the first to
+            integrate, in 1963, with the addi
+            tion of Negro swimmer Jason
+            Williams.
+
+            The football team followed the
+            next year. In fall, 1964, Darryl
+            Hill played on the varsity squad.
+            Last year in football, Ernie
+            Torain played halfback. He was
+            joined this year by Alvin Lee,
+            also a halfback.
+
+            Bill Jones played basketball
+            last year, and this year Pete
+            Johnson is also playing on the
+            court. The track team has had
+            Negro members since last year.
+
+            In another area, the hiring of
+            employees, recruitment depends
+            largely on state civil service
+            requirements.
+
+            The University is an "equal
+            opportunity" employer, reports
+            George W. Fogg, director of
+            personnel. "We have employed
+            everyone (Negro) that is qualified
+            for his job. We equalize white
+            and Negro... We don’t favor
+            either one or the other."
+            Answering a query about the
+            sparsity of Negro secretaries on
+            campus, Fogg frankly conceded,
+            “We have a lot of Negro secre-
+            taries—-but we have a lot more
+            white ones."
+
+            To recruit staff, Fogg's office
+            advertises through local newspa-
+            pers and employment agencies.
+            If applicants meet state civil
+            service requirements, they are
+            interviewed by the Personnel Of-
+            fice. Departments with vacancies
+            interview several job candidates
+            and choose one to fill the position.
+            Once hired, the employees must
+            fill out income tax papers, pay
+            roll forms and a personal history
+            questionnaire. The personal his-
+            tory form includes a question on
+            race.
+
+            “This is only for statistics,"
+            explained Fogg. “We never ask
+            this until the person is hired."
+            These racial statistics are re-
+            quired by the Compliance Com-
+            mittee of the State Fair Prac-
+            tices Commission. The Univer
+            sity must make a report to the
+            Commission on the ratio of Negro
+            and white employees. The first
+            such report, which is presently
+            being compiled, is due Jan. 15.
+
+            Hiring of faculty members is
+            done largely at the departmental
+            level. Nominations are generated
+            by the department heads.
+
+            Here, related Fogg, qualifica-
+            tions are very specific. Nomi
+            nees are interviewed by R.
+            Lee Hornbake, vice-president for
+            academic affairs, and appoint-
+            ments confirmed by the Board
+            of Regents.
+
+            Hornbake stated that in re-
+            cruiting faculty, “we are not try-
+            ing to find people of any race.
+            But," he added “qualified Negroes
+            are in very short supply, since
+            they are being sought after
+            eagerly by many instructors."
+
+            He mentioned that two Negroes
+            --an African assistant professor
+            in G&P and an associate pro-
+            fessor of education—-have been
+            hired in the past two years to
+            teach in College Park. However,
+            as for the total number of Negro
+            instructors on the University’s
+            many campuses, Hornbake said,
+            “I don’t know how many there
+            are and honestly, I don't care.
+            All I am interested in is good
+            faculty."
+
+            Hornbake also dlsspelled a
+            rumor that has been pervading
+            the sociology department for the
+            last twelve months. A Negro
+            professor nominated by the
+            sociology department did not
+            complete his contract negotia-
+            tions for a position. Rumors,
+            however, persisted that the ad-
+            ministration had dropped their
+            offer due specifically to the ap-
+            plicant’s race.
+
+            Hornbake explained what
+            happened. The man, a “highly
+            recommended" professor of an-
+            thropology, told the University
+            he had received “another offer
+            from a West coast institution."
+
+            “He was a quality man, who
+            had been in demand in a variety
+            of places," testified Hornbake.
+            “I did not infer from him that he
+            felt that race had been a factor
+            at all, in not accepting the Uni-
+            versity bid."
+
+            To learn just how many
+            Negroes the University employs
+            in College Park, last spring the
+            Personnel Office sent to all fac-
+            ulty and staff a short personal
+            history questionnaire. The data,
+            as mentioned before, was being
+            compiled for the State Fair Prac-
+            tices Commission.
+
+            Resenting racial questions,
+            many white faculty members an-
+            swered by writing “Eskimo" or
+            “mixed." But according to Fogg,
+            “this was a misdirected form of
+            liberalism. These people hinder-
+            ed the cause that they were stand
+            ing for."
+
+            The purpose of the survey was
+            to indicate that the University
+            does comply with the Civil Rights
+            Act.
+
+
+            Photos by Milton Buchler
+
+            BILL JONES solemnly contemplates which card
+            to throw as he plays pinochle in the Student
+            Union. Jones, who commutes from Washington,
+            tried unsuccessfully to rent an apartment close to
+            campus.
+
+
+            CARMEN, a freshman who is a soprano member
+            of the Madrigal Singers, looks through music books
+            in the fourth floor stacks of the Library. She is
+            the first Negro to sing with the Madrigals.
+         </p>
+      </body>
+  </text>
+</TEI>

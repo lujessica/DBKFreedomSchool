@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Negroes on campus: Integration at College Park</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+                <persName xml:id="JLU">Jessica H. Lu</persName>
+                <orgName xml:id="AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+            </author>
+            <respStmt> <!-- Take note that each person/responsibility gets its own responsibility statement. Responsibility statements provide an opportunity to make visible the workflow and shared labor of a project -->
+                <resp>Encoded by</resp>
+                <persName ref="#JLU">Jessica H. Lu</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Edited by staff at</resp>
+                <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (MITH)</orgName>
+            </respStmt>
+            <respStmt>
+                <resp>Original TEI template provided by</resp>
+                <persName xml:id="RV">Raffaele Viglianti, PhD</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Student newspapers archived and provided by</resp>
+                <orgName xml:id="UA">University Archives
+                    <placeName>University of Maryland
+                        <settlement>College Park</settlement>
+                        <region>Maryland</region>
+                    </placeName>
+                </orgName>
+            </respStmt>
+            <funder ref="https://mellon.org">The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+             <edition n="1">First edition</edition>
+         </editionStmt>
+         <extent>
+             <measure unit="pages" quantity="2">2 partial pages of original source material</measure>
+         </extent>
+         <publicationStmt>
+             <publisher>
+                 <orgName ref="#AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+             </publisher>
+             <pubPlace>
+                 <settlement>College Park</settlement>
+                 <region>Maryland</region>
+             </pubPlace>
+             <date when="2017-11-13">November 13, 2017</date>
+             <availability status="free"> <!-- For digital research projects, another common status may be "restricted," which would be further explained immediately below as "Available for academic research purposes only." -->
+                 <p>In the public domain.</p>
+             </availability>
+         </publicationStmt>
+         <seriesStmt>
+             <title>Machine-Readable Texts for the Study of Freedom in UMD Student Newspaper Coverage of African American Life</title>
+             <respStmt>
+                 <resp>Compiled and edited by</resp>
+                 <persName ref="#JLU">Jessica H. Lu</persName>
+             </respStmt>
+         </seriesStmt>
+         <sourceDesc> <!-- Remember, this provides information about the original source(s) from which the digital text is derived. -->
+             <listBibl>
+             <biblStruct>
+                 <analytic>
+                     <title type="main">Negroes on campus</title>
+                     <title type="sub">Integration at College Park</title>
+                     <author>
+                         <persName xml:id="HG">Hollace Goldberg</persName>
+                     </author>
+                 </analytic>
+                 <monogr>
+                     <title level="j">The Diamondback</title>
+                     <imprint>
+                         <publisher>Maryland Media Inc.</publisher>
+                         <pubPlace>
+                             <region>College Park</region>
+                             <settlement>Maryland</settlement>
+                         </pubPlace>
+                         <date when="1967-01-06">January 6, 1967</date>
+                     </imprint>
+                     <biblScope unit="volume">59</biblScope>
+                     <biblScope unit="number">52</biblScope>
+                     <biblScope unit="page">1 and 8</biblScope>
+                 </monogr>
+             </biblStruct>
+             <bibl xml:id="LU">
+                 <title>Reckoning with Freedom: Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+                 <author>
+                     <persName ref="#JLU">Jessica H. Lu</persName>
+                 </author>
+             </bibl>
+             <bibl>
+                 <interpGrp resp="#LU" type="idea"> <!-- Search for "interGrp" in the TEI guidelines to learn more about how we can use this element to conduct an ideational analysis! -->
+                     <desc>Ideational analysis of freedom.</desc>
+                     <interp xml:id="LAND">Land</interp>
+                     <interp xml:id="LAB">Labor</interp>
+                     <interp xml:id="EDU">Education</interp>
+                     <interp xml:id="REL">Relief</interp>
+                     <interp xml:id="JUST">Justice</interp>
+                 </interpGrp>
+             </bibl>
+             </listBibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+          <editorialDecl>
+              <p>All typographical errors have been preserved. When possible, suggested corrections are provided.</p>
+              <p>Structural formatting has been partially preserved. Page jumps and paragraphs have been retained, along with most line breaks. However, column breaks have not.</p>
+              <hyphenation eol="all">
+                 <p>All end-of-line hyphenation has been regularized.</p>
+             </hyphenation>
+          </editorialDecl>
+          <projectDesc>
+              <p>This project aims to provide students, scholars, and practitioners with a basic introduction to the Text Encoding Initiative (TEI), in the hopes that XML training will help foster critical scholarship at the intersections of African American history, culture, and digital humanities. This free training has been provided as part of the <date from="2017" to ="2018">2017-2018</date><orgName ref="#AADHUM">AADHum</orgName> series of digital humanities incubators.</p> <!-- Use this space to craft an abstract that defines or describes the scope and purpose of the project -->
+          </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+          <langUsage>
+              <language ident="en-US">United States English</language>
+          </langUsage>
+          <particDesc>
+              <listOrg>
+                  <org>
+                      <orgName xml:id="UMD" ref="https://lccn.loc.gov/n79054042">University of Maryland, College Park</orgName>
+                      <idno type="LCAF">n79054042</idno>
+                      <placeName>
+                          <settlement>College Park</settlement>
+                          <region>Maryland (<abbr>M.D.</abbr>)</region>
+                          <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                      </placeName>
+                  </org>
+                  <org>
+                      <orgName xml:id="UMDLAW" ref="https://lccn.loc.gov/n85094063">University of Maryland, School of Law</orgName>
+                      <idno type="LCAF">n85094063</idno>
+                      <placeName>
+                          <settlement>Baltimore</settlement>
+                          <region>Maryland (<abbr>M.D.</abbr>)</region>
+                          <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                      </placeName>
+                  </org>
+                  <org>
+                      <orgName xml:id="DCPS" ref="https://lccn.loc.gov/n82112613">D.C. Public Schools</orgName>
+                      <idno type="LCAF">n82112613</idno>
+                  </org>
+                  <org>
+                      <orgName xml:id="DCREC" ref="https://lccn.loc.gov/n85188182">D.C. Recreation Department</orgName>
+                      <idno type="LCAF">n85188182</idno>
+                  </org>
+              </listOrg>
+              <listPerson>
+                  <person>
+                      <persName xml:id="BYRD" ref="https://lccn.loc.gov/no93017923">
+                          <forename>Harry</forename>
+                          <forename>Clifton</forename>
+                          <surname>Byrd</surname>
+                          <roleName type="office">University President, <orgName ref="#UMD">University of Maryland, College Park</orgName></roleName>
+                          <idno type="LCAF">no 93017923</idno>
+                      </persName>
+                  </person>
+                  <person>
+                      <persName xml:id="DGM" ref="https://lccn.loc.gov/n99043202">
+                          <forename>Donald</forename>
+                          <forename>Gaines</forename>
+                          <surname>Murray</surname>
+                      </persName>
+                      <idno type="LCAF">n99043202</idno>
+                  </person>
+                  <person>
+                      <persName xml:id="PJM" ref="https://lccn.loc.gov/n80048493">
+                          <forename>Parren</forename>
+                          <forename>James</forename>
+                          <surname>Mitchell</surname>
+                      </persName>
+                      <idno type="LCAF">n80048493</idno>
+                  </person>
+                  <person>
+                      <persName xml:id="WAP">
+                          <forename>Wendall</forename>
+                          <surname>Paris</surname>
+                          <roleName type="office">Assistant Athletic Director, <orgName ref="#DCPS">D.C.P.S.</orgName> </roleName>
+                      </persName>
+                  </person>
+                  <person>
+                      <persName xml:id="HOFF">
+                          <forename>Harold</forename>
+                          <surname>Hoffsomer</surname>
+                          <roleName type="office">Chair of Sociology, <orgName ref="#UMD">University of Maryland, College Park</orgName></roleName>
+                      </persName>
+                  </person>
+                  <person>
+                      <persName xml:id="RB">
+                          <forename>Ronald</forename>
+                          <surname>Bamford</surname>
+                          <roleName type="office">Dean of the Graduate School, <orgName ref="#UMD">University of Maryland, College Park</orgName></roleName>
+                      </persName>
+                  </person>
+                  <personGrp>
+                      <persName xml:id="BLK">Black and African American people</persName>
+                      <note>This person group is necessary for the reading and interpretation of this text, as this text often uses "the negro" to generalize about all black and African Americans.</note>
+                  </personGrp>
+                  <personGrp>
+                      <persName xml:id="USM">University System of Maryland (<abbr>U.S.M.</abbr>) Board of Regents</persName>
+                      <note>The Board of Regents is comprised of 17 members, including 1 full-time student. Appointed by the Governor of Maryland, the Board oversees the university system's academic, administrative, and financial operations.</note>
+                  </personGrp>
+              </listPerson>
+          </particDesc>
+      </profileDesc>
+      <revisionDesc>
+          <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
+      </revisionDesc>
+  </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
+  <text>
+      <body>
+        <div>
+            <head rend="center">
+                <title type="main"><persName ref="#BLK">Negroes</persName> on <seg corresp="#UMD">campus</seg></title>
+                <title type="sub">Integration at <orgName ref="#UMD">College Park</orgName></title>
+            </head>
+        </div>
+        <div rend="center">
+            <byline>By <persName ref="#HG">HOLLACE GOLDBERG</persName></byline>
+            <p>Second in a series</p>
+        </div>
+        <div>
+            <p>
+            <persName ref="#BLK">The Negro</persName>'s advance into the <orgName ref="#UMD">University</orgName><lb/>
+            was slow, but in the <date from="1950-01-01" to="1959-12-31">1950's</date> his pace <choice><orig>quick-
+            ened</orig><reg>quickened</reg></choice>.<lb/>
+            <persName ref="#PJM">Parren J. Mitchell</persName>, a Negro <choice><orig>gradu-
+            ate</orig><reg>graduate</reg></choice><lb/>
+            student in sociology, had applied to the<lb/>
+            <orgName ref="#UMD">University</orgName> in August of <date when="1950">1950</date>. <persName ref="#PJM">Mitchell</persName> was<lb/>
+            <seg ana="#EDU">accepted with the tacit understanding that<lb/>
+            he attend classes in <placeName><settlement>Baltimore</settlement></placeName>--not in<lb/>
+            <seg corresp="#UMD"><placeName><settlement>College Park</settlement></placeName></seg></seg>.
+            </p>
+            <p>
+            These “regrettable" situations came<lb/>
+            to a close in the early fifties. Slowly,<lb/>
+            the <persName ref="#USM">Board of Regents</persName> and the <orgName>Supreme<lb/>
+            Court</orgName> <seg ana="#JUST">passed holdings liberalizing <choice><orig>edu-
+            cation</orig><reg>education</reg></choice><lb/>
+            facilities</seg>.
+            </p>
+            <p>
+            In May of <date when="1954">1954</date>, the <orgName>U.S. Supreme Court</orgName><lb/>
+            <seg ana="#JUST">struck down the "separate but equal"<lb/>
+            doctrine</seg> and held that <seg ana="#EDU">public education<lb/>
+            institutions must be integrated</seg> (<seg corresp="https://lccn.loc.gov/sh2005002458">Brown<lb/>
+            v. Board of Education</seg>). The following<lb/>
+            month the <persName ref="#USM">Board of Regents</persName> unanimously<lb/>
+            passed the motion that <seg ana="#EDU">"all qualified <choice><orig>stu-
+            dents</orig><reg>students</reg></choice><lb/>
+            resident of <placeName><region>Maryland</region></placeName> may apply<lb/>
+            for admission to the <orgName ref="#UMD">University</orgName> in all<lb/>
+            of its schools."</seg>
+            </p>
+            <p>
+            In <date when="1955">1955</date>, following the embarrassing<lb/>
+            incident with the <orgName ref="#DCREC">D.C. Recreation <choice><orig>Depart-
+            ment</orig><reg>Department</reg></choice></orgName>,<lb/>
+            the <persName ref="#USM">Board</persName> moved to extend the<lb/>
+            non-racial policy to out-of-state <choice><orig>appli-
+            cants</orig><reg>applicants</reg></choice>.
+            </p>
+            <p>
+            The <orgName ref="#UMD">University</orgName> at last had an <seg ana="#EDU">integrated<lb/>
+            admissions policy</seg>. It was <measure type="time" quantity="20" unit="year">twenty years</measure><lb/>
+            since <persName ref="#DGM">Donald Gaines Murray</persName> had <seg ana="#JUST">appealed<lb/>
+            his case for admission to the <orgName ref="#UMDLAW">University<lb/>
+            Law School</orgName></seg>. It was <measure type="time" quantity="4" unit="year">four</measure> years since a<lb/>
+            Negro student had entered <seg corresp="#UMD"><placeName><settlement>College Park</settlement></placeName></seg>.
+            </p>
+            <p>
+            Now that the <seg ana="#JUST">policy gates had opened</seg>,<lb/>
+            how was integration effected within the<lb/>
+            <seg corresp="#UMD">College Park campus</seg>? Integration was a<lb/>
+            reality on paper, but socially and <choice><orig>ad-
+            ministratively</orig><reg>administratively</reg></choice><lb/>
+            <persName ref="#BLK">The Negro</persName> was still feeling<lb/>
+            his way. <persName ref="#BLK">The Negro</persName> and <seg ana="#JUST">the fourteenth<lb/>
+            amendment</seg> were yet to expand.
+            </p>
+            <p>
+            The conclusion was “yes, there ought<lb/>
+            to be discussion.” <seg ana="#JUST"><orgName>The Court</orgName> ruled in<lb/>
+            <persName ref="#PJM">Mitchell</persName>’s favor</seg>, declaring that “counsel<lb/>
+            shows certain advantages in studying at<lb/>
+            College Park... weekly seminars are<lb/>
+            more profitable in large classes."
+            </p>
+            <p>
+            While <persName ref="#PJM">Mitchell</persName> set to work for <seg corresp="#PJM">his</seg><lb/>
+            Masters degree a state investigative<lb/>
+            body, the <orgName>Weglein Commission</orgName>, looked<lb/>
+            into “Negro Higher Education in the<lb/>
+            State.” <seg ana="#EDU">Finding a wide disparity between<lb/>
+            Negro and white educational facilities</seg>,<lb/>
+            the Committee proposed that the “State<lb/>
+            admit <persName ref="#BLK">Negroes</persName> to graduate and <choice><orig>profes-
+            sional</orig><reg>professional</reg></choice><lb/>
+            schools when it was impractical<lb/>
+            to offer <seg ana="#EDU">equal education opportunities at<lb/>
+            separate Negro institutions</seg>."
+            </p>
+            <p>
+            The State’s last-minute <seg ana="#EDU">programs to<lb/>
+            step up separate Negro education <choice><orig>facili-
+            ties</orig><reg>facilities</reg></choice></seg><lb/>
+            apparently were not advancing fast<lb/>
+            enough to combat the drive toward <choice><orig>inte-
+            gration</orig><reg>integration</reg></choice>.<lb/>
+            The <persName ref="#USM">Board of Regents</persName> examined<lb/>
+            the Weglein recommendations and in<lb/>
+            April, <date when="1951">1951</date>, the <persName ref="#USM">Board</persName> promulgated a new<lb/>
+            racial policy:
+            </p>
+            <p>
+            <seg ana="#EDU">In the future all resident applicants<lb/>
+            within the state, regardless of race, color<lb/>
+            or creed, were to be considered for<lb/>
+            admission to the professional schools<lb/>
+            in <placeName><settlement>Baltimore</settlement></placeName> on an equal basis with<lb/>
+            white applicants</seg>.
+            </p>
+            <p>
+            In line with this policy ruling, in<lb/>
+            May of that year, <measure type="number" quantity="2">two</measure> Negroes were <choice><orig>ad-
+            mitted</orig><reg>admitted</reg></choice><lb/>
+            to the Medical School, an <choice><orig>institu-
+            tion</orig><reg>institution</reg></choice><lb/>
+            that had been white for <measure type="time" quantity="144" unit="year">144</measure> years.
+            </p>
+            <p>
+            The new integration policy ran <choice><orig>smooth-
+            ly</orig><reg>smoothly</reg></choice><lb/>
+            for several months, until another<lb/>
+            hassle arose in July, <date when="1952">1952</date>. <persName ref="#WAP">Wendall A.<lb/>
+            Paris</persName>, assistant athletic director to the<lb/>
+            <orgName ref="#DCPS">D.C. Public Schools</orgName> and a Negro, was<lb/>
+            <seg ana="#EDU">denied admission to a summer school<lb/>
+            graduate course</seg> in <placeName><settlement>College Park</settlement></placeName>.
+            </p>
+            <p>
+            The <orgName ref="#UMD">University</orgName> apologized to <persName ref="#WAP">Paris</persName>,<lb/>
+            but informed that <seg ana="#EDU">the school’s policy of<lb/>
+            accepting Negro students did not apply<lb/>
+            to out-of-state applicants</seg>. If <persName ref="#WAP">Paris</persName> had<lb/>
+            been white, he would have been accepted.
+            </p>
+            <p>
+            In <date when="1955">1955</date> a similar incident occurred.<lb/>
+            The <orgName ref="#UMD">University</orgName> had invited members of<lb/>
+            the <orgName ref="#DCREC">D.C. Recreation Department</orgName> to take<lb/>
+            a summer course at <seg corresp="#UMD"><placeName><settlement>College Park</settlement></placeName></seg>. <measure type="number" quantity="10">Ten</measure><lb/>
+            workers applied. All were initially <choice><orig>ac-
+            cepted</orig><reg>accepted</reg></choice>.
+            </p>
+            <p>
+            However, <measure type="number" quantity="6">six</measure> of these applications<lb/>
+            were from <persName ref="#BLK">Negroes</persName>, and when the <choice><orig>Uni-
+            versity</orig><reg><orgName ref="#UMD">University</orgName></reg></choice><lb/>
+            administration realized this,<lb/>
+            those applicants were rejected. <seg ana="#EDU">They<lb/>
+            were returned their money and informed<lb/>
+            that <seg corresp="#UMD">the school</seg> did not admit out-of-state<lb/>
+            Negroes</seg>.
+            </p>
+            <p>
+            In protest, the Recreation <choice><orig>Superintend-
+            ent</orig><reg>Superintendent</reg></choice><lb/>
+            withdrew the <measure type="number" quantity="4">four</measure> other white <choice><orig>appli-
+            cants</orig><reg>applicants</reg></choice>.
+            </p>
+            <p>
+            The <orgName ref="#USM">Board of Regents</orgName>, commenting<lb/>
+            on the incident, said that the situation<lb/>
+            was “regrettable." The <orgName ref="#USM">Board</orgName> would<lb/>
+            make efforts to negotiate for such<lb/>
+            a course for D.C. employees within the<lb/>
+            <placeName><region>District</region></placeName>.
+            </p>
+            <p>
+            "We hadn’t accepted <persName ref="#BLK">Negroes</persName> before,<lb/>
+            but there wasn’t anything the matter with<lb/>
+            this application," recalls Harold
+            </p>
+        </div>
+        <pb/>
+        <div>
+            <head rend="center">
+                <title type="sub">College Park campus enrolls Negro students</title>
+            </head>
+        </div>
+        <div>
+            <p>
+            <persName ref="#HOFF">Hoffsomer</persName>, former head of the<lb/>
+            Department of Sociology.<lb/>
+            “The <seg corresp="#BYRD">President</seg> (Byrd) said <seg ana="#EDU">our<lb/>
+            policy was to give them equal<lb/>
+            opportunities</seg>. We would give<lb/>
+            them chances to get their <choice><orig>educa-
+            tion</orig><reg>education</reg></choice>,<lb/>
+            but we wouldn't do it on the<lb/>
+            campus in <placeName><settlement>College Park</settlement></placeName>."
+            </p>
+            <p>
+            “<seg corresp="#PJM">This man</seg> wanted to major in<lb/>
+            sociology," continued <persName ref="#HOFF">Hoffsomer</persName>,<lb/>
+            "and I told <persName ref="#BYRD">President Byrd</persName> at the<lb/>
+            time that one of the required<lb/>
+            courses in sociology was my<lb/>
+            methods in sociological research<lb/>
+            and that course wasn’t given in<lb/>
+            <placeName><settlement>Baltimore</settlement></placeName>."
+            </p>
+            <p>
+            He further told <persName ref="#BYRD">Byrd</persName> that, “if<lb/>
+            we wanted to make things equal...<lb/>
+            <seg corresp="#HOFF">I</seg> would have to give the course<lb/>
+            myself. I told <persName ref="#BYRD">President Byrd</persName><lb/>
+            it would cost money, but <seg corresp="#BYRD">he</seg> said<lb/>
+            okay."
+            </p>
+            <p>
+            Consequently, the methodology<lb/>
+            class—a seminar course—was<lb/>
+            included in the <placeName><settlement>Baltimore</settlement></placeName> <choice><orig>Cam-
+            pus</orig><reg>Campus</reg></choice>,<lb/>
+            <orgName ref="#UMD">University</orgName> College <choice><orig>curricul-
+            um</orig><reg>curriculum</reg></choice><lb/>
+            for the fall semester, <date when="1950">1950</date>.<lb/>
+            </p>
+            <p>
+            <persName ref="#PJM">Mitchell</persName>, however, was not<lb/>
+            pleased that <seg ana="#EDU">"separate but equal"<lb/>
+            accommodations had been <choice><orig>ar-
+            ranged</orig><reg>arranged</reg></choice></seg><lb/>
+            especially for <seg corresp="#PJM">him</seg>. In<lb/>
+            Sept., <date when="1950">1950</date>, <seg ana="#JUST"><seg corresp="#PJM">he</seg> took his grievances<lb/>
+            to court</seg>, and in <seg ana="#JUST">“Mitchell<lb/>
+            v. Byrd," <seg corresp="#PJM">he</seg> claimed that because<lb/>
+            of his skin color he was being<lb/>
+            “denied advantages of <choice><orig>associa-
+            tion</orig><reg>association</reg></choice><lb/>
+            with other students."</seg>
+            </p>
+            <p>
+            <seg corresp="#PJM">He</seg> was the only student <choice><orig>regis-
+            tered</orig><reg>registered</reg></choice><lb/>
+            for the methodology class<lb/>
+            in <placeName><settlement>Baltimore</settlement></placeName>. He felt the <choice><orig>crea-
+            tion</orig><reg>creation</reg></choice><lb/>
+            of a “one-man seminar" <choice><orig>un-
+            just</orig><reg>unjust</reg></choice>.
+            </p>
+            <p>
+            In court, <persName ref="#RB">Ronald Bamford</persName>, Dean<lb/>
+            of the Graduate School, testified<lb/>
+            that, “there is no question that if<lb/>
+            <seg corresp="#PJM">he</seg> (Mitchell) had been a white<lb/>
+            man, he could have been assigned<lb/>
+            as a student at <seg corresp="#UMD"><placeName><settlement>College Park</settlement></placeName></seg>.
+            </p>
+        </div>
+      </body>
+  </text>
+</TEI>

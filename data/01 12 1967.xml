@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">A lonely walk?: Negroes view campus with mixed emotions</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+                <persName xml:id="JLU">Jessica H. Lu</persName>
+                <orgName xml:id="AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+            </author>
+            <respStmt> <!-- Take note that each person/responsibility gets its own responsibility statement. Responsibility statements provide an opportunity to make visible the workflow and shared labor of a project -->
+                <resp>Encoded by</resp>
+                <persName ref="#JLU">Jessica H. Lu</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Edited by staff at</resp>
+                <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (MITH)</orgName>
+            </respStmt>
+            <respStmt>
+                <resp>Original TEI template provided by</resp>
+                <persName xml:id="RV">Raffaele Viglianti, PhD</persName>
+            </respStmt>
+            <respStmt>
+                <resp>Student newspapers archived and provided by</resp>
+                <orgName xml:id="UA">University Archives
+                    <placeName>University of Maryland
+                        <settlement>College Park</settlement>
+                        <region>Maryland</region>
+                    </placeName>
+                </orgName>
+            </respStmt>
+            <funder ref="https://mellon.org">The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+             <edition n="1">First edition</edition>
+         </editionStmt>
+         <extent>
+             <measure unit="pages" quantity="2">2 partial pages of original source material</measure>
+         </extent>
+         <publicationStmt>
+             <publisher>
+                 <orgName ref="#AADHUM">African American History, Culture, and Digital Humanities (AADHum)</orgName>
+             </publisher>
+             <pubPlace>
+                 <settlement>College Park</settlement>
+                 <region>Maryland</region>
+             </pubPlace>
+             <date when="2017-11-13">November 13, 2017</date>
+             <availability status="free"> <!-- For digital research projects, another common status may be "restricted," which would be further explained immediately below as "Available for academic research purposes only." -->
+                 <p>In the public domain.</p>
+             </availability>
+         </publicationStmt>
+         <seriesStmt>
+             <title>Machine-Readable Texts for the Study of Freedom in UMD Student Newspaper Coverage of African American Life</title>
+             <respStmt>
+                 <resp>Compiled and edited by</resp>
+                 <persName ref="#JLU">Jessica H. Lu</persName>
+             </respStmt>
+         </seriesStmt>
+         <sourceDesc> <!-- Remember, this provides information about the original source(s) from which the digital text is derived. -->
+             <listBibl>
+             <biblStruct>
+                 <analytic>
+                     <title type="main">A lonely walk?</title>
+                     <title type="sub">Negroes view campus with mixed emotions</title>
+                     <author>
+                         <persName xml:id="HG">Hollace Goldberg</persName>
+                     </author>
+                 </analytic>
+                 <monogr>
+                     <title level="j">The Diamondback</title>
+                     <imprint>
+                         <publisher>Maryland Media Inc.</publisher>
+                         <pubPlace>
+                             <region>College Park</region>
+                             <settlement>Maryland</settlement>
+                         </pubPlace>
+                         <date when="1967-01-12">January 12, 1967</date>
+                     </imprint>
+                     <biblScope unit="volume">59</biblScope>
+                     <biblScope unit="number">56</biblScope>
+                     <biblScope unit="page">1 and 3</biblScope>
+                 </monogr>
+             </biblStruct>
+             <bibl xml:id="LU">
+                 <title>Reckoning with Freedom: Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+                 <author>
+                     <persName ref="#JLU">Jessica H. Lu</persName>
+                 </author>
+             </bibl>
+             <bibl>
+                 <interpGrp resp="#LU" type="idea"> <!-- Search for "interGrp" in the TEI guidelines to learn more about how we can use this element to conduct an ideational analysis! -->
+                     <desc>Ideational analysis of freedom.</desc>
+                     <interp xml:id="LAND">Land</interp>
+                     <interp xml:id="LAB">Labor</interp>
+                     <interp xml:id="EDU">Education</interp>
+                     <interp xml:id="REL">Relief</interp>
+                     <interp xml:id="JUST">Justice</interp>
+                 </interpGrp>
+             </bibl>
+             </listBibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+          <editorialDecl>
+              <p>All typographical errors have been preserved. When possible, suggested corrections are provided.</p>
+              <p>Structural formatting has been partially preserved. Page jumps and paragraphs have been retained, along with most line breaks. However, column breaks have not.</p>
+              <hyphenation eol="all">
+                 <p>All end-of-line hyphenation has been regularized.</p>
+             </hyphenation>
+          </editorialDecl>
+          <projectDesc>
+              <p>This project aims to provide students, scholars, and practitioners with a basic introduction to the Text Encoding Initiative (TEI), in the hopes that XML training will help foster critical scholarship at the intersections of African American history, culture, and digital humanities. This free training has been provided as part of the <date from="2017" to ="2018">2017-2018</date><orgName ref="#AADHUM">AADHum</orgName> series of digital humanities incubators.</p> <!-- Use this space to craft an abstract that defines or describes the scope and purpose of the project -->
+          </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+          <langUsage>
+              <language ident="en-US">United States English</language>
+          </langUsage>
+      </profileDesc>
+      <revisionDesc>
+          <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
+      </revisionDesc>
+  </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
+  <text>
+      <body>
+         <p>
+            A lonely walk?
+            Negroes view campus
+            with mixed emotions
+
+            By HOLLACE GOLDBERG
+
+            "I was shaving in the dorm one
+            day," related a Negro boy, "and
+            I cut myself. A friend who was
+            sitting nearby joked with me
+            and said, ‘Gee, I didn’t know you
+            had red blood. My mother al-
+            ways told me it was blue.’"
+
+            Turning to his friend, the
+            Negro youth replied, "Now that
+            you see it’s red, think of all the
+            other lies your mother might
+            have told you."
+
+            This is what the Negro some
+            times encounters on campus.
+            But he knows that a jovial return
+            or a friendly innuendo may serve
+            to enlighten a white person’s
+            attitudes and teach him what the
+            black man is like and what he is
+            not like.
+
+            Negroes on campus who mix
+            socially and academically with
+            whites and also stay away from
+            large associations of Negroes
+            feel that they are recognized as
+            students--not as "Negro" stu
+            dents. As rapport develops be-
+            tween these Negroes and their
+            white colleagues, race becomes
+            just another topic for <seg ana="#LAND">dormitory</seg>
+            bull sessions and jests.
+
+            Two colored girls in Wicomico
+            one day plastered Black Power
+            signs all over their hall. “It was
+            fun," reports prankster Carolyn,
+            a freshman from <placeName>Baltimore</placeName>, for
+            in reply to this stunt, the white
+            girls “dressed up in paper bags,
+            pretending they were a (Ku Klux)
+            Klan."
+
+            The hooded WASPS sprinkled
+            perfume on the floor in the shape
+            of a cross and set fire to it. “It
+            really startled us!" exclaimed
+            Carolyn.
+
+            "We kid around a lot in the
+            dorm," related Bronwyn, a junior.
+            "We sing 'We Shall Overcome.'"
+            Songs and jokes, she says, don’t
+            offend her, for she does not "look
+            on the bad side about what other
+            people say about me."
+
+            Some other Negro students find
+            adjustment to College Park diffi-
+            cult. Betty, who is 28 years old,
+            married and a native of Cali-
+            fornia, finds an “extremely
+            hostile" attitude about the
+            campus. “There are certain
+            vibrations you can feel."
+
+            Betty recalls an incident she
+            had with an advisor. During
+            registration week, she went to
+            him twice with scheduling dilem-
+            mas. “He was very nasty," she
+            recalled, biting her lower lip and
+            widening her very expressive
+            eyes. “I told him I had to take
+            this <seg ana="#EDU">course</seg>. He threw my (drop
+            add) slip at me... I thought it
+            was terribly unprofessional for
+            an advisor to extend this sort of
+            treatment."
+
+            Betty feels that her race did
+            play a causative factor toward
+            this discourteous treatment. “I
+            do have a basis for comparison,"
+            she explained. She was raised
+            in an integrated community, has
+            traveled through Europe with her
+            husband, attended San Francisco
+            State College and Hunter College
+            and interdated in her high school
+            and earlier college years.
+
+            "I find It extremely difficult to estab-
+            lish any form of communication with
+            some of the teachers and advisors here,"
+            she said. “Students, basically, are
+            friendly, receptive, and warm. But, in
+            some instances, there is hesitancy... I
+            don't think they know how to respond to
+            a Negro."
+
+            Betty has run into trouble securing
+            rides from the commuters' carpool serv-
+            ice. A few times, she was able to arrange
+            rides over the telephone. However,
+            when she met her future commuting
+            companions they would frequently “begin
+            to make excuses," and Betty had no
+            ride.
+
+            Resulting from her academic and
+            social contacts, Betty concludes that,
+            “When you are brought up in an inte-
+            grated situation, you act as an individual.
+            You are not Negro or white. But here
+            ... in the South... and on this campus
+            ... I feel I am treading on white man's
+            territory... This is the first time I
+            feel Negro."
+
+            Also noting a discernible line between
+            the races, but holding a different view
+            point is a 28 year-old male student who
+            works full time off campus.
+
+            What's so overwhelming about feeling
+            like a Negro, he questioned. “Isn't
+            there a distinction" between Negroes and
+            whites?
+
+            With a wholly different frame of mind
+            is Harry, a lively, congenial sophomore
+            who commutes to school and takes photo-
+            graphs for campus publications. “I am
+            not a Negro on a white campus!" he
+            asserts.
+
+            "I don't think this is a white campus
+            ... and I don't go for this stuff that the
+            Negro doesn’t have as much chance as
+            everyone else out here. He does."
+
+            A native of Wisconsin and formerly a
+            nine-year resident of Little Rock, Ark.,
+            Harry says, “Because of the way my
+            family brought me up... I have never
+            felt inferior to anybody. Some Negroes
+            do feel inferior. Some feel mid way."
+
+            A Negro who feels cunningly daring is
+            Dave. Dave has skin brown as chocolate,
+            teeth white as snow and a smile that
+            signals immediate rapport with his
+            environment.
+
+            “Maryland is a conservative campus,"
+            he notes. “You can’t very well walk out
+            of your race. I was told a lot of tales
+            before I came here. ‘You can’t do this.
+            You can’t do that.’ I feel, though, that
+            there is an atmosphere here and an
+            opportunity to participate in just about
+            anything."
+
+            Dave has been active in dormitory
+            sports, house rules committee, powder
+            puff football, dormitory parties and
+            homecoming preparations.
+
+            Socially, Dave goes out with whites
+            and Negroes. “I've gone steady with
+            white girls, Jewish girls," he said,
+            adding, “I guess I am a gregarious
+            fellow. I interrelate easily." “But I
+            use my intellect before I jump. Every
+            one gets slapped in the face a few times.
+            So you use some discretion."
+
+            In class, for example, “If your grade
+            is tottering... and your prof talks with
+            a little bit of a Southern accent... you
+            don’t talk to Sally during the lecture."
+
+            Two female Negro students, however,
+            disagree with Dave’s classroom obser-
+            vation. “If you prove yourself to the
+            teacher," feels Bronwyn, “there is noth
+            ing the teacher can do against you."
+
+            “I have encountered nothing (prejudi
+            cial) whatsoever," related Kathleen, a
+            junior majoring in marketing and a
+            transfer student from the University of
+            Maryland in Munich, Germany. “I have
+            yet to find an inkling that such a thing
+            exists as far as teaching is concerned."
+
+            Rich, a 26 year-old Business Student
+            recalls, “There were a couple of courses
+            I have taken here where I felt I had
+            gotten a raw deal... I have only run
+            across two professors I can really sit
+            down and talk to here in BPA."
+
+            Betty, the attractive housewife-student
+            from California agrees. “I don’t expect
+            to get the benefit of the doubt if I am
+            borderline."
+
+            Discussing classroom interaction
+            among students, some Negroes find they
+            are stared at if race is discussed during
+            a lecture. Other Negroes notice nothing
+            of the sort.
+
+            "The kids don’t stare at me. They
+            don’t even look up," laughed a pretty
+            Junior who commutes to school from
+            Laurel. “If they do, I don’t catch them
+            staring!"
+
+            “Sometimes it hits me that I am the
+            only Negro in a class," relates another
+            Negro. "It doesn't make me shrink. I
+            am always working harder because I
+            always feel I have to prove myself to
+            white people. I have to show them that I
+            live as well as they do, maybe better.
+            I am not a dumb, ignorant Negro. I feel
+            that I have to prove this to them."
+
+            Though the Negroes on campus have
+            different experiences and perceptions to
+            relate, they generally agree on one com-
+            mon theme. As one freshman comment
+            ed, “When you have more and more
+            contact with Negro people, then you
+            don’t have as many preconceptions. Why?
+            Because the preconceptions all fall
+            apart."
+
+            Photos by Milton Buchler
+         </p>
+      </body>
+  </text>
+</TEI>
