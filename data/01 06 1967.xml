@@ -215,7 +215,7 @@
       <body>
         <div>
             <head rend="center">
-                <title type="main"><persName ref="#BLK">Negroes</persName> on <seg corresp="#UMD">campus</seg></title>
+                <title type="main"><persName ref="#BLK">Negroes</persName> on <seg corresp="#UMD">campus</seg></title><lb/>
                 <title type="sub">Integration at <orgName ref="#UMD">College Park</orgName></title>
             </head>
         </div>

@@ -1,0 +1,13 @@
+tei-byline {
+    font-style: italic;
+}
+tei-interp {
+    font-weight: bold;
+    color: red;
+}
+tei-orig {
+    display: none;
+}
+tei-pb {
+    display: inline;
+}
