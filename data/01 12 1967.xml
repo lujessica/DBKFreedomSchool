@@ -120,6 +120,21 @@
           <langUsage>
               <language ident="en-US">United States English</language>
           </langUsage>
+          <particDesc>
+              <org>
+                  <orgName xml:id="UMD" ref="https://lccn.loc.gov/n79054042">University of Maryland, College Park</orgName>
+                  <idno type="LCAF">n79054042</idno>
+                  <placeName>
+                      <settlement>College Park</settlement>
+                      <region>Maryland (<abbr>M.D.</abbr>)</region>
+                      <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                  </placeName>
+              </org>
+              <personGrp>
+                  <persName xml:id="BLK">Black and African American people</persName>
+                  <note>This person group is necessary for the reading and interpretation of this text, as this text often uses "the negro" (gendered male) to generalize about all black and African Americans.</note>
+              </personGrp>
+          </particDesc>
       </profileDesc>
       <revisionDesc>
           <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
@@ -127,258 +142,306 @@
   </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
   <text>
       <body>
-         <p>
-            A lonely walk?
-            Negroes view campus
-            with mixed emotions
-
-            By HOLLACE GOLDBERG
-
-            "I was shaving in the dorm one
-            day," related a Negro boy, "and
-            I cut myself. A friend who was
-            sitting nearby joked with me
-            and said, ‘Gee, I didn’t know you
-            had red blood. My mother al-
-            ways told me it was blue.’"
-
-            Turning to his friend, the
-            Negro youth replied, "Now that
-            you see it’s red, think of all the
-            other lies your mother might
+        <div>
+            <head rend="center">
+                <title type="main">A lonely walk?</title>
+                <title type="sub"><persName ref="#BLK">Negroes</persName> view <seg corresp="#UMD">campus</seg> with mixed emotions</title>
+            </head>
+        </div>
+        <div rend="center">
+            <byline>By <persName ref="#HG">HOLLACE GOLDBERG</persName></byline>
+        </div>
+        <div>
+            <p>
+            "I was shaving in the dorm one<lb/>
+            day," related <persName>a Negro boy</persName>, "and<lb/>
+            I cut myself. A friend who was<lb/>
+            sitting nearby joked with me<lb/>
+            and said, ‘Gee, I didn’t know you<lb/>
+            had red blood. My mother <choice><orig>al-
+            ways</orig><reg>always</reg></choice><lb/>
+            told me it was blue.’"
+            </p>
+            <p>
+            Turning to his friend, <persName>the<lb/>
+            Negro youth</persName> replied, "Now that<lb/>
+            you see it’s red, think of all the<lb/>
+            other lies your mother might<lb/>
             have told you."
-
-            This is what the Negro some
-            times encounters on campus.
-            But he knows that a jovial return
-            or a friendly innuendo may serve
-            to enlighten a white person’s
-            attitudes and teach him what the
-            black man is like and what he is
+            </p>
+            <p>
+            This is what <persName ref="#BLK">the Negro</persName> some<lb/>
+            times encounters <seg corresp="#UMD">on campus</seg>.<lb/>
+            But he knows that a jovial return<lb/>
+            or a friendly innuendo may serve<lb/>
+            to enlighten a white person’s<lb/>
+            attitudes and teach him what <persName ref="#BLK">the<lb/>
+            black man</persName> is like and what he is<lb/>
             not like.
-
-            Negroes on campus who mix
-            socially and academically with
-            whites and also stay away from
-            large associations of Negroes
-            feel that they are recognized as
-            students--not as "Negro" stu
-            dents. As rapport develops be-
-            tween these Negroes and their
-            white colleagues, race becomes
-            just another topic for <seg ana="#LAND">dormitory</seg>
+            </p>
+            <p>
+            <persName ref="#BLK">Negroes</persName> <seg corresp="#UMD">on campus</seg> who mix<lb/>
+            socially and academically with<lb/>
+            whites and also stay away from<lb/>
+            large associations of Negroes<lb/>
+            feel that they are recognized as<lb/>
+            students--not as "Negro" <choice><orig>stu-
+            dents</orig><reg>students</reg></choice>.<lb/>
+            As rapport develops <choice><orig>be-
+            tween</orig><reg>between</reg></choice><lb/>
+            these Negroes and their<lb/>
+            white colleagues, race becomes<lb/>
+            just another topic for dormitory<lb/>
             bull sessions and jests.
-
-            Two colored girls in Wicomico
-            one day plastered Black Power
-            signs all over their hall. “It was
-            fun," reports prankster Carolyn,
-            a freshman from <placeName>Baltimore</placeName>, for
-            in reply to this stunt, the white
-            girls “dressed up in paper bags,
-            pretending they were a (Ku Klux)
-            Klan."
-
-            The hooded WASPS sprinkled
-            perfume on the floor in the shape
-            of a cross and set fire to it. “It
-            really startled us!" exclaimed
-            Carolyn.
-
-            "We kid around a lot in the
-            dorm," related Bronwyn, a junior.
-            "We sing 'We Shall Overcome.'"
-            Songs and jokes, she says, don’t
-            offend her, for she does not "look
-            on the bad side about what other
+            </p>
+            <p>
+            <persName>Two colored girls</persName> in <placeName>Wicomico</placeName><lb/>
+            one day plastered Black Power<lb/>
+            signs all over <interp ana="#LAND">their hall</interp>. “It was<lb/>
+            fun," reports prankster <persName>Carolyn</persName>,<lb/>
+            a freshman from <placeName>Baltimore</placeName>, for<lb/>
+            in reply to this stunt, the white<lb/>
+            girls “dressed up in paper bags,<lb/>
+            pretending they were a <orgName>(Ku Klux)<lb/>
+            Klan</orgName>."
+            </p>
+            <p>
+            The hooded WASPS sprinkled<lb/>
+            perfume on the floor in the shape<lb/>
+            of a cross and set fire to it. “It<lb/>
+            really startled us!" exclaimed<lb/>
+            <persName>Carolyn</persName>.
+            </p>
+            <p>
+            "We kid around a lot in the<lb/>
+            <interp ana="#LAND">dorm</interp>," related <persName>Bronwyn</persName>, a junior.<lb/>
+            "We sing 'We Shall Overcome.'"<lb/>
+            Songs and jokes, she says, don’t<lb/>
+            offend her, for she does not "look<lb/>
+            on the bad side about what other<lb/>
             people say about me."
-
-            Some other Negro students find
-            adjustment to College Park diffi-
-            cult. Betty, who is 28 years old,
-            married and a native of Cali-
-            fornia, finds an “extremely
-            hostile" attitude about the
-            campus. “There are certain
+            </p>
+            <p>
+            Some other <persName ref="#BLK">Negro students</persName> find<lb/>
+            adjustment to <seg corresp="#UMD"><placeName><settlement>College Park</settlement></placeName></seg> <choice><orig>diffi-
+            cult</orig><reg>difficult</reg></choice>.<lb/>
+            <persName>Betty</persName>, who is <measure type="age" quantity="28" unit="year">28 years old</measure>,<lb/>
+            married and a native of <choice><orig>Cali-
+            fornia</orig><reg><placeName><region>California</region></placeName></reg></choice>,<lb/>
+            finds an “extremely<lb/>
+            hostile" attitude about <seg corresp="#UMD">the<lb/>
+            campus</seg>. “There are certain<lb/>
             vibrations you can feel."
-
-            Betty recalls an incident she
-            had with an advisor. During
-            registration week, she went to
-            him twice with scheduling dilem-
-            mas. “He was very nasty," she
-            recalled, biting her lower lip and
-            widening her very expressive
-            eyes. “I told him I had to take
-            this <seg ana="#EDU">course</seg>. He threw my (drop
-            add) slip at me... I thought it
-            was terribly unprofessional for
-            an advisor to extend this sort of
+            </p>
+            <p>
+            <persName>Betty</persName> recalls an incident she<lb/>
+            had <interp ana="#EDU">with an advisor</interp>. During<lb/>
+            registration week, she went to<lb/>
+            him twice with scheduling <choice><orig>dilem-
+            mas</orig><reg>dilemmas</reg></choice>.<lb/>
+            “He was very nasty," she<lb/>
+            recalled, biting her lower lip and<lb/>
+            widening her very expressive<lb/>
+            eyes. “I told him I had to take<lb/>
+            this course. He threw my (drop<lb/>
+            add) slip at me... I thought it<lb/>
+            was terribly unprofessional for<lb/>
+            an advisor to extend this sort of<lb/>
             treatment."
-
-            Betty feels that her race did
-            play a causative factor toward
-            this discourteous treatment. “I
-            do have a basis for comparison,"
-            she explained. She was raised
-            in an integrated community, has
-            traveled through Europe with her
-            husband, attended San Francisco
-            State College and Hunter College
-            and interdated in her high school
+            </p>
+            <p>
+            <persName>Betty</persName> feels that her race did<lb/>
+            play a causative factor toward<lb/>
+            this discourteous treatment. “I<lb/>
+            do have a basis for comparison,"<lb/>
+            she explained. She was raised<lb/>
+            in an integrated community, has<lb/>
+            traveled through <placeName>Europe</placeName> with her<lb/>
+            husband, attended <orgName>San Francisco<lb/>
+            State College</orgName> and <orgName>Hunter College</orgName><lb/>
+            and interdated in her high school<lb/>
             and earlier college years.
-
-            "I find It extremely difficult to estab-
-            lish any form of communication with
-            some of the teachers and advisors here,"
-            she said. “Students, basically, are
-            friendly, receptive, and warm. But, in
-            some instances, there is hesitancy... I
-            don't think they know how to respond to
-            a Negro."
-
-            Betty has run into trouble securing
-            rides from the commuters' carpool serv-
-            ice. A few times, she was able to arrange
-            rides over the telephone. However,
-            when she met her future commuting
-            companions they would frequently “begin
-            to make excuses," and Betty had no
+            </p>
+            <p>
+            "I find it extremely difficult to <choice><orig>estab-
+            lish</orig><reg>establish</reg></choice><lb/>
+            any form of communication with<lb/>
+            some of the teachers and advisors here,"<lb/>
+            she said. “Students, basically, are<lb/>
+            friendly, receptive, and warm. But, in<lb/>
+            some instances, there is hesitancy... I<lb/>
+            don't think they know how to respond to<lb/>
+            <persName ref="#BLK">a Negro</persName>."
+            </p>
+            <p>
+            <persName>Betty</persName> has run into trouble securing<lb/>
+            rides from the commuters' carpool <choice><orig>serv-
+            ice</orig><reg>service</reg></choice>.<lb/>
+            A few times, she was able to arrange<lb/>
+            rides over the telephone. However,<lb/>
+            when she met her future commuting<lb/>
+            companions they would frequently “begin<lb/>
+            to make excuses," and <persName>Betty</persName> had no<lb/>
             ride.
-
-            Resulting from her academic and
-            social contacts, Betty concludes that,
-            “When you are brought up in an inte-
-            grated situation, you act as an individual.
-            You are not Negro or white. But here
-            ... in the South... and on this campus
-            ... I feel I am treading on white man's
-            territory... This is the first time I
+            </p>
+            <p>
+            Resulting from her academic and<lb/>
+            social contacts, <persName>Betty</persName> concludes that,<lb/>
+            “When you are brought up in an <choice><orig>inte-
+            grated</orig><reg>integrated</reg></choice><lb/>
+            situation, you act as an individual.<lb/>
+            You are not Negro or white. But here<lb/>
+            ... in the South... and <seg corresp="#UMD">on this campus</seg><lb/>
+            ... I feel I am treading on white man's<lb/>
+            <interp ana="#LAND">territory</interp>... This is the first time I<lb/>
             feel Negro."
-
-            Also noting a discernible line between
-            the races, but holding a different view
-            point is a 28 year-old male student who
+            </p>
+            <p>
+            Also noting a discernible line between<lb/>
+            the races, but holding a different view<lb/>
+            point is a <measure type="age" quantity="28" unit="year">28 year-old</measure> <persName>male student</persName> who<lb/>
             works full time off campus.
-
-            What's so overwhelming about feeling
-            like a Negro, he questioned. “Isn't
-            there a distinction" between Negroes and
+            </p>
+            <p>
+            What's so overwhelming about feeling<lb/>
+            like a Negro, he questioned. “Isn't<lb/>
+            there a distinction" between Negroes and<lb/>
             whites?
-
-            With a wholly different frame of mind
-            is Harry, a lively, congenial sophomore
-            who commutes to school and takes photo-
-            graphs for campus publications. “I am
-            not a Negro on a white campus!" he
+            </p>
+            <p>
+            With a wholly different frame of mind<lb/>
+            is <persName>Harry</persName>, a lively, congenial sophomore<lb/>
+            who commutes to school and takes <choice><orig>photo-
+            graphs</orig><reg>photographs</reg></choice><lb/>
+            for campus publications. “I am<lb/>
+            not a Negro on a white campus!" he<lb/>
             asserts.
-
-            "I don't think this is a white campus
-            ... and I don't go for this stuff that the
-            Negro doesn’t have as much chance as
+            </p>
+            <p>
+            "I don't think <seg corresp="#UMD">this is a white campus</seg><lb/>
+            ... and I don't go for this stuff that <persName ref="#BLK">the<lb/>
+            Negro</persName> doesn’t have as much chance as<lb/>
             everyone else out here. He does."
-
-            A native of Wisconsin and formerly a
-            nine-year resident of Little Rock, Ark.,
-            Harry says, “Because of the way my
-            family brought me up... I have never
-            felt inferior to anybody. Some Negroes
+            </p>
+            <p>
+            A native of <placeName><region>Wisconsin</region></placeName> and formerly a<lb/>
+            <measure type="time" quantity="9" unit="year">nine-year</measure> resident of <placeName><settlement>Little Rock</settlement>, <region><abbr>Ark.</abbr></region></placeName>,<lb/>
+            <persName>Harry</persName> says, “Because of the way my<lb/>
+            family brought me up... I have never<lb/>
+            felt inferior to anybody. Some Negroes<lb/>
             do feel inferior. Some feel mid way."
-
-            A Negro who feels cunningly daring is
-            Dave. Dave has skin brown as chocolate,
-            teeth white as snow and a smile that
-            signals immediate rapport with his
+            </p>
+            <p>
+            A Negro who feels cunningly daring is<lb/>
+            <persName>Dave</persName>. <persName>Dave</persName> has skin brown as chocolate,<lb/>
+            teeth white as snow and a smile that<lb/>
+            signals immediate rapport with his<lb/>
             environment.
-
-            “Maryland is a conservative campus,"
-            he notes. “You can’t very well walk out
-            of your race. I was told a lot of tales
-            before I came here. ‘You can’t do this.
-            You can’t do that.’ I feel, though, that
-            there is an atmosphere here and an
-            opportunity to participate in just about
+            </p>
+            <p>
+            “<orgName ref="#UMD">Maryland</orgName> is a conservative campus,"<lb/>
+            he notes. “You can’t very well walk out<lb/>
+            of your race. I was told a lot of tales<lb/>
+            before I came here. ‘You can’t do this.<lb/>
+            You can’t do that.’ I feel, though, that<lb/>
+            there is an atmosphere <seg corresp="#UMD">here</seg> and an<lb/>
+            opportunity to participate in just about<lb/>
             anything."
-
-            Dave has been active in dormitory
-            sports, house rules committee, powder
-            puff football, dormitory parties and
+            </p>
+            <p>
+            <persName>Dave</persName> has been active in dormitory<lb/>
+            sports, house rules committee, powder<lb/>
+            puff football, dormitory parties and<lb/>
             homecoming preparations.
-
-            Socially, Dave goes out with whites
-            and Negroes. “I've gone steady with
-            white girls, Jewish girls," he said,
-            adding, “I guess I am a gregarious
-            fellow. I interrelate easily." “But I
-            use my intellect before I jump. Every
-            one gets slapped in the face a few times.
+            </p>
+            <p>
+            Socially, <persName>Dave</persName> goes out with whites<lb/>
+            and Negroes. “I've gone steady with<lb/>
+            white girls, Jewish girls," he said,<lb/>
+            adding, “I guess I am a gregarious<lb/>
+            fellow. I interrelate easily." “But I<lb/>
+            use my intellect before I jump. Every<lb/>
+            one gets slapped in the face a few times.<lb/>
             So you use some discretion."
-
-            In class, for example, “If your grade
-            is tottering... and your prof talks with
-            a little bit of a Southern accent... you
+            </p>
+            <p>
+            <interp ana="#EDU">In class</interp>, for example, “If your grade<lb/>
+            is tottering... and your prof talks with<lb/>
+            a little bit of a Southern accent... you<lb/>
             don’t talk to Sally during the lecture."
-
-            Two female Negro students, however,
-            disagree with Dave’s classroom obser-
-            vation. “If you prove yourself to the
-            teacher," feels Bronwyn, “there is noth
-            ing the teacher can do against you."
-
-            “I have encountered nothing (prejudi
-            cial) whatsoever," related Kathleen, a
-            junior majoring in marketing and a
-            transfer student from the University of
-            Maryland in Munich, Germany. “I have
-            yet to find an inkling that such a thing
+            </p>
+            <p>
+            <persName>Two female Negro students</persName>, however,<lb/>
+            disagree with <persName>Dave</persName>’s classroom <choice><orig>obser-
+            vation</orig><reg>observation</reg></choice>.<lb/>
+            “If you prove yourself to the<lb/>
+            teacher," feels <persName>Bronwyn</persName>, “there is <choice><orig>noth-
+            ing</orig><reg>nothing</reg></choice><lb/>
+            the teacher can do against you."
+            </p>
+            <p>
+            “I have encountered nothing (<choice><orig>prejudi-
+            cial</orig><reg>prejudicial</reg></choice>)<lb/>
+            whatsoever," related <persName>Kathleen</persName>, a<lb/>
+            junior majoring in marketing and a<lb/>
+            transfer student from the <orgName>University of<lb/>
+            Maryland in <placeName><settlement>Munich</settlement>, <country>Germany</country></placeName></orgName>. “I have<lb/>
+            yet to find an inkling that such a thing<lb/>
             exists as far as teaching is concerned."
-
-            Rich, a 26 year-old Business Student
-            recalls, “There were a couple of courses
-            I have taken here where I felt I had
-            gotten a raw deal... I have only run
-            across two professors I can really sit
-            down and talk to here in BPA."
-
-            Betty, the attractive housewife-student
-            from California agrees. “I don’t expect
-            to get the benefit of the doubt if I am
+            </p>
+            <p>
+            <persName>Rich</persName>, a <measure type="age" quantity="26" unit="year">26 year-old</measure> Business Student<lb/>
+            recalls, “There were <interp ana="#EDU">a couple of courses</interp><lb/>
+            I have taken here where I felt I had<lb/>
+            gotten a raw deal... I have only run<lb/>
+            across two professors I can really sit<lb/>
+            down and talk to here in <abbr>BPA</abbr>."
+            </p>
+            <p>
+            <persName>Betty</persName>, the attractive housewife-student<lb/>
+            from <placeName><region>California</region></placeName> agrees. “I don’t expect<lb/>
+            to get the benefit of the doubt if I am<lb/>
             borderline."
-
-            Discussing classroom interaction
-            among students, some Negroes find they
-            are stared at if race is discussed during
-            a lecture. Other Negroes notice nothing
+            </p>
+            <p>
+            Discussing <interp ana="#EDU">classroom interaction</interp><lb/>
+            among students, <persName ref="#BLK">some Negroes</persName> find they<lb/>
+            are stared at if race is discussed during<lb/>
+            a lecture. Other Negroes notice nothing<lb/>
             of the sort.
-
-            "The kids don’t stare at me. They
-            don’t even look up," laughed a pretty
-            Junior who commutes to school from
-            Laurel. “If they do, I don’t catch them
+            </p>
+            <p>
+            "The kids don’t stare at me. They<lb/>
+            don’t even look up," laughed <persName>a pretty<lb/>
+            Junior</persName> who commutes to school from<lb/>
+            <placeName><settlement>Laurel</settlement></placeName>. “If they do, I don’t catch them<lb/>
             staring!"
-
-            “Sometimes it hits me that I am the
-            only Negro in a class," relates another
-            Negro. "It doesn't make me shrink. I
-            am always working harder because I
-            always feel I have to prove myself to
-            white people. I have to show them that I
-            live as well as they do, maybe better.
-            I am not a dumb, ignorant Negro. I feel
+            </p>
+            <p>
+            “Sometimes it hits me that I am the<lb/>
+            only Negro in a class," relates <persName>another<lb/>
+            Negro</persName>. "It doesn't make me shrink. I<lb/>
+            am always working harder because I<lb/>
+            always feel I have to prove myself to<lb/>
+            white people. I have to show them that I<lb/>
+            live as well as they do, maybe better.<lb/>
+            <interp ana="#EDU">I am not a dumb, ignorant Negro</interp>. I feel<lb/>
             that I have to prove this to them."
-
-            Though the Negroes on campus have
-            different experiences and perceptions to
-            relate, they generally agree on one com-
-            mon theme. As one freshman comment
-            ed, “When you have more and more
-            contact with Negro people, then you
-            don’t have as many preconceptions. Why?
-            Because the preconceptions all fall
+            </p>
+            <p>
+            Though the <persName ref="#BLK">Negroes</persName> <seg corresp="#UMD">on campus</seg> have<lb/>
+            different experiences and perceptions to<lb/>
+            relate, they generally agree on one <choice><orig>com-
+            mon</orig><reg>common</reg></choice><lb/>
+            theme. As one freshman <choice><orig>comment-
+            ed</orig><reg>commented</reg></choice>,<lb/>
+            “When you have more and more<lb/>
+            contact with Negro people, then you<lb/>
+            don’t have as many preconceptions. Why?<lb/>
+            Because the preconceptions all fall<lb/>
             apart."
-
-            Photos by Milton Buchler
-         </p>
+            </p>
+        </div>
       </body>
   </text>
 </TEI>
