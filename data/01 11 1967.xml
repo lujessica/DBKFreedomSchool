@@ -120,332 +120,458 @@
           <langUsage>
               <language ident="en-US">United States English</language>
           </langUsage>
+          <particDesc>
+              <org>
+                  <orgName xml:id="UMD" ref="https://lccn.loc.gov/n79054042">University of Maryland, College Park</orgName>
+                  <idno type="LCAF">n79054042</idno>
+                  <placeName>
+                      <settlement>College Park</settlement>
+                      <region>Maryland (<abbr>M.D.</abbr>)</region>
+                      <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                  </placeName>
+              </org>
+              <listPerson>
+                  <person>
+                      <persName xml:id="ML">
+                          <forename>Margaret</forename>
+                          <surname>Lloyd</surname>
+                          <roleName type="office">Housing Director, <orgName ref="#UMD">University of Maryland, College Park</orgName></roleName>
+                      </persName>
+                  </person>
+                  <person>
+                      <persName xml:id="BJ">
+                          <forename>Bill</forename>
+                          <surname>Jones</surname>
+                          <note>An African American student at the <orgName ref="#UMD">University of Maryland, College Park</orgName></note>
+                      </persName>
+                  </person>
+                  <person>
+                      <persName xml:id="ROY">
+                          <forename>Doyal</forename>
+                          <surname>Royal</surname>
+                          <roleName type="office">Off-Campus Housing Director, <orgName ref="#UMD">University of Maryland, College Park</orgName></roleName>
+                      </persName>
+                  </person>
+                  <person>
+                      <persName xml:id="WWC" ref="https://lccn.loc.gov/no2006002164">
+                          <idno type="LCAF">no2006002164</idno>
+                          <forename>William</forename>
+                          <surname>Cobey</surname>
+                          <roleName type="office">Director of Athletics, <orgName ref="#UMD">University of Maryland, College Park</orgName></roleName>
+                      </persName>
+                  </person>
+                  <person>
+                      <persName xml:id="GWF" ref="https://lccn.loc.gov/no95036965">
+                          <idno type="LCAF">no95036965</idno>
+                          <forename>George</forename>
+                          <surname>Fogg</surname>
+                          <roleName>Director of Personnel, <orgName ref="#UMD">University of Maryland, College Park</orgName></roleName>
+                      </persName>
+                  </person>
+                  <person>
+                      <persName xml:id="RLH" ref="https://lccn.loc.gov/no2009136065">
+                          <idno type="LCAF">no2009136065</idno>
+                          <forename>Ralph</forename>
+                          <forename>Lee</forename>
+                          <surname>Hornbake</surname>
+                          <roleName>Vice President for Academic Affairs, <orgName ref="#UMD">University of Maryland, College Park</orgName></roleName>
+                      </persName>
+                  </person>
+              </listPerson>
+              <personGrp>
+                  <persName xml:id="USM">University System of Maryland (<abbr>U.S.M.</abbr>) Board of Regents</persName>
+                  <note>The Board of Regents is comprised of 17 members, including 1 full-time student. Appointed by the Governor of Maryland, the Board oversees the university system's academic, administrative, and financial operations.</note>
+              </personGrp>
+              <personGrp>
+                  <persName xml:id="BLK">Black and African American people</persName>
+                  <note>This person group is necessary for the reading and interpretation of this text, as this text often uses "the negro" (gendered male) to generalize about all black and African Americans.</note>
+              </personGrp>
+          </particDesc>
       </profileDesc>
       <revisionDesc>
           <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
       </revisionDesc>
   </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
   <text>
-      <body>
-         <p>
-            The Negro on campus
-            Racial issues down since 1954
-
-            By HOLLACE GOLDBERG
-
-            Since the Supreme Court’s
-            school desegregation decision in
-            1954, the University has slowly
-            dropped all racial tones from its
-            hiring, housing and admissions
+    <body>
+        <div>
+            <head rend="center">
+                 <title type="main">The Negro on campus</title>
+                 <title type="sub">Racial issues down since <date when="1954">1954</date></title>
+            </head>
+        </div>
+        <div rend="center">
+            <byline>By HOLLACE GOLDBERG</byline>
+        </div>
+        <div>
+            <p>
+            Since the Supreme Court’s<lb/>
+            school desegregation decision in<lb/>
+            1954, the University has slowly<lb/>
+            dropped all racial tones from its<lb/>
+            hiring, housing and admissions<lb/>
             policies.
-
-            In 1964 the Board of Regents
-            ordered that questions of race
-            be deleted from application
-            forms. A student's race could
-            be requested only after he had
-            been admitted to the University,
-            and then only for statistical pur-
-            poses.
-
-            The housing office also deleted
-            race questions from its forms,
-            but continued to request pictures
-            of students seeking dormitory
-            rooms. Negro students felt this
-            was done to avoid inter-racial
-            room assignments. Though such
-            a policy was never spelled out,
-            observation indicated this to be
+            </p>
+            <p>
+            In 1964 the Board of Regents<lb/>
+            ordered that questions of race<lb/>
+            be deleted from application<lb/>
+            forms. A student's race could<lb/>
+            be requested only after he had<lb/>
+            been admitted to the University,<lb/>
+            and then only for statistical <choice><orig>pur-
+            poses</orig><reg>purposes</reg></choice>.
+            </p>
+            <p>
+            The housing office also deleted<lb/>
+            race questions from its forms,<lb/>
+            but continued to request pictures<lb/>
+            of students seeking dormitory<lb/>
+            rooms. Negro students felt this<lb/>
+            was done to avoid <choice><orig>inter-racial</orig><reg>interracial</reg></choice><lb/>
+            room assignments. Though such<lb/>
+            a policy was never spelled out,<lb/>
+            observation indicated this to be<lb/>
             true.
-
-            Under housing policies initiat-
-            ed this fall, no student’s picture
-            is requested. Housing Director
-            Margaret Lloyd said that previous
-            housing directors might have
-            used the pictures to match up
-            Negro roommates, but her
-            present policy forbids such “sub-
-            jective" assignments.
-            “It is my determination that
-            we eliminate anything that smacks
-            of discrimination," Miss Lloyd
-            declared. “I can’t see that the
-            color of the skin has anything
-            more to do with a person than
+            </p>
+            <p>
+            Under housing policies <choice><orig>initiat-
+            ed</orig><reg>initiated</reg></choice><lb/>
+            this fall, no student’s picture<lb/>
+            is requested. Housing Director<lb/>
+            Margaret Lloyd said that previous<lb/>
+            housing directors might have<lb/>
+            used the pictures to match up<lb/>
+            Negro roommates, but her<lb/>
+            present policy forbids such “<choice><orig>sub-
+            jective</orig><reg>subjective</reg></choice>"<lb/>
+            assignments.<lb/>
+            “It is my determination that<lb/>
+            we eliminate anything that smacks<lb/>
+            of discrimination," Miss Lloyd<lb/>
+            declared. “I can’t see that the<lb/>
+            color of the skin has anything<lb/>
+            more to do with a person than<lb/>
             the color of their hair."
-
-            Roommates, she explained, are
-            at present matched objectively.
-            “If you don’t request a room-
-            mate and a hall, you are assigned
-            by electronic data processes."
-            The computer, she noted, is a
+            </p>
+            <p>
+            Roommates, she explained, are<lb/>
+            at present matched objectively.<lb/>
+            “If you don’t request a <choice><orig>room-
+            mate</orig><reg>roommate</reg></choice><lb/>
+            and a hall, you are assigned<lb/>
+            by electronic data processes."<lb/>
+            The computer, she noted, is a<lb/>
             “random" not a “racial" machine.
-
-            If a white student rooming with
-            a Negro complains of “roommate
-            incompatibility" due to race, Miss
-            Lloyd handles this complaint
-            much as she would any other. The
-            students are asked to try to work
-            things out. But if the situation
-            remains unstatisfactory, the
-            "complaining student is moved."
-            Miss Lloyd added that such
-            problems are often “more pa-
-            rental than student," and arise
+            </p>
+            <p>
+            If a white student rooming with<lb/>
+            a Negro complains of “roommate<lb/>
+            incompatibility" due to race, Miss<lb/>
+            Lloyd handles this complaint<lb/>
+            much as she would any other. The<lb/>
+            students are asked to try to work<lb/>
+            things out. But if the situation<lb/>
+            remains unstatisfactory, the<lb/>
+            "complaining student is moved."<lb/>
+            Miss Lloyd added that such<lb/>
+            problems are often “more <choice><orig>pa-
+            rental</orig><reg>parental</reg></choice><lb/>
+            than student," and arise<lb/>
             infrequently.
-
-            Off-campus housing is another
-            matter. Negroes have always
-            had difficulty securing rooms
-            and apartments near campus.
-            According to the testimony of
-            Bill Jonas, a commuter, he and
-            another Negro submitted an ap-
-            plication in person for an apart-
-            ment, leaving a $5O room deposit.
-            Hearing no word after a month,
-            “we called H.G. Smithy Realtors
-            and they in turn said ‘hold on a
-            minute.' No one ever came back
+            </p>
+            <p>
+            Off-campus housing is another<lb/>
+            matter. Negroes have always<lb/>
+            had difficulty securing rooms<lb/>
+            and apartments near campus.<lb/>
+            According to the testimony of<lb/>
+            Bill Jones, a commuter, he and<lb/>
+            another Negro submitted an <choice><orig>ap-
+            plication</orig><reg>application</reg></choice><lb/>
+            in person for an <choice><orig>apart-
+            ment</orig><reg>apartment</reg></choice>,<lb/>
+            leaving a $5O room deposit.<lb/>
+            Hearing no word after a month,<lb/>
+            “we called H.G. Smithy Realtors<lb/>
+            and they in turn said ‘hold on a<lb/>
+            minute.' No one ever came back<lb/>
             to the phone," related Jones.
-
-            "A week later, we received
-            (through the mall) our request for
-            application—-denied. We called,
-            and a week later our check came
-            back. We had no time to raise
+            </p>
+            <p>
+            "A week later, we received<lb/>
+            (through the mall) our request for<lb/>
+            application—-denied. We called,<lb/>
+            and a week later our check came<lb/>
+            back. We had no time to raise<lb/>
             any issues about it.
-
-            "After that, well, I Just stayed
+            </p>
+            <p>
+            "After that, well, I Just stayed<lb/>
             in Washington with my aunt."
-
-            According to off-campus hous-
-            ing director Doyal P. Royal, the
-            University aids students seeking
-            off-campus housing by keeping a
-            "public list of public facilities."
-            However, until last July that list
-            included many houses and apart-
-            ments that were closed to colored
+            </p>
+            <p>
+            According to off-campus <choice><orig>hous-
+            ing</orig><reg>housing</reg></choice><lb/>
+            director Doyal P. Royal, the<lb/>
+            University aids students seeking<lb/>
+            off-campus housing by keeping a<lb/>
+            "public list of public facilities."<lb/>
+            However, until last July that list<lb/>
+            included many houses and <choice><orig>apart-
+            ments</orig><reg>apartments</reg></choice><lb/>
+            that were closed to colored<lb/>
             students.
-
-            Months of protests, picket lines,
-            pressure groups and politics
-            forced the University to revise
-            its “public" list over the summer
-            of 1966. A new form, sent out
-            to area landlords, stated:
-            “We cannot accept your listing
-            if your only reason for not accept-
-            ing the student is because of race,
-            color, national origin or reli-
-            gion."
-
-            Reflecting on the new policy,
-            Royal said, “Last summer we
-            decided to try to please every-
-            body and neutralize the card."
-            As a result, last year's 400-
-            apartment list has dwindled.
-            "Only one large apartment house
+            </p>
+            <p>
+            Months of protests, picket lines,<lb/>
+            pressure groups and politics<lb/>
+            forced the University to revise<lb/>
+            its “public" list over the summer<lb/>
+            of 1966. A new form, sent out<lb/>
+            to area landlords, stated:<lb/>
+            “We cannot accept your listing<lb/>
+            if your only reason for not <choice><orig>accept-
+            ing</orig><reg>accepting</reg></choice><lb/>
+            the student is because of race,<lb/>
+            color, national origin or <choice><orig>reli-
+            gion</orig><reg>religion</reg></choice>."
+            </p>
+            <p>
+            Reflecting on the new policy,<lb/>
+            Royal said, “Last summer we<lb/>
+            decided to try to please <choice><orig>every-
+            body</orig><reg>everybody</reg></choice><lb/>
+            and neutralize the card."<lb/>
+            As a result, last year's 400-<lb/>
+            apartment list has dwindled.<lb/>
+            "Only one large apartment house<lb/>
             remains on the list," he said.
-
-            Removed from housing office
-            policies is the University's ath-
-            letics program. In his depart-
-            ment, asserted Director of
-            Athletics William W. Cobey, “the
-            policy has been simply that any
-            student enrolled at the University
-            is welcome to come out for
-            athletics." Ball players are not
-            chosen by their color, they must
-            qualify academically and athleti
-            cally.
-
-            Furthermore, the athletic de-
-            partment keeps no record of an
-            athlete’s race. Cobey could not
-            recall the date when the first
-            Negro athlete competed for the
-            University in intercollegiate var-
-            sity ball. However, a perusal
-            of Terrapin yearbooks shows that
-            the swim team was the first to
-            integrate, in 1963, with the addi
-            tion of Negro swimmer Jason
+            </p>
+            <p>
+            Removed from housing office<lb/>
+            policies is the University's <choice><orig>ath-
+            letics</orig><reg>athletics</reg></choice><lb/>
+            program. In his <choice><orig>depart-
+            ment</orig><reg>department</reg></choice>,<lb/>
+            asserted Director of<lb/>
+            Athletics William W. Cobey, “the<lb/>
+            policy has been simply that any<lb/>
+            student enrolled at the University<lb/>
+            is welcome to come out for<lb/>
+            athletics." Ball players are not<lb/>
+            chosen by their color, they must<lb/>
+            qualify academically and <choice><orig>athleti-
+            cally</orig><reg>athletically</reg></choice>.
+            </p>
+            <p>
+            Furthermore, the athletic <choice><orig>de-
+            partment</orig><reg>department</reg></choice><lb/>
+            keeps no record of an<lb/>
+            athlete’s race. Cobey could not<lb/>
+            recall the date when the first<lb/>
+            Negro athlete competed for the<lb/>
+            University in intercollegiate <choice><orig>var-
+            sity</orig><reg>varsity</reg></choice><lb/>
+            ball. However, a perusal<lb/>
+            of Terrapin yearbooks shows that<lb/>
+            the swim team was the first to<lb/>
+            integrate, in 1963, with the <choice><orig>addi-
+            tion</orig><reg>additional</reg></choice><lb/>
+            of Negro swimmer Jason<lb/>
             Williams.
-
-            The football team followed the
-            next year. In fall, 1964, Darryl
-            Hill played on the varsity squad.
-            Last year in football, Ernie
-            Torain played halfback. He was
-            joined this year by Alvin Lee,
+            </p>
+            <p>
+            The football team followed the<lb/>
+            next year. In fall, 1964, Darryl<lb/>
+            Hill played on the varsity squad.<lb/>
+            Last year in football, Ernie<lb/>
+            Torain played halfback. He was<lb/>
+            joined this year by Alvin Lee,<lb/>
             also a halfback.
-
-            Bill Jones played basketball
-            last year, and this year Pete
-            Johnson is also playing on the
-            court. The track team has had
+            </p>
+            <p>
+            Bill Jones played basketball<lb/>
+            last year, and this year Pete<lb/>
+            Johnson is also playing on the<lb/>
+            court. The track team has had<lb/>
             Negro members since last year.
-
-            In another area, the hiring of
-            employees, recruitment depends
-            largely on state civil service
+            </p>
+            <p>
+            In another area, the hiring of<lb/>
+            employees, recruitment depends<lb/>
+            largely on state civil service<lb/>
             requirements.
-
-            The University is an "equal
-            opportunity" employer, reports
-            George W. Fogg, director of
-            personnel. "We have employed
-            everyone (Negro) that is qualified
-            for his job. We equalize white
-            and Negro... We don’t favor
-            either one or the other."
-            Answering a query about the
-            sparsity of Negro secretaries on
-            campus, Fogg frankly conceded,
-            “We have a lot of Negro secre-
-            taries—-but we have a lot more
+            </p>
+            <p>
+            The University is an "equal<lb/>
+            opportunity" employer, reports<lb/>
+            George W. Fogg, director of<lb/>
+            personnel. "We have employed<lb/>
+            everyone (Negro) that is qualified<lb/>
+            for his job. We equalize white<lb/>
+            and Negro... We don’t favor<lb/>
+            either one or the other."<lb/>
+            Answering a query about the<lb/>
+            sparsity of Negro secretaries on<lb/>
+            campus, Fogg frankly conceded,<lb/>
+            “We have a lot of Negro <choice><orig>secre-
+            taries</orig><reg>secretaries</reg></choice><lb/>
+            —-but we have a lot more<lb/>
             white ones."
-
-            To recruit staff, Fogg's office
-            advertises through local newspa-
-            pers and employment agencies.
-            If applicants meet state civil
-            service requirements, they are
-            interviewed by the Personnel Of-
-            fice. Departments with vacancies
-            interview several job candidates
-            and choose one to fill the position.
-            Once hired, the employees must
-            fill out income tax papers, pay
-            roll forms and a personal history
-            questionnaire. The personal his-
-            tory form includes a question on
+            </p>
+            <p>
+            To recruit staff, Fogg's office<lb/>
+            advertises through local <choice><orig>newspa-
+            pers</orig><reg>newspapers</reg></choice><lb/>
+            and employment agencies.<lb/>
+            If applicants meet state civil<lb/>
+            service requirements, they are<lb/>
+            interviewed by the Personnel <choice><orig>Of-
+            fice</orig><reg>Office</reg></choice>.<lb/>
+            Departments with vacancies<lb/>
+            interview several job candidates<lb/>
+            and choose one to fill the position.<lb/>
+            Once hired, the employees must<lb/>
+            fill out income tax papers, pay<lb/>
+            roll forms and a personal history<lb/>
+            questionnaire. The personal <choice><orig>his-
+            tory</orig><reg>history</reg></choice><lb/>
+            form includes a question on<lb/>
             race.
-
-            “This is only for statistics,"
-            explained Fogg. “We never ask
-            this until the person is hired."
-            These racial statistics are re-
-            quired by the Compliance Com-
-            mittee of the State Fair Prac-
-            tices Commission. The Univer
-            sity must make a report to the
-            Commission on the ratio of Negro
-            and white employees. The first
-            such report, which is presently
+            </p>
+            <p>
+            “This is only for statistics,"<lb/>
+            explained Fogg. “We never ask<lb/>
+            this until the person is hired."<lb/>
+            These racial statistics are <choice><orig>re-
+            quired</orig><reg>required</reg></choice><lb/>
+            by the Compliance <choice><orig>Com-
+            mittee</orig><reg>Committee</reg></choice><lb/>
+            of the State Fair <choice><orig>Prac-
+            tices</orig><reg>Practices</reg></choice><lb/>
+            Commission. The <choice><orig>Univer-
+            sity</orig><reg><orgName ref="#UMD">University</orgName></reg></choice><lb/>
+            must make a report to the<lb/>
+            Commission on the ratio of Negro<lb/>
+            and white employees. The first<lb/>
+            such report, which is presently<lb/>
             being compiled, is due Jan. 15.
-
-            Hiring of faculty members is
-            done largely at the departmental
-            level. Nominations are generated
+            </p>
+            <p>
+            Hiring of faculty members is<lb/>
+            done largely at the departmental<lb/>
+            level. Nominations are generated<lb/>
             by the department heads.
-
-            Here, related Fogg, qualifica-
-            tions are very specific. Nomi
-            nees are interviewed by R.
-            Lee Hornbake, vice-president for
-            academic affairs, and appoint-
-            ments confirmed by the Board
+            </p>
+            <p>
+            Here, related Fogg, <choice><orig>qualifica-
+            tions</orig><reg>qualifications</reg></choice><lb/>
+            are very specific. <choice><reg>Nomi-
+            nees</reg><orig>Nominees</orig></choice><lb/>
+            are interviewed by R.<lb/>
+            Lee Hornbake, vice-president for<lb/>
+            academic affairs, and <choice><orig>appoint-
+            ments</orig><reg>appointments</reg></choice><lb/>
+            confirmed by the Board<lb/>
             of Regents.
-
-            Hornbake stated that in re-
-            cruiting faculty, “we are not try-
-            ing to find people of any race.
-            But," he added “qualified Negroes
-            are in very short supply, since
-            they are being sought after
+            </p>
+            <p>
+            Hornbake stated that in <choice><orig>re-
+            cruiting</orig><reg>recruiting</reg></choice><lb/>
+            faculty, “we are not <choice><orig>try-
+            ing</orig><reg>trying</reg></choice><lb/>
+            to find people of any race.<lb/>
+            But," he added “qualified Negroes<lb/>
+            are in very short supply, since<lb/>
+            they are being sought after<lb/>
             eagerly by many instructors."
-
-            He mentioned that two Negroes
-            --an African assistant professor
-            in G&P and an associate pro-
-            fessor of education—-have been
-            hired in the past two years to
-            teach in College Park. However,
-            as for the total number of Negro
-            instructors on the University’s
-            many campuses, Hornbake said,
-            “I don’t know how many there
-            are and honestly, I don't care.
-            All I am interested in is good
+            </p>
+            <p>
+            He mentioned that two Negroes<lb/>
+            --an African assistant professor<lb/>
+            in <choice><orig><abbr>G and P</abbr></orig><reg>Government and Politics</reg></choice> and an associate <choice><orig>pro-
+            fessor</orig><reg>professor</reg></choice><lb/>
+            of education—-have been<lb/>
+            hired in the past two years to<lb/>
+            teach in College Park. However,<lb/>
+            as for the total number of Negro<lb/>
+            instructors on the University’s<lb/>
+            many campuses, Hornbake said,<lb/>
+            “I don’t know how many there<lb/>
+            are and honestly, I don't care.<lb/>
+            All I am interested in is good<lb/>
             faculty."
-
-            Hornbake also dlsspelled a
-            rumor that has been pervading
-            the sociology department for the
-            last twelve months. A Negro
-            professor nominated by the
-            sociology department did not
-            complete his contract negotia-
-            tions for a position. Rumors,
-            however, persisted that the ad-
-            ministration had dropped their
-            offer due specifically to the ap-
-            plicant’s race.
-
-            Hornbake explained what
-            happened. The man, a “highly
-            recommended" professor of an-
-            thropology, told the University
-            he had received “another offer
+            </p>
+            <p>
+            Hornbake also dlsspelled a<lb/>
+            rumor that has been pervading<lb/>
+            the sociology department for the<lb/>
+            last twelve months. A Negro<lb/>
+            professor nominated by the<lb/>
+            sociology department did not<lb/>
+            complete his contract <choice><orig>negotia-
+            tions</orig><reg>negotiations</reg></choice><lb/>
+            for a position. Rumors,<lb/>
+            however, persisted that the <choice><orig>ad-
+            ministration</orig><reg>administration</reg></choice><lb/>
+            had dropped their<lb/>
+            offer due specifically to the <choice><orig>ap-
+            plicant’s</orig><reg>applicant's</reg></choice><lb/>
+            race.
+            </p>
+            <p>
+            Hornbake explained what<lb/>
+            happened. The man, a “highly<lb/>
+            recommended" professor of <choice><orig>an-
+            thropology</orig><reg>anthropology</reg></choice>,<lb/>
+            told the University<lb/>
+            he had received “another offer<lb/>
             from a West coast institution."
-
-            “He was a quality man, who
-            had been in demand in a variety
-            of places," testified Hornbake.
-            “I did not infer from him that he
-            felt that race had been a factor
-            at all, in not accepting the Uni-
-            versity bid."
-
-            To learn just how many
-            Negroes the University employs
-            in College Park, last spring the
-            Personnel Office sent to all fac-
-            ulty and staff a short personal
-            history questionnaire. The data,
-            as mentioned before, was being
-            compiled for the State Fair Prac-
-            tices Commission.
-
-            Resenting racial questions,
-            many white faculty members an-
-            swered by writing “Eskimo" or
-            “mixed." But according to Fogg,
-            “this was a misdirected form of
-            liberalism. These people hinder-
-            ed the cause that they were stand
-            ing for."
-
-            The purpose of the survey was
-            to indicate that the University
-            does comply with the Civil Rights
+            </p>
+            <p>
+            “He was a quality man, who<lb/>
+            had been in demand in a variety<lb/>
+            of places," testified Hornbake.<lb/>
+            “I did not infer from him that he<lb/>
+            felt that race had been a factor<lb/>
+            at all, in not accepting the <choice><orig>Uni-
+            versity</orig><reg><orgName ref="#UMD">University</orgName></reg></choice><lb/>
+            bid."
+            </p>
+            <p>
+            To learn just how many<lb/>
+            Negroes the University employs<lb/>
+            in College Park, last spring the<lb/>
+            Personnel Office sent to all <choice><orig>fac-
+            ulty</orig><reg>faculty</reg></choice><lb/>
+            and staff a short personal<lb/>
+            history questionnaire. The data,<lb/>
+            as mentioned before, was being<lb/>
+            compiled for the State Fair <choice><orig>Prac-
+            tices</orig><reg>Practices</reg></choice><lb/>
+            Commission.
+            </p>
+            <p>
+            Resenting racial questions,<lb/>
+            many white faculty members <choice><orig>an-
+            swered</orig><reg>answered</reg></choice><lb/>
+            by writing “Eskimo" or<lb/>
+            “mixed." But according to Fogg,<lb/>
+            “this was a misdirected form of<lb/>
+            liberalism. These people <choice><orig>hinder-
+            ed</orig><reg>hindered</reg></choice><lb/>
+            the cause that they were <choice><orig>stand-
+            ing</orig><reg>standing</reg></choice><lb/>
+            for."
+            </p>
+            <p>
+            The purpose of the survey was<lb/>
+            to indicate that the University<lb/>
+            does comply with the Civil Rights<lb/>
             Act.
-
-
-            Photos by Milton Buchler
-
-            BILL JONES solemnly contemplates which card
-            to throw as he plays pinochle in the Student
-            Union. Jones, who commutes from Washington,
-            tried unsuccessfully to rent an apartment close to
-            campus.
-
-
-            CARMEN, a freshman who is a soprano member
-            of the Madrigal Singers, looks through music books
-            in the fourth floor stacks of the Library. She is
-            the first Negro to sing with the Madrigals.
-         </p>
-      </body>
+            </p>
+        </div>
+    </body>
   </text>
 </TEI>
