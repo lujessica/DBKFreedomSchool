@@ -154,47 +154,47 @@
         </div>
         <div>
             <p>
-            What is it like to be a Negro<lb/>
+            What is it like to be <persName ref="#BLK">a Negro</persName><lb/>
             student on a white campus? Each<lb/>
             Negro student has his own <choice><orig>per-
-            sonal</orig><reg>original</reg></choice><lb/>
+            sonal</orig><reg>personal</reg></choice><lb/>
             opinion.
             </p>
             <p>
             "There’s no difference,“ <choice><orig>main-
             tained</orig><reg>maintained</reg></choice><lb/>
-            one sophomore, “Negro is<lb/>
+            <persName>one sophomore</persName>, “Negro is<lb/> <!-- The <persName> tag will be used to clarify that people described in terms of their brown and black skin color are, in fact, unique human beings deserving to be named as such. -->
             just a legal term the white man<lb/>
             made up for convenience."
             </p>
             <p>
             “No, our culture is different,"<lb/>
-            projected a dark-skinned boy.<lb/>
+            projected <persName>a dark-skinned boy</persName>.<lb/>
             "It’s composed of <persName>James Brown</persName><lb/>
             and the Supremes."
             </p>
             <p>
             "They stare at me in class when<lb/>
             we discuss slavery or Africa,"<lb/>
-            noted one young girl. “I guess<lb/>
+            noted <persName>one young girl</persName>. “I guess<lb/>
             it’s out of curiosity."
             </p>
             <p>
             "People yell out of car windows<lb/>
-            at me," put in an adamant coed,<lb/>
-            cursing the University under her<lb/>
-            breath. This was Doris, a <choice><orig>dis-
+            at me," put in <seg corresp="#DORIS">an adamant coed</seg>,<lb/>
+            cursing <orgName ref="#UMD">the University</orgName> under her<lb/>
+            breath. This was <persName xml:id="DORIS">Doris</persName>, a <choice><orig>dis-
             satisfied</orig><reg>dissatisfied</reg></choice><lb/>
             Negro, bitter towards<lb/>
-            her four years at the University.<lb/>
-            Doris sells Black power <choice><orig>but-
+            her four years at the <orgName ref="#UMD">University</orgName>.<lb/>
+            <persName ref="#DORIS">Doris</persName> sells Black power <choice><orig>but-
             tons</orig><reg>buttons</reg></choice>,<lb/>
             “a quarter for Negroes, a<lb/>
             dollar for whites."
             </p>
             <p>
             "You can’t write an article on<lb/>
-            Negroes," she told this reporter.<lb/>
+            Negroes," <seg corresp="#DORIS">she</seg> told <seg corresp="#HG">this reporter</seg>.<lb/>
             "Anything you write, white people<lb/>
             will think is interesting... but to<lb/>
             colored people it won’t mean a
@@ -202,13 +202,13 @@
             </p>
             <p>
             Only colored people know and<lb/>
-            understand colored people, she<lb/>
+            understand colored people, <seg corresp="#DORIS">she</seg><lb/>
             maintains. This seems to be<lb/>
             true, for the white student cannot<lb/>
             find a typical Negro student from<lb/>
             which to generalize about the<lb/>
-            200-400 colored undergraduates<lb/>
-            on campus.
+            <measure type="number" quantity="200">200</measure>-<measure type="number" quantity="400">400</measure> colored undergraduates<lb/>
+            <seg corresp="#UMD">on campus</seg>.
             </p>
             <p>
             The Negroes compose a <choice><orig>hete-
@@ -217,8 +217,8 @@
             ed</orig><reg>demarcated</reg></choice><lb/>
             from the rest of the student<lb/>
             body by skin color and/or a few<lb/>
-            tables in the Main Dining Hall<lb/>
-            or the Student Union. The Negro<lb/>
+            tables in the <placeName>Main Dining Hall</placeName><lb/>
+            or the <placeName>Student Union</placeName>. The Negro<lb/>
             students’ views are varied, their<lb/>
             experiences largely dissimilar,<lb/>
             and even their skin tones are of<lb/>
@@ -226,9 +226,9 @@
             </p>
             <p>
             This is an article about the<lb/>
-            Negro students in the Union. They<lb/>
+            Negro students in <placeName>the Union</placeName>. They<lb/>
             comprise an amorphous group of<lb/>
-            between 40-50 students who <choice><orig>gath-
+            between <measure type="number" quantity="40">40</measure>-<measure type="number" quantity="50">50</measure> students who <choice><orig>gath-
             er</orig><reg>gather</reg></choice><lb/>
             in the cafeteria every after<lb/>
             noon to eat, “shoot the breeze”<lb/>
@@ -250,27 +250,27 @@
             </p>
             <p>
             “At dorm deserts, I don’t really<lb/>
-            fit in,” said Gary, a cool College<lb/>
+            fit in,” said <persName xml:id="GARY">Gary</persName>, a cool College<lb/>
             Joe who talks fast and smiles a<lb/>
             lot. “They don’t play our kind of<lb/>
             music.”
             </p>
             <p>
-            “At one desert,” he continued<lb/>
+            “At one desert,” <seg corresp="#GARY">he</seg> continued<lb/>
             wryly, “I asked a white girl to<lb/>
             dance. She refused me, so I sat<lb/>
             down.”
             </p>
             <p>
-            Later, he noticed the girl <choice><orig>danc-
+            Later, <seg corresp="#GARY">he</seg> noticed the girl <choice><orig>danc-
             ing</orig><reg>dancing</reg></choice><lb/>
-            with white boys. He went over<lb/>
+            with white boys. <seg corresp="#GARY">He</seg> went over<lb/>
             to her and asked her for the next<lb/>
             record."
             </p>
             <p>
             “Her girl friends were pushing<lb/>
-            her to dance with me,” he <choice><orig>re-
+            her to dance with <seg corresp="#GARY">me</seg>,” <seg corresp="#GARY">he</seg> <choice><orig>re-
             called</orig><reg>recalled</reg></choice>.<lb/>
             “So she did. We danced,<lb/>
             and in the middle of the record<lb/>
@@ -279,7 +279,7 @@
             </p>
             <p>
             Deducing a moral from his<lb/>
-            story, Gary declared, “I don't<lb/>
+            story, <persName ref="#GARY">Gary</persName> declared, “I don't<lb/>
             care if they don’t want to dance<lb/>
             with me, I just wish that before<lb/>
             each desert they’d make a list of<lb/>
@@ -287,21 +287,21 @@
             I'll know."
             </p>
             <p>
-            On the whole, Gary encounters<lb/>
+            On the whole, <persName ref="#GARY">Gary</persName> encounters<lb/>
             little "open" prejudice in his<lb/>
-            dormitory. However, Donna, a<lb/>
+            <interp ana="#LAND">dormitory</interp>. However, <persName xml:id="DONNA">Donna</persName>, a<lb/>
             calm, attractive Negro student,<lb/>
-            prefers to live at home and <choice><orig>com-
+            prefers to <interp ana="#LAND">live at home</interp> and <choice><orig>com-
             mute</orig><reg>commute</reg></choice><lb/>
             rather than to room in a<lb/>
             dormitory.
             </p>
             <p>
             At summer orientation last<lb/>
-            July, she explained, she was the<lb/>
+            July, <seg corresp="#DONNA">she</seg> explained, <seg corresp="#DONNA">she</seg> was the<lb/>
             only Negro in her tour group.<lb/>
             "They were surprised, I guess,<lb/>
-            to see a Negro. They said<lb/>
+            to see <persName ref="#BLK">a Negro</persName>. They said<lb/>
             nothing against me, but they<lb/>
             stared as if they didn’t expect
             </p>
@@ -314,40 +314,40 @@
         </div>
         <div>
             <p>
-            to see a Negro in their group."
+            to see <persName ref="#BLK">a Negro</persName> in their group."
             </p>
             <p>
             “I used to live in Philadelphia,"<lb/>
-            Donna continued. "I was in the<lb/>
+            <persName ref="#DONNA">Donna</persName> continued. "I was in the<lb/>
             minority... so I got used to the<lb/>
             feeling of being the only one there<lb/>
             and people staring."
             </p>
             <p>
             But this feeling is "kind of<lb/>
-            lonely," and that was why Donna<lb/>
-            “declined living on campus--<choice><orig>be-
+            lonely," and that was why <persName ref="#DONNA">Donna</persName><lb/>
+            “declined <interp ana="#LAND">living on campus</interp>--<choice><orig>be-
             cause</orig><reg>because</reg></choice><lb/>
             of summer orientation."
             </p>
             <p>
             "I haven’t had any problems<lb/>
-            with any students in class," she<lb/>
+            with any students <interp ana="#EDU">in class</interp>," she<lb/>
             continued. “They even come to<lb/>
             me and ask me for help. They<lb/>
             don’t judge you by your color, but<lb/>
-            by what you can do." But Donna<lb/>
+            by what you can do." But <persName ref="#DONNA">Donna</persName><lb/>
             still prefers to live at home,<lb/>
-            rather than on campus.
+            rather than <seg corresp="#UMD">on campus</seg>.
             </p>
             <p>
-            Another commuter, Alphonso,<lb/>
+            <seg corresp="#ALPH">Another commuter</seg>, <persName xml:id="ALPH">Alphonso</persName>,<lb/>
             was part of a nucleus of Negro<lb/>
             students who tried to establish<lb/>
             a “bi-racial" fraternity on <choice><orig>cam-
             pus</orig><reg>campus</reg></choice><lb/>
             last spring. Plans were made<lb/>
-            to establish Omega Psi Phi, but<lb/>
+            to establish <orgName>Omega Psi Phi</orgName>, but<lb/>
             due to a start late in the <choice><orig>semes-
             ter</orig><reg>semester</reg></choice>,<lb/>
             the group was unable to<lb/>
@@ -364,21 +364,21 @@
             “Many people who wanted to<lb/>
             become charter members <choice><orig>com-
             muted</orig><reg>commuted</reg></choice><lb/>
-            from Baltimore," Alphonso<lb/>
+            from <placeName><settlement>Baltimore</settlement></placeName>," <persName ref="#ALPH">Alphonso</persName><lb/>
             explained. It was “awkward for<lb/>
-            them to come back for a meeting<lb/>
+            them to <seg corresp="#UMD">come back</seg> for a meeting<lb/>
             at night." Also, a set sum of<lb/>
             money had to be laid down within<lb/>
-            a one-week time limit. Gary<lb/>
+            a one-week time limit. <persName ref="#GARY">Gary</persName><lb/>
             feels that this payment deadline<lb/>
             prevented the group from <choice><orig>gen-
             erating</orig><reg>generating</reg></choice><lb/>
             more immediate interest.
             </p>
             <p>
-            Dwayne, a commuter who<lb/>
+            <persName xml:id="DWY">Dwayne</persName>, <seg corresp="#DWY">a commuter</seg> who<lb/>
             spends part of each afternoon in<lb/>
-            the Union improving his game of<lb/>
+            <placeName>the Union</placeName> improving <seg corresp="#DWY">his</seg> game of<lb/>
             pinochle, explained why he would<lb/>
             like to establish a fraternity.
             </p>
@@ -392,17 +392,17 @@
             at the work you have done."
             </p>
             <p>
-            He and Alphonso also note<lb/>
+            <seg corresp="#DWY">He</seg> and <persName ref="#ALPH">Alphonso</persName> also note<lb/>
             that a fraternity would give the<lb/>
             Negro students a chance to <choice><orig>par-
             ticipate</orig><reg>participate</reg></choice><lb/>
             in Homecoming, to <choice><orig>com-
             pete</orig><reg>compete</reg></choice><lb/>
             in athletic events, and to<lb/>
-            gain a voice in campus affairs.
+            gain <interp ana="#JUST">a voice in campus affairs</interp>.
             </p>
             <p>
-            Other Negroes disagree. They<lb/>
+            Other <persName ref="#BLK">Negroes</persName> disagree. They<lb/>
             see little unity in a “bi-racial"<lb/>
             fraternity, they anticipate that<lb/>
             Negroes would remain together,<lb/>
@@ -413,7 +413,7 @@
             with whites.
             </p>
             <p>
-            Another student added that<lb/>
+            <persName>Another student</persName> added that<lb/>
             although Negroes have been<lb/>
             “shunner" from “going into <choice><orig>fra-
             ternities</orig><reg>fraternities</reg></choice>,<lb/>
@@ -422,24 +422,24 @@
             it was black."
             </p>
             <p>
-            None of the 24 social <choice><orig>frater-
+            None of the <measure type="number" quantity="24">24</measure> social <choice><orig>frater-
             nities</orig><reg>fraternities</reg></choice><lb/>
-            on campus are racially<lb/>
+            <seg corresp="#UMD">on campus</seg> are racially<lb/>
             integrated with whites and <choice><orig>Ne-
             groes</orig><reg>Negroes</reg></choice>.<lb/>
             The fraternities have<lb/>
-            no discriminatory clauses in<lb/>
+            no <interp ana="#JUST">discriminatory clauses</interp> in<lb/>
             their charters, but attitudinal<lb/>
             barriers and apprehensive <choice><orig>feel-
             ings</orig><reg>feelings</reg></choice><lb/>
-            seem to bar a Negro from<lb/>
+            seem to bar <persName ref="#BLK">a Negro</persName> from<lb/>
             pledging a white house.
             </p>
             <p>
             These feelings are not fostered<lb/>
             by white students alone. Negroes<lb/>
             find they are reluctant to rush<lb/>
-            a white fraternity. They doubt<lb/>
+            a white fraternity. <persName ref="#BLK">They</persName> doubt<lb/>
             that they would be pledged, and<lb/>
             if they were, they wonder if they<lb/>
             could be accepted as a brother.
@@ -459,7 +459,7 @@
         </div>
         <div>
             <p>
-            These Negroes do interdate.<lb/>
+            <persName ref="#BLK">These Negroes</persName> do interdate.<lb/>
             They state that white girls are<lb/>
             generally more friendly toward<lb/>
             their race than white boys.
@@ -470,16 +470,16 @@
             exerted by their friends. Negro<lb/>
             boys dating white coeds have been<lb/>
             told that when their dates return<lb/>
-            to the dormitory, every one in<lb/>
+            to <interp ana="#LAND">the dormitory</interp>, every one in<lb/>
             the hall flocks around them to<lb/>
             ask questions.
             </p>
             <p>
-            If a Negro mixes socially with<lb/>
+            If <persName ref="#BLK">a Negro</persName> mixes socially with<lb/>
             whites, however, peer-group <choice><orig>re-
             action</orig><reg>reaction</reg></choice><lb/>
             is minimal. Explained<lb/>
-            Gary, “If you’re in the group,<lb/>
+            <persName ref="#GARY">Gary</persName>, “If you’re in the group,<lb/>
             you’re in... We don’t care...<lb/>
             You do what you want to do."
             </p>
@@ -489,15 +489,15 @@
             They are surprised when they<lb/>
             find Negro behavior to the <choice><orig>con-
             trary</orig><reg>contrary</reg></choice>.<lb/>
-            According to several<lb/>
-            Negro boys, colored girls are<lb/>
+            According to <persName ref="#BLK">several<lb/>
+            Negro boys</persName>, colored girls are<lb/>
             “a lot more shy than white girls."
             </p>
             <p>
             “They don’t do things in <choice><orig>pub-
             lic</orig><reg>public</reg></choice>,"<lb/>
-            explained one boy. “On the<lb/>
-            Mall, I’ve seen things Negro girls<lb/>
+            explained <persName>one boy</persName>. “On the<lb/>
+            <placeName>Mall</placeName>, I’ve seen things Negro girls<lb/>
             won’t do."
             </p>
         </div>
@@ -511,40 +511,40 @@
             One thing Negro girls can’t do,<lb/>
             it seems, is join a sorority.<lb/>
             Last year, two Negro girls went<lb/>
-            through fall sorority rush. One<lb/>
-            girl received no invitations to<lb/>
+            through fall sorority rush. <persName>One<lb/>
+            girl</persName> received no invitations to<lb/>
             the second round of parties, but<lb/>
-            the other girl was invited back<lb/>
+            <persName>the other girl</persName> was invited back<lb/>
             to several houses. However,<lb/>
             after this second group of <choice><orig>par-
             ties</orig><reg>parties</reg></choice>,<lb/>
-            that girl was dropped too.
+            <persName>that girl</persName> was dropped too.
             </p>
             <p>
-            This year another girl, Sharon,<lb/>
+            This year another girl, <persName xml:id="SHAR">Sharon</persName>,<lb/>
             signed up for rush. Cute, petite<lb/>
-            and well-dressed, Sharon said<lb/>
-            she went through rush because<lb/>
+            and well-dressed, <persName ref="#SHAR">Sharon</persName> said<lb/>
+            <seg corresp="#SHAR">she</seg> went through rush because<lb/>
             she had taken it for granted that<lb/>
-            “you go to college, and you join<lb/>
+            “<interp ana="#EDU">you go to college</interp>, and you join<lb/>
             a sorority."
             </p>
             <p>
-            “I was disappointed not to see<lb/>
+            “<seg corresp="#SHAR">I</seg> was disappointed not to see<lb/>
             some Negroes in the sororities,"<lb/>
-            she said. “Out of 18 sororities,<lb/>
-            you would expect to see one. I<lb/>
+            <seg corresp="#SHAR">she</seg> said. “Out of <measure type="number" quantity="18">18</measure> sororities,<lb/>
+            you would expect to see <measure type="number" quantity="1">one</measure>. <seg corresp="#SHAR">I</seg><lb/>
             was shocked. Especially on a<lb/>
-            campus this size. Rush was <choice><orig>sup-
+            <seg corresp="#UMD">campus this size</seg>. Rush was <choice><orig>sup-
             posed</orig><reg>supposed</reg></choice><lb/>
             to be so open and all."
             </p>
             <p>
-            During rush, she reports,<lb/>
+            During rush, <seg corresp="#SHAR">she</seg> reports,<lb/>
             “everybody was nice." After open<lb/>
-            house she was invited back to ten<lb/>
-            houses. But for “set of four"<lb/>
-            parties, she received no return<lb/>
+            house <seg corresp="#SHAR">she</seg> was invited back to <measure type="number" quantity="10">ten</measure><lb/>
+            houses. But for “set of <measure type="number" quantity="4">four</measure>"<lb/>
+            parties, she received <measure type="number" quantity="0">no</measure> return<lb/>
             bids.
             </p>
             <p>
@@ -552,36 +552,36 @@
             fraternity and sorority on <choice><orig>cam-
             pus</orig><reg>campus</reg></choice>.<lb/>
             Of the students interviewed,<lb/>
-            one was a member of Gamma <choice><orig>Sig-
-            ma</orig><reg>Sigma</reg></choice><lb/>
+            <measure type="number" quantity="1">one</measure> was a member of <orgName>Gamma <choice><orig>Sig-
+            ma</orig><reg>Sigma</reg></choice></orgName><lb/>
             Sigma sorority. Others were<lb/>
             members of the marching band,<lb/>
-            P.E Majors Club, the football<lb/>
-            team, and the chess club.
+            <orgName>P.E Majors Club</orgName>, the <orgName>football<lb/>
+            team</orgName>, and the <orgName>chess club</orgName>.
             </p>
             <p>
             A perusal through Terrapin<lb/>
             yearbooks shows that other<lb/>
-            colored students are in <choice><orig>Univer-
+            <persName ref="#BLK">colored students</persName> are in <orgName><choice><orig>Univer-
             sity</orig><reg>University</reg></choice><lb/>
-            Theater productions, <choice><orig>publi-
+            Theater</orgName> productions, <choice><orig>publi-
             cations</orig><reg>publications</reg></choice><lb/>
-            staffs, ROTC groups, the<lb/>
-            Nursing Club, the M Club and the<lb/>
-            Pharmacy Club.
+            staffs, <orgName>ROTC</orgName> groups, the<lb/>
+            <orgName>Nursing Club</orgName>, the <orgName>M Club</orgName> and the<lb/>
+            <orgName>Pharmacy Club</orgName>.
             </p>
             <p>
             But even in these groups, there<lb/>
-            are only one or two Negro <choice><orig>mem-
+            are only <measure type="number" quantity="1">one</measure> or <measure type="number" quantity="2">two</measure> Negro <choice><orig>mem-
             bers</orig><reg>members</reg></choice>.<lb/>
             The low proportion of<lb/>
             Negro students on campus is not<lb/>
             the lone factor preventing large<lb/>
-            Negro participation in campus<lb/>
+            Negro participation in <seg corresp="#UMD">campus</seg><lb/>
             activities.
             </p>
             <p>
-            The Negroes in the union<lb/>
+            <persName ref="#BLK">The Negroes</persName> in the union<lb/>
             "group" feel that a veil of <choice><orig>ap-
             prehension</orig><reg>apprehension</reg></choice><lb/>
             limits Negro-white<lb/>
@@ -603,7 +603,7 @@
             Part of Friday’s installment<lb/>
             was incorrectly organized to<lb/>
             due a mechanical mistake.<lb/>
-            The Diamondback regrets the<lb/>
+            <orgName xml:id="DBK">The Diamondback</orgName> regrets the<lb/>
             error.
             </p>
         </div>

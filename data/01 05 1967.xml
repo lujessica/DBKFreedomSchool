@@ -296,7 +296,7 @@
             <p>
              The first Negro to attend the <orgName ref="#UMD">University</orgName><lb/>
              was <persName ref="#DGM">Donald Gaines Murray</persName>. A graduate<lb/>
-             of <orgName>Amherst</orgName>, <persName ref="#DGM">Murray</persName> <seg ana="#EDU">applied</seg> to the <choice><orig>Uni-
+             of <orgName>Amherst</orgName>, <persName ref="#DGM">Murray</persName> <interp ana="#EDU">applied</interp> to the <choice><orig>Uni-
              versity</orig><reg>University</reg></choice><lb/>
              <orgName ref="#UMDLAW">Law School</orgName> in <date when="1935">1935</date>. By <date when="1936">1936</date> <seg corresp="#DGM">he</seg><lb/>
              was accepted. The year’s delay in <choice><orig>Mur-
@@ -308,10 +308,10 @@
             </p>
             <p>
              In <date when="1935">1935</date>, <persName ref="#DGM">Murray</persName> was initially refused<lb/>
-             <seg ana="#EDU">admission</seg> to the <orgName ref="#UMDLAW">University</orgName> but offered<lb/>
-             a <seg ana="#EDU">scholarship</seg> to <orgName ref="#HOW">Howard University</orgName> in<lb/>
+             <interp ana="#EDU">admission</interp> to the <orgName ref="#UMDLAW">University</orgName> but offered<lb/>
+             a <interp ana="#EDU">scholarship</interp> to <orgName ref="#HOW">Howard University</orgName> in<lb/>
              <placeName><settlement>Washington</settlement>, <region><abbr>D.C.</abbr></region></placeName>, if <seg corresp="#DGM">he</seg> were accepted<lb/>
-             there. <persName ref="#DGM">Murray</persName> declined the <seg ana="#EDU">scholarship</seg><lb/>
+             there. <persName ref="#DGM">Murray</persName> declined the <interp ana="#EDU">scholarship</interp><lb/>
              offer, and instead sued the <choice><orig>Board of Re-
              gents</orig><reg><persName ref="#USM">Board of Regents</persName></reg></choice><lb/>
              for denying <seg corresp="#DGM">him</seg> admission “<choice><orig>be-
@@ -320,33 +320,33 @@
             <p>
              In court, the <orgName ref="#UMD">University</orgName> conceded that<lb/>
              <persName ref="#DGM">Murray</persName> was denied admission because of<lb/>
-             his race. <seg ana="#EDU">Education</seg> in the state had <choice><orig>fol-
+             his race. <interp ana="#EDU">Education</interp> in the state had <choice><orig>fol-
              lowed</orig><reg>followed</reg></choice><lb/>
              a separate but equal, <choice><orig>bi-racial</orig><reg>biracial</reg></choice><lb/>
              policy. Provisions for members of the<lb/>
              Negro race to be sent by scholarship to<lb/>
-             professional <seg ana="#EDU">schools</seg> outside the state<lb/>
+             professional <interp ana="#EDU">schools</interp> outside the state<lb/>
              were made. The University President<lb/>
              <persName ref="#BYRD">H. C. Byrd</persName> further added that a “<choice><orig>finan-
              cial</orig><reg>financial</reg></choice><lb/>
              risk" would be involved in accepting<lb/>
-             Negroes, for if Negroes were <seg ana="#EDU">admitted</seg><lb/>
+             Negroes, for if Negroes were <interp ana="#EDU">admitted</interp><lb/>
              to the <seg corresp="#UMD">state university</seg>, it was projected<lb/>
              that many students would withdraw.
             </p>
             <p>
              Defendant <persName ref="#DGM">Murray</persName>, however, contended<lb/>
-             that a law <seg ana="#EDU">education</seg> received at <orgName ref="#HOW">Howard</orgName><lb/>
+             that a law <interp ana="#EDU">education</interp> received at <orgName ref="#HOW">Howard</orgName><lb/>
              would not be equal nor comparable to a<lb/>
-             law <seg ana="#EDU">education</seg> gained at the <orgName ref="#UMDLAW">University</orgName>.<lb/>
-             <persName ref="#DGM">Murray</persName> intended to <seg ana="#LAB">practice law</seg> in <choice><orig>Bal-
+             law <interp ana="#EDU">education</interp> gained at the <orgName ref="#UMDLAW">University</orgName>.<lb/>
+             <persName ref="#DGM">Murray</persName> intended to <interp ana="#LAB">practice law</interp> in <choice><orig>Bal-
              timore City</orig><reg><placeName><settlement>Baltimore City</settlement></placeName></reg></choice>,<lb/>
              and the <orgName ref="#UMDLAW">University</orgName> legal<lb/>
-             <seg ana="#EDU">curriculum</seg> included special courses in<lb/>
+             <interp ana="#EDU">curriculum</interp> included special courses in<lb/>
              Maryland law. If he attended <orgName ref="#HOW">Howard</orgName>,<lb/>
              <persName ref="#DGM">Murray</persName> felt <seg corresp="#DGM">he</seg> would be at a <choice><orig>disadvan-
-             tage</orig><reg>disadvantage</reg></choice><lb/> when <seg ana="#JUST">competing in a <placeName><settlement>Baltimore</settlement></placeName><lb/>
-             court with white lawyers</seg> <seg ana="#EDU">schooled</seg> in the<lb/>
+             tage</orig><reg>disadvantage</reg></choice><lb/> when competing in a Baltimore<lb/>
+             <interp ana="#JUST">court with white lawyers</interp> <interp ana="#EDU">schooled</interp> in the<lb/>
              state.
              </p>
              <p>
@@ -356,7 +356,7 @@
              of the Fourteenth Amendment was <choice><orig>de-
              clared</orig><reg>declared</reg></choice><lb/>
              by the Court. <persName ref="#DGM">Murray</persName> was <choice><orig>ad-
-             mitted</orig><reg><seg ana="#EDU">admitted</seg></reg></choice><lb/>
+             mitted</orig><reg><interp ana="#EDU">admitted</interp></reg></choice><lb/>
              to the <orgName ref="#UMDLAW">University's Law School</orgName> in<lb/>
              fall, <date when="1936">1936</date>.
             </p>
@@ -368,14 +368,15 @@
         </div>
         <div>
             <p>
-             <persName ref="#DGM">Murray</persName>’s bold and successful <seg ana="#JUST">court<lb/>
-             fight</seg> signalled the start of other Negro<lb/>
+             <persName ref="#DGM">Murray</persName>’s bold and successful <interp ana="#JUST">court
+             fight</interp><lb/>
+             signalled the start of other Negro<lb/>
              advances to the gates of the <orgName ref="#UMD">University</orgName>.<lb/>
-             The <orgName ref="#UMDLAW">law school</orgName> began <seg ana="#EDU">receiving—and<lb/>
-             accepting—other Negro applications</seg>, and<lb/>
-             by <date when="1939">1939</date> there were <measure type="number" quantity="3">three</measure> Negroes <seg ana="#EDU"><choice><orig>at-
+             The <orgName ref="#UMDLAW">law school</orgName> began receiving—and<lb/>
+             accepting—other Negro applications, and<lb/>
+             by <date when="1939">1939</date> there were <measure type="number" quantity="3">three</measure> Negroes <choice><orig>at-
              tending</orig><reg>attending</reg></choice><lb/>
-             law classes</seg> in <placeName><settlement>Baltimore</settlement></placeName>.
+             law classes in <placeName><settlement>Baltimore</settlement></placeName>.
             </p>
             <p>
              Although the <orgName ref="#UMDLAW">law school</orgName> now had an<lb/>
@@ -383,14 +384,14 @@
              <measure type="time" quantity="15" unit="year">15</measure> years all other branches of the <choice><orig>Uni-
              versity</orig><reg><orgName ref="#UMD">University</orgName></reg></choice><lb/> remained segregated. In <date when="1946">1946</date> and<lb/>
              again in <date when="1949">1949</date>, the <orgName ref="#UMDPHARM">School of Pharmacy</orgName><lb/>
-             <seg ana="#EDU">denied admission to Negro applicants</seg>.<lb/>
+             <interp ana="#EDU">denied admission to Negro applicants</interp>.<lb/>
              Several Negroes applying to <choice><orig>under<lb/>
              graduate</orig><reg>undergraduate</reg></choice><lb/>
              classes in <orgName ref="#UMD">College Park</orgName> were<lb/>
-             also <seg ana="#EDU">refused enrollment</seg>.
+             also <interp ana="#EDU">refused enrollment</interp>.
             </p>
             <p>
-             The <orgName ref="#UMD">University</orgName>’s <seg ana="#EDU">admissions</seg> policy<lb/>
+             The <orgName ref="#UMD">University</orgName>’s <interp ana="#EDU">admissions</interp> policy<lb/>
              was clearly bi-racial: Negro <choice><orig>profes-
              sional</orig><reg>professional</reg></choice><lb/>
              and graduate students were <choice><orig>re-
@@ -417,12 +418,12 @@
              <choice><orig>Princess Ann</orig><reg><orgName ref="#ANNE">Princess Anne</orgName></reg></choice> was incorporated into the<lb/>
              <orgName ref="#UMD">University</orgName> in <date when="1935">1935</date> to comply with a <choice><orig>sec-
              tion</orig><reg>section</reg></choice><lb/>
-             on <seg ana="#EDU">Negro education</seg> in the Land Grant<lb/>
+             on <interp ana="#EDU">Negro education</interp> in the Land Grant<lb/>
              College. (The Morrill Act.)
             </p>
             <p>
-             This <seg ana="#JUST">statute</seg> required that a share of<lb/>
-             <seg ana="#LAND">land-grant allocations</seg> go to Negroes.<lb/>
+             This <interp ana="#JUST">statute</interp> required that a share of<lb/>
+             <interp ana="#LAND">land-grant allocations</interp> go to Negroes.<lb/>
              By both annexing and recognizing <choice><orig>Prin-
              cess Anne</orig><reg><orgName ref="#ANNE">Princess Anne</orgName></reg></choice><lb/>
              as a land-grant college for<lb/>
@@ -461,10 +462,10 @@
              described the <seg corresp="#ANNE">institution</seg> as a<lb/>
              "Jim-Crow school." Plumbing was <choice><orig>de-
              ficient</orig><reg>deficient</reg></choice>,<lb/>
-             <seg ana="#LAND">dormitories inadequate</seg> and many<lb/>
+             <interp ana="#LAND">dormitories inadequate</interp> and many<lb/>
              buildings were of “indefinite origin."<lb/>
-             <seg ana="#EDU">Academically, <seg corresp="#ANNE">the institution</seg> was only a<lb/>
-             shadow of a college</seg>; it was unaccredited,<lb/>
+             Academically, <seg corresp="#ANNE">the institution</seg> was only a<lb/>
+             shadow of a college; it was unaccredited,<lb/>
              its faculty was small, its enrollment had<lb/>
              never surpassed <measure type="number" quantity="159">159</measure> and half of the <choice><orig>stu-
              dent</orig><reg>student</reg></choice><lb/>
@@ -475,8 +476,8 @@
              cess Anne</orig><reg><orgName ref="#ANNE">Princess Anne</orgName></reg></choice><lb/>
              had proved unsuccessful as a<lb/>
              Negro institution. It was recommended<lb/>
-             that <orgName ref="#MORG">Morgan State College</orgName>, the <seg ana="#EDU">accredited<lb/>
-             Negro school</seg> in <placeName><settlement>Baltimore</settlement></placeName>, assume <choice><orig>con-
+             that <orgName ref="#MORG">Morgan State College</orgName>, the accredited<lb/>
+             Negro school in <placeName><settlement>Baltimore</settlement></placeName>, assume <choice><orig>con-
              trol</orig><reg>control</reg></choice><lb/>
              of <orgName ref="#ANNE">Princess Anne</orgName>. <orgName ref="#MORG">Morgan State</orgName>, the<lb/>
              Commission felt, had greater resources<lb/>
@@ -565,15 +566,15 @@
             <p>
              While the <orgName ref="#ANNE">Princess Anne</orgName> issue<lb/>
              was debated, the <orgName ref="#UMD">University</orgName>'s<lb/>
-             “<seg ana="#EDU">separate but equal</seg>," bi-racial<lb/>
+             “<interp ana="#EDU">separate but equal</interp>," bi-racial<lb/>
              philosophy pervaded its dealings.<lb/>
              In <date when="1947">1947</date>, a Negro Air Force<lb/>
              veteran, Major <persName ref="#WBL">Wilmore B.<lb/>
              Leonard</persName>, had registered for<lb/>
              graduate study in <placeName><settlement>College Park</settlement></placeName>.<lb/>
-             <seg ana="#EDU">At first <seg corresp="#WBL">he</seg> was “provisionally"<lb/>
+             At first <seg corresp="#WBL">he</seg> was “provisionally"<lb/>
              accepted. Later, through, <seg corresp="#WBL">he</seg><lb/>
-             was rejected</seg>.
+             was rejected.
             </p>
         </div>
         <div>
@@ -586,8 +587,8 @@
              Protesting, <seg corresp="#WBL">the veteran</seg> was<lb/>
              told that the <orgName ref="#UMD">University</orgName> was <choice><orig>re-
              jecting</orig><reg>rejecting</reg></choice><lb/>
-             all students <seg ana="#EDU">"accepted<lb/>
-             provisionally" that year</seg>. (<choice><orig>Pro-
+             all students <interp ana="#EDU">"accepted provisionally"</interp><lb/>
+             that year. (<choice><orig>Pro-
              visional</orig><reg>Provisional</reg></choice><lb/>
              status indicated that <choice><orig>oth-
              er</orig><reg>other</reg></choice><lb/>
@@ -632,8 +633,8 @@
              of placard-carrying marchers.<lb/>
              The students, both Negro <choice><orig>teach-
              ers</orig><reg>teachers</reg></choice>,<lb/>
-             <seg ana="#EDU">registered and took summer<lb/>
-             courses</seg>.
+             <interp ana="#EDU">registered and took</interp> summer<lb/>
+             courses.
             </p>
             <p>
              All summer long a verbal <choice><orig>bat-
@@ -661,13 +662,13 @@
             <p>
              Unabashed, <persName ref="#BYRD">Byrd</persName> replied by<lb/>
              emphasizing that the State of<lb/>
-             Maryland’s <seg ana="#EDU">education policy was<lb/>
-             one of “controlled segregation."</seg>
+             Maryland’s <interp ana="#EDU">education policy</interp> was<lb/>
+             one of “controlled segregation."
             </p>
             <p>
              Following the hectic summer<lb/>
-             session, <seg ana="#JUST">the <orgName>NAACP</orgName> found itself<lb/>
-             defending <persName ref="#MBB">Martin B. Booth</persName></seg>, a<lb/>
+             session, the <orgName>NAACP</orgName> found itself<lb/>
+             <interp ana="#JUST">defending</interp> <persName ref="#MBB">Martin B. Booth</persName>, a<lb/>
              Negro applicant to the <orgName ref="#UMDPHARM">Maryland<lb/>
              School of Pharmacy</orgName>. <persName ref="#MBB">Booth</persName> had<lb/>
              applied to the school in May of<lb/>
@@ -686,7 +687,7 @@
              plication</orig><reg>application</reg></choice>.<lb/>
              Demanding some <choice><orig>ac-
              tion</orig><reg>action</reg></choice>,<lb/>
-             <seg ana="#JUST"><persName ref="#MBB">Booth</persName> went to court</seg>, claiming<lb/>
+             <persName ref="#MBB">Booth</persName> <interp ana="#JUST">went to court</interp>, claiming<lb/>
              that the original "rejection was<lb/>
              based not on the time of his <choice><orig>ap-
              plication</orig><reg>application</reg></choice>,<lb/>
@@ -706,14 +707,14 @@
         </div>
         <div>
             <head rend="center">
-                <title type="sub">Lost in <seg ana="#JUST">litigation</seg></title>
+                <title type="sub">Lost in <interp ana="#JUST">litigation</interp></title>
             </head>
         </div>
         <div>
             <p>
-             <persName ref="#MBB">Booth</persName>’s case was <seg ana="#JUST">apparently<lb/>
-             lost somewhere on the litigation<lb/>
-             ladder</seg>. The only further public<lb/>
+             <persName ref="#MBB">Booth</persName>’s case was apparently<lb/>
+             <interp ana="#JUST">lost somewhere on the litigation</interp><lb/>
+             ladder. The only further public<lb/>
              record on the matter is a <choice><orig>nota-
              tion</orig><reg>notation</reg></choice><lb/>
              in the <persName ref="#USM">Board of Regents</persName><lb/>
@@ -724,10 +725,10 @@
              general."
             </p>
             <p>
-             The summer of <date when="1949">1949</date> <seg ana="#JUST">abounded<lb/>
-             in suits brought against the <choice><orig>Uni-
+             The summer of <date when="1949">1949</date> abounded<lb/>
+             in <interp ana="#JUST">suits brought against</interp> the <choice><orig>Uni-
              versity</orig><reg><orgName ref="#UMD">University</orgName></reg></choice><lb/>
-             by Negro applicants</seg>. <measure type="number" quantity="1">One</measure><lb/>
+             by Negro applicants. <measure type="number" quantity="1">One</measure><lb/>
              applicant to the <orgName ref="#UMDPHARM">School of <choice><orig>Phar-
              macy</orig><reg>Pharmacy</reg></choice></orgName><lb/>
              and <measure type="number" quantity="2">two</measure> for the <orgName ref="#UMDDENT">School of<lb/>
@@ -736,17 +737,17 @@
              tions</orig><reg>rejections</reg></choice>.<lb/>
              A home economics student<lb/>
              and an engineering undergraduate<lb/>
-             were <seg ana="#EDU">refused admission to <choice><orig>under-
+             were <interp ana="#EDU">refused admission</interp> to <choice><orig>under-
              graduate</orig><reg>undergraduate</reg></choice><lb/>
-             studies at <orgName ref="#UMD">College Park</orgName></seg>.
+             studies at <orgName ref="#UMD">College Park</orgName>.
             </p>
             <p>
-             <seg ana="#JUST">A total of <measure type="number" quantity="6">six</measure> suits were brought<lb/>
-             against the <orgName ref="#UMD">University</orgName></seg>, and the<lb/>
+             A total of <measure type="number" quantity="6">six</measure> <interp ana="#JUST">suits were brought</interp><lb/>
+             against the <orgName ref="#UMD">University</orgName>, and the<lb/>
              <persName ref="#USM">Board of Regents</persName> replied to them<lb/>
              by stating that the <orgName ref="#UMD">University</orgName> had<lb/>
              a “general policy of segregation.<lb/>
-             <seg ana="#EDU">Separate but equal facilities</seg>”<lb/>
+             <interp ana="#EDU">Separate but equal facilities</interp>”<lb/>
              were provided for Negro <choice><orig>appli-
              cants</orig><reg>applicants</reg></choice><lb/>
              who were state citizens.
@@ -766,12 +767,12 @@
              sion</orig><reg>admission</reg></choice><lb/>
              into <orgName ref="#MORG">Morgan State</orgName> or <choice><orig>Prin-
              cess Anne</orig><reg><orgName ref="#ANNE">Princess Anne</orgName></reg></choice>,<lb/>
-             or <seg ana="#EDU">scholarships to<lb/>
-             out-of-state schools</seg>.
+             or <interp ana="#EDU">scholarships</interp> to<lb/>
+             out-of-state schools.
             </p>
             <p>
-             <seg ana="#EDU">Provisions for out-of-state<lb/>
-             scholarships</seg> were arranged by<lb/>
+             Provisions for out-of-state<lb/>
+             scholarships were arranged by<lb/>
              the <orgName ref="#UMD">University</orgName> in conjunction with<lb/>
              the Southern Regional Compact.<lb/>
              This compact was composed of<lb/>
@@ -798,9 +799,9 @@
              ship</orig><reg>scholarship</reg></choice><lb/>
              offers' was using the <choice><orig>region-
              al</orig><reg>regional</reg></choice><lb/>
-             compact to <seg ana="#EDU">evade equal <choice><orig>educa-
+             compact to evade equal <choice><orig>educa-
              tion</orig><reg>education</reg></choice><lb/>
-             statutes</seg>.
+             statutes.
             </p>
         </div>
         <div>
@@ -819,22 +820,22 @@
              Medical College</orgName> in <placeName><settlement>Nashville</settlement>,<lb/>
              <region><abbr>Tenn.</abbr></region></placeName> <persName ref="#EM">Miss McCready</persName> claimed<lb/>
              that she could not be required to<lb/>
-             go out of her state <seg ana="#EDU">to receive<lb/>
-             education available at home</seg>. <choice><orig>Ask-
+             go out of her state to receive<lb/>
+             <interp ana="#EDU">education available at home</interp>. <choice><orig>Ask-
              ing</orig><reg>Asking</reg></choice><lb/>
              her to leave the state due to<lb/>
-             her race was <seg ana="#JUST">denying her <choice><orig>con-
+             her race was denying her <choice><orig>con-
              stitutional</orig><reg>constitutional</reg></choice><lb/>
-             rights under the <choice><orig>Four-
+             <interp ana="#JUST">rights</interp> under the <choice><orig>Four-
              teenth</orig><reg>Fourteenth</reg></choice><lb/>
-             Amendment</seg>.
+             Amendment.
             </p>
             <p>
              The <orgName ref="#UMD">University</orgName>, however, felt<lb/>
              it had "discharged its <choice><orig>constitu-
              tional</orig><reg>constitutional</reg></choice><lb/>
-             <seg ana="#EDU">obligation to afford equal<lb/>
-             education opportunities</seg>" by <choice><orig>of-
+             obligation to afford equal<lb/>
+             <interp ana="#EDU">education opportunities</interp>" by <choice><orig>of-
              fering</orig><reg>offering</reg></choice><lb/>
              the applicant a scholarship<lb/>
              to <orgName>MeHarry</orgName>. In court it was even<lb/>
@@ -850,17 +851,17 @@
              <orgName>Maryland Circuit Court of <choice><orig>Ap-
              peals</orig><reg>Appeals</reg></choice></orgName><lb/>
              reversed this decision.<lb/>
-             <seg ana="#JUST"><persName ref="#EM">Miss McCready</persName>’s rights had <choice><orig>in-
-             deed</orig><reg>indeed</reg></choice> been denied</seg>.
+             <persName ref="#EM">Miss McCready</persName>’s <interp ana="#JUST">rights</interp> had <choice><orig>in-
+             deed</orig><reg>indeed</reg></choice> been denied.
             </p>
             <p>
              Referring to State of Missouri<lb/>
-             ex-rel. Gaines v. Canada, <seg ana="#JUST">the<lb/>
-             Court held that a scholarship to<lb/>
+             ex-rel. Gaines v. Canada, the<lb/>
+             <interp ana="#JUST">Court held that</interp> a scholarship to<lb/>
              <orgName>MeHarry</orgName> “did not relieve the<lb/>
              state of its responsibility to <choice><orig>pro-
              vide</orig><reg>provide</reg></choice><lb/>
-             equal opportunities</seg> for <choice><orig>Ne-
+             equal opportunities for <choice><orig>Ne-
              groes</orig><reg><persName ref="#BLK">Negroes</persName></reg></choice><lb/>
              within the boundaries of<lb/>
              the State. By no rational means<lb/>
@@ -871,15 +872,15 @@
         </div>
         <div>
             <head rend="center">
-                <title type="sub"><seg ana="#JUST">Court orders</seg> admission</title>
+                <title type="sub"><interp ana="#JUST">Court orders</interp> admission</title>
             </head>
         </div>
         <div>
             <p>
              The Court further held that the<lb/>
-             “regional compact <seg ana="#EDU">cannot be used<lb/>
-             to maintain a segregated system<lb/>
-             of higher education</seg>." <persName ref="#EM">Miss <choice><orig>Mc-
+             “regional compact cannot be used<lb/>
+             to maintain a <interp ana="#EDU">segregated system</interp><lb/>
+             of higher education." <persName ref="#EM">Miss <choice><orig>Mc-
              Cready</orig><reg>McCready</reg></choice></persName>’s admission to the <orgName ref="#UMDNURS"><choice><orig>Mary-
              land</orig><reg>Maryland</reg></choice><lb/>
              School of Nursing</orgName> was <choice><orig>or-
@@ -887,9 +888,9 @@
             </p>
             <p>
              Still fighting for its segregation<lb/>
-             policy, the <orgName ref="#UMD">University</orgName> <seg ana="#JUST">appealed<lb/>
+             policy, the <orgName ref="#UMD">University</orgName> <interp ana="#JUST">appealed</interp><lb/>
              this decision to the <orgName>Supreme<lb/>
-             Court</orgName></seg>. The High Court, however,<lb/>
+             Court</orgName>. The High Court, however,<lb/>
              denied certiori, and the issue was<lb/>
              settled. <persName ref="#EM">Miss McCready</persName> became<lb/>
              the first Negro to attend the<lb/>
@@ -902,25 +903,25 @@
              tions</orig><reg>institutions</reg></choice><lb/>
              parallel to its white <choice><orig>insti-
              tutions</orig><reg>institutions</reg></choice><lb/>
-             or <seg ana="#EDU">begin admtting <choice><orig>Ne-
+             or <interp ana="#EDU">begin admtting</interp> <choice><orig>Ne-
              groes</orig><reg><persName ref="#BLK">Negroes</persName></reg></choice><lb/>
              to <seg corresp="#UMD">College Park</seg> and to all<lb/>
-             <placeName><settlement>Baltimore</settlement></placeName> professional schools</seg>.
+             <placeName><settlement>Baltimore</settlement></placeName> professional schools.
             </p>
             <p>
              <persName ref="#BYRD">Byrd</persName> and the Legislature <choice><orig>sup-
              ported</orig><reg>supported</reg></choice><lb/>
              the former alternative,<lb/>
-             i.e. <seg ana="#EDU">a “dual school system" over<lb/>
-             an integrated one</seg>. For several<lb/>
+             i.e. <interp ana="#EDU">a “dual school system"</interp> over<lb/>
+             an integrated one. For several<lb/>
              years, new programs were <choice><orig>in-
              stituted</orig><reg>instituted</reg></choice><lb/>
              and more funds were<lb/>
              poured into <orgName ref="#ANNE">Princess Anne</orgName>. <choice><orig>How-
              ever</orig><reg>However</reg></choice>,<lb/>
-             <seg ana="#JUST">court litigations were now<lb/>
+             <interp ana="#JUST">court litigations</interp> were now<lb/>
              travelling at a pace faster than<lb/>
-             the State's educational budget</seg>.
+             the State's educational budget.
             </p>
         <div>
             <head rend="center">
@@ -934,8 +935,8 @@
              transfer from <orgName ref="#MORG">Morgan State</orgName> into<lb/>
              the <orgName ref="#UMD">College Park</orgName> engineering<lb/>
              program, received a writ of<lb/>
-             mandamus <seg ana="#EDU">admitting <seg corresp="#HW">him</seg> to the<lb/>
-             University</seg>. The State’s attorney<lb/>
+             mandamus <interp ana="#EDU">admitting</interp> <seg corresp="#HW">him</seg> to the<lb/>
+             University. The State’s attorney<lb/>
              general advised the <persName ref="#USM">Board of <choice><orig>Re-
              gents</orig><reg>Regents</reg></choice></persName><lb/>
              to accept <persName ref="#HW">Whittle</persName> since<lb/>
@@ -947,27 +948,27 @@
             <p>
              <persName ref="#HW">Whittle</persName> thereby set several<lb/>
              precedents. He was the first<lb/>
-             Negro <seg ana="#JUST">admitted to the <orgName ref="#UMD">University</orgName><lb/>
-             without a court battle</seg>—though he<lb/>
+             Negro admitted to the <orgName ref="#UMD">University</orgName><lb/>
+             <interp ana="#JUST">without a court battle</interp>—though he<lb/>
              did follow in the wake of the <choice><orig>Mc-<lb/>
              Cready</orig><reg><persName ref="#EM">McCready</persName></reg></choice><lb/>
              storm. <seg corresp="#HW">He</seg> was also the<lb/>
              first Negro to attend classes in<lb/>
              the <seg corresp="#UMD"><placeName><settlement>College Park</settlement></placeName> campus</seg> and to<lb/>
-             <seg ana="#LAND">live in a white dormitory</seg>.
+             <interp ana="#LAND">live in a white dormitory</interp>.
             </p>
             <p>
              At this same time, another<lb/>
-             Negro student was <seg ana="#JUST">pushing his<lb/>
-             way through the Courts</seg>. <persName ref="#PJM">Parren<lb/>
+             Negro student was pushing his<lb/>
+             way <interp ana="#JUST">through the Courts</interp>. <persName ref="#PJM">Parren<lb/>
              J. Mitchell</persName>, a graduate student<lb/>
              in sociology, had applied to the<lb/>
              <orgName ref="#UMD">University</orgName> in <date when="1950-08">August of 1950</date>.<lb/>
-             <persName ref="#PJM">Mitchell</persName> was <seg ana="#EDU">accepted with the<lb/>
+             <persName ref="#PJM">Mitchell</persName> was <interp ana="#EDU">accepted</interp> with the<lb/>
              tacit understanding that he attend<lb/>
              classes in <placeName><settlement>Baltimore</settlement></placeName>--not in <placeName><settlement><choice><orig>Col-
              lege</orig><reg>College</reg></choice><lb/>
-             Park</settlement></placeName></seg>.
+             Park</settlement></placeName>.
              </p>
          </div>
         </div>

@@ -232,30 +232,30 @@
             ate</orig><reg>graduate</reg></choice><lb/>
             student in sociology, had applied to the<lb/>
             <orgName ref="#UMD">University</orgName> in August of <date when="1950">1950</date>. <persName ref="#PJM">Mitchell</persName> was<lb/>
-            <seg ana="#EDU">accepted with the tacit understanding that<lb/>
+            <interp ana="#EDU">accepted with the tacit understanding</interp> that<lb/>
             he attend classes in <placeName><settlement>Baltimore</settlement></placeName>--not in<lb/>
-            <seg corresp="#UMD"><placeName><settlement>College Park</settlement></placeName></seg></seg>.
+            <seg corresp="#UMD"><placeName><settlement>College Park</settlement></placeName></seg>.
             </p>
             <p>
             These “regrettable" situations came<lb/>
             to a close in the early fifties. Slowly,<lb/>
             the <persName ref="#USM">Board of Regents</persName> and the <orgName>Supreme<lb/>
-            Court</orgName> <seg ana="#JUST">passed holdings liberalizing <choice><orig>edu-
+            Court</orgName> <interp ana="#JUST">passed holdings</interp> liberalizing <choice><orig>edu-
             cation</orig><reg>education</reg></choice><lb/>
-            facilities</seg>.
+            facilities.
             </p>
             <p>
             In May of <date when="1954">1954</date>, the <orgName>U.S. Supreme Court</orgName><lb/>
-            <seg ana="#JUST">struck down the "separate but equal"<lb/>
-            doctrine</seg> and held that <seg ana="#EDU">public education<lb/>
-            institutions must be integrated</seg> (<seg corresp="https://lccn.loc.gov/sh2005002458">Brown<lb/>
+            <interp ana="#JUST">struck down</interp> the "separate but equal"<lb/>
+            doctrine and held that <interp ana="#EDU">public education</interp><lb/>
+            institutions must be integrated (<seg corresp="https://lccn.loc.gov/sh2005002458">Brown<lb/>
             v. Board of Education</seg>). The following<lb/>
             month the <persName ref="#USM">Board of Regents</persName> unanimously<lb/>
-            passed the motion that <seg ana="#EDU">"all qualified <choice><orig>stu-
+            passed the motion that "all qualified <choice><orig>stu-
             dents</orig><reg>students</reg></choice><lb/>
             resident of <placeName><region>Maryland</region></placeName> may apply<lb/>
-            for admission to the <orgName ref="#UMD">University</orgName> in all<lb/>
-            of its schools."</seg>
+            for <interp ana="#EDU">admission</interp> to the <orgName ref="#UMD">University</orgName> in all<lb/>
+            of its schools."
             </p>
             <p>
             In <date when="1955">1955</date>, following the embarrassing<lb/>
@@ -266,27 +266,27 @@
             cants</orig><reg>applicants</reg></choice>.
             </p>
             <p>
-            The <orgName ref="#UMD">University</orgName> at last had an <seg ana="#EDU">integrated<lb/>
-            admissions policy</seg>. It was <measure type="time" quantity="20" unit="year">twenty years</measure><lb/>
-            since <persName ref="#DGM">Donald Gaines Murray</persName> had <seg ana="#JUST">appealed<lb/>
+            The <orgName ref="#UMD">University</orgName> at last had an integrated<lb/>
+            <interp ana="#EDU">admissions policy</interp>. It was <measure type="time" quantity="20" unit="year">twenty years</measure><lb/>
+            since <persName ref="#DGM">Donald Gaines Murray</persName> had <interp ana="#JUST">appealed</interp><lb/>
             his case for admission to the <orgName ref="#UMDLAW">University<lb/>
-            Law School</orgName></seg>. It was <measure type="time" quantity="4" unit="year">four</measure> years since a<lb/>
+            Law School</orgName>. It was <measure type="time" quantity="4" unit="year">four</measure> years since a<lb/>
             Negro student had entered <seg corresp="#UMD"><placeName><settlement>College Park</settlement></placeName></seg>.
             </p>
             <p>
-            Now that the <seg ana="#JUST">policy gates had opened</seg>,<lb/>
+            Now that the <interp ana="#JUST">policy gates had opened</interp>,<lb/>
             how was integration effected within the<lb/>
             <seg corresp="#UMD">College Park campus</seg>? Integration was a<lb/>
             reality on paper, but socially and <choice><orig>ad-
             ministratively</orig><reg>administratively</reg></choice><lb/>
             <persName ref="#BLK">The Negro</persName> was still feeling<lb/>
-            his way. <persName ref="#BLK">The Negro</persName> and <seg ana="#JUST">the fourteenth<lb/>
-            amendment</seg> were yet to expand.
+            his way. <persName ref="#BLK">The Negro</persName> and the fourteenth<lb/>
+            <interp ana="#JUST">amendment</interp> were yet to expand.
             </p>
             <p>
             The conclusion was “yes, there ought<lb/>
-            to be discussion.” <seg ana="#JUST"><orgName>The Court</orgName> ruled in<lb/>
-            <persName ref="#PJM">Mitchell</persName>’s favor</seg>, declaring that “counsel<lb/>
+            to be discussion.” <orgName>The Court</orgName> <interp ana="#JUST">ruled</interp> in<lb/>
+            <persName ref="#PJM">Mitchell</persName>’s favor, declaring that “counsel<lb/>
             shows certain advantages in studying at<lb/>
             College Park... weekly seminars are<lb/>
             more profitable in large classes."
@@ -296,19 +296,19 @@
             Masters degree a state investigative<lb/>
             body, the <orgName>Weglein Commission</orgName>, looked<lb/>
             into “Negro Higher Education in the<lb/>
-            State.” <seg ana="#EDU">Finding a wide disparity between<lb/>
-            Negro and white educational facilities</seg>,<lb/>
+            State.” Finding a wide disparity between<lb/>
+            <interp ana="#EDU">Negro and white educational facilities</interp>,<lb/>
             the Committee proposed that the “State<lb/>
             admit <persName ref="#BLK">Negroes</persName> to graduate and <choice><orig>profes-
             sional</orig><reg>professional</reg></choice><lb/>
             schools when it was impractical<lb/>
-            to offer <seg ana="#EDU">equal education opportunities at<lb/>
-            separate Negro institutions</seg>."
+            to offer <interp ana="#EDU">equal education opportunities</interp> at<lb/>
+            separate Negro institutions."
             </p>
             <p>
-            The State’s last-minute <seg ana="#EDU">programs to<lb/>
+            The State’s last-minute programs to<lb/>
             step up separate Negro education <choice><orig>facili-
-            ties</orig><reg>facilities</reg></choice></seg><lb/>
+            ties</orig><reg>facilities</reg></choice><lb/>
             apparently were not advancing fast<lb/>
             enough to combat the drive toward <choice><orig>inte-
             gration</orig><reg>integration</reg></choice>.<lb/>
@@ -318,12 +318,12 @@
             racial policy:
             </p>
             <p>
-            <seg ana="#EDU">In the future all resident applicants<lb/>
+            <interp ana="#EDU">In the future all resident applicants</interp><lb/>
             within the state, regardless of race, color<lb/>
             or creed, were to be considered for<lb/>
-            admission to the professional schools<lb/>
+            <interp ana="#EDU">admission</interp> to the <interp ana="#LAB">professional schools</interp><lb/>
             in <placeName><settlement>Baltimore</settlement></placeName> on an equal basis with<lb/>
-            white applicants</seg>.
+            white applicants.
             </p>
             <p>
             In line with this policy ruling, in<lb/>
@@ -340,14 +340,14 @@
             hassle arose in July, <date when="1952">1952</date>. <persName ref="#WAP">Wendall A.<lb/>
             Paris</persName>, assistant athletic director to the<lb/>
             <orgName ref="#DCPS">D.C. Public Schools</orgName> and a Negro, was<lb/>
-            <seg ana="#EDU">denied admission to a summer school<lb/>
-            graduate course</seg> in <placeName><settlement>College Park</settlement></placeName>.
+            <interp ana="#EDU">denied admission</interp> to a summer school<lb/>
+            graduate course in <placeName><settlement>College Park</settlement></placeName>.
             </p>
             <p>
             The <orgName ref="#UMD">University</orgName> apologized to <persName ref="#WAP">Paris</persName>,<lb/>
-            but informed that <seg ana="#EDU">the school’s policy of<lb/>
+            but informed that <interp ana="#EDU">the school’s policy</interp> of<lb/>
             accepting Negro students did not apply<lb/>
-            to out-of-state applicants</seg>. If <persName ref="#WAP">Paris</persName> had<lb/>
+            to out-of-state applicants. If <persName ref="#WAP">Paris</persName> had<lb/>
             been white, he would have been accepted.
             </p>
             <p>
@@ -363,10 +363,10 @@
             were from <persName ref="#BLK">Negroes</persName>, and when the <choice><orig>Uni-
             versity</orig><reg><orgName ref="#UMD">University</orgName></reg></choice><lb/>
             administration realized this,<lb/>
-            those applicants were rejected. <seg ana="#EDU">They<lb/>
+            those applicants were rejected. They<lb/>
             were returned their money and informed<lb/>
             that <seg corresp="#UMD">the school</seg> did not admit out-of-state<lb/>
-            Negroes</seg>.
+            Negroes.
             </p>
             <p>
             In protest, the Recreation <choice><orig>Superintend-
@@ -398,9 +398,9 @@
             <p>
             <persName ref="#HOFF">Hoffsomer</persName>, former head of the<lb/>
             Department of Sociology.<lb/>
-            “The <seg corresp="#BYRD">President</seg> (Byrd) said <seg ana="#EDU">our<lb/>
+            “The <seg corresp="#BYRD">President</seg> (Byrd) said our<lb/>
             policy was to give them equal<lb/>
-            opportunities</seg>. We would give<lb/>
+            opportunities. We would give<lb/>
             them chances to get their <choice><orig>educa-
             tion</orig><reg>education</reg></choice>,<lb/>
             but we wouldn't do it on the<lb/>
@@ -435,17 +435,17 @@
             </p>
             <p>
             <persName ref="#PJM">Mitchell</persName>, however, was not<lb/>
-            pleased that <seg ana="#EDU">"separate but equal"<lb/>
+            pleased that <interp ana="#EDU">"separate but equal"</interp><lb/>
             accommodations had been <choice><orig>ar-
-            ranged</orig><reg>arranged</reg></choice></seg><lb/>
+            ranged</orig><reg>arranged</reg></choice><lb/>
             especially for <seg corresp="#PJM">him</seg>. In<lb/>
-            Sept., <date when="1950">1950</date>, <seg ana="#JUST"><seg corresp="#PJM">he</seg> took his grievances<lb/>
-            to court</seg>, and in <seg ana="#JUST">“Mitchell<lb/>
+            Sept., <date when="1950">1950</date>, <seg corresp="#PJM">he</seg> took his grievances<lb/>
+            <interp ana="#JUST">to court</interp>, and in “Mitchell<lb/>
             v. Byrd," <seg corresp="#PJM">he</seg> claimed that because<lb/>
             of his skin color he was being<lb/>
             “denied advantages of <choice><orig>associa-
             tion</orig><reg>association</reg></choice><lb/>
-            with other students."</seg>
+            with other students."
             </p>
             <p>
             <seg corresp="#PJM">He</seg> was the only student <choice><orig>regis-
