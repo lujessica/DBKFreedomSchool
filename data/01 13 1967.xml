@@ -120,6 +120,21 @@
           <langUsage>
               <language ident="en-US">United States English</language>
           </langUsage>
+          <particDesc>
+              <org>
+                  <orgName xml:id="UMD" ref="https://lccn.loc.gov/n79054042">University of Maryland, College Park</orgName>
+                  <idno type="LCAF">n79054042</idno>
+                  <placeName>
+                      <settlement>College Park</settlement>
+                      <region>Maryland (<abbr>M.D.</abbr>)</region>
+                      <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                  </placeName>
+              </org>
+              <personGrp>
+                  <persName xml:id="BLK">Black and African American people</persName>
+                  <note>This person group is necessary for the reading and interpretation of this text, as this text often uses "the negro" (gendered male) to generalize about all black and African Americans.</note>
+              </personGrp>
+          </particDesc>
       </profileDesc>
       <revisionDesc>
           <change>No changes have been made at this time.</change> <!-- Use this space to later detail revisions to the digital text. -->
@@ -127,200 +142,256 @@
   </teiHeader> <!-- Remember that a TEI header will often be a work-in-progress as you continue to encode the text body. As you mark up the text, you may find that you need to return to the header to make an adjustment or add information. -->
   <text>
       <body>
-         <p>
-             Interdating
-             The Negro point of view
-
-             By HOLLACE GOLDBERG
-             Last in a series
-
-             I am a boy. I am a girl. My
-             skin is a shade darker and my
-             hair a bit thicker than most
-             students. I play the dating game
-             differently too. I am a Negro
-             who has become integrated into
-             the fabric of the University, and
-             I stay aloof from all-Negro social
-             cliques. People who share my
-             perspective often hold similar,
-             though not identical points of
+        <div>
+            <head rend="center">
+                <title type="main">Interdating</title>
+                <title type="sub">The Negro point of view</title>
+            </head>
+        </div>
+        <div rend="center">
+            <byline>By HOLLACE GOLDBERG</byline>
+             <p>Last in a series</p>
+        </div>
+        <div>
+            <p>
+             I am a boy. I am a girl. My<lb/>
+             skin is a shade darker and my<lb/>
+             hair a bit thicker than most<lb/>
+             students. I play the dating game<lb/>
+             differently too. I am a Negro<lb/>
+             who has become integrated into<lb/>
+             the fabric of the University, and<lb/>
+             I stay aloof from all-Negro social<lb/>
+             cliques. People who share my<lb/>
+             perspective often hold similar,<lb/>
+             though not identical points of<lb/>
              view.
-
-             “I think white girls are de-
-             finitely more friendly than white
-             boys,” related a pretty young
-             freshman. “I feel that white
-             girls are particularly friendly
-             with Negro boys. There is such
-             a limited amount of Negro boys
-             that this really gets on my
+             </p>
+             <p>
+             “I think white girls are <choice><orig>de-
+             finitely</orig><reg>definitely</reg></choice><lb/>
+             more friendly than white<lb/>
+             boys,” related a pretty young<lb/>
+             freshman. “I feel that white<lb/>
+             girls are particularly friendly<lb/>
+             with Negro boys. There is such<lb/>
+             a limited amount of Negro boys<lb/>
+             that this really gets on my<lb/>
              nerves.”
-
-             “That’s typical female jeal-
-             ousy,” laughed a Negro boy, hear
-             ing these comments. But the
+             </p>
+             <p>
+             “That’s typical female <choice><orig>jeal-
+             ousy</orig><reg>jealousy</reg></choice>,”<lb/>
+             laughed a Negro boy, <choice><orig>hear-
+             ing</orig><reg>hearing</reg></choice><lb/>
+             these comments. But the<lb/>
              attractive coed had more to say.
-
-             "If it was a fair interchange,
-             I might not mind,” she said.
-             “But white boys show little in-
-             terest in Negro girls, I have
-             the distinct feeling,” she said,
-             “that when a white boy sees an
-             attractive Negro girl, it crosses
-             his mind that she is Negro” and
-             he then pays no further attention
+             </p>
+             <p>
+             "If it was a fair interchange,<lb/>
+             I might not mind,” she said.<lb/>
+             “But white boys show little <choice><orig>in-
+             terest</orig><reg>interest</reg></choice><lb/>
+             in Negro girls, I have<lb/>
+             the distinct feeling,” she said,<lb/>
+             “that when a white boy sees an<lb/>
+             attractive Negro girl, it crosses<lb/>
+             his mind that she is Negro” and<lb/>
+             he then pays no further attention<lb/>
              to her.
-
-             “They must have some particu-
-             lar impression that Negro girls
-             are dirty and ignorant. I’ve
-             really tried to figure out the
-             mental processes involved be-
-             cause you can’t tell me that
-             boys won’t recognize a nice look-
-             ing girl right away.”
-
-             On the other side of the dating
-             game is Dave, also a Negro. He
-             notes that often white girls exer-
-             cise a certain friendliness to-
-             ward him, but he exercises some
+             </p>
+             <p>
+             “They must have some <choice><orig>particu-
+             lar</orig><reg>particular</reg></choice><lb/>
+             impression that Negro girls<lb/>
+             are dirty and ignorant. I’ve<lb/>
+             really tried to figure out the<lb/>
+             mental processes involved <choice><orig>be-
+             cause</orig><reg>because</reg></choice><lb/>
+             you can’t tell me that<lb/>
+             boys won’t recognize a nice <choice><orig>look-
+             ing</orig><reg>looking</reg></choice><lb/>
+             girl right away.”
+             </p>
+             <p>
+             On the other side of the dating<lb/>
+             game is Dave, also a Negro. He<lb/>
+             notes that often white girls <choice><orig>exer-
+             cise</orig><reg>exercise</reg></choice><lb/>
+             a certain friendliness <choice><orig>to-
+             ward</orig><reg>toward</reg></choice><lb/>
+             him, but he exercises some<lb/>
              caution in interdating.
-
-             “You can ask a girl out right
-             away--if you like getting shot
-             down!” he commented. “But most
-             of the time in your associations
-             you basically know who would
-             (go out with you) and who
-             wouldn’t,” he said. If a Negro
-             boy and a white girl get to know
-             each other and build up an ex-
-             change, “you ask her out then.”
-
-             Among the students interview-
-             ed, boys have interdated more
-             frequently than girls. One coed
-             who has been asked out by white
-             boys has always “declined. I
-             might feel a little strange,” she
-             explained, “but the person I am
+             </p>
+             <p>
+             “You can ask a girl out right<lb/>
+             away--if you like getting shot<lb/>
+             down!” he commented. “But most<lb/>
+             of the time in your associations<lb/>
+             you basically know who would<lb/>
+             (go out with you) and who<lb/>
+             wouldn’t,” he said. If a Negro<lb/>
+             boy and a white girl get to know<lb/>
+             each other and build up an <choice><orig>ex-
+             change</orig><reg>exchange</reg></choice>,<lb/>
+             "you ask her out then."
+             </p>
+             <p>
+             Among the students <choice><orig>interview-
+             ed</orig><reg>interviewed</reg></choice>,<lb/>
+             boys have interdated more<lb/>
+             frequently than girls. One coed<lb/>
+             who has been asked out by white<lb/>
+             boys has always “declined. I<lb/>
+             might feel a little strange,” she<lb/>
+             explained, “but the person I am<lb/>
              with might feel worse.”
-
-             "My father just wouldn’t ap-
-             prove,” offered another coed.
-             “I am not going to say ‘No, I
-             never will interdate.’ If it comes
-             along, I might. But... I think
-             the chances are less for me
+             </p>
+             <p>
+             "My father just wouldn’t <choice><orig>ap-
+             prove</orig><reg>approve</reg></choice>,”<lb/>
+             offered another coed.<lb/>
+             “I am not going to say ‘No, I<lb/>
+             never will interdate.’ If it comes<lb/>
+             along, I might. But... I think<lb/>
+             the chances are less for me<lb/>
              than for a Negro boy.”
-
-             Most of these Negroes have
-             definite views about the colored
-             students who sit together in the
-             Main Dining Hall and in the Stu-
-             dent Union. “It’s sociological,”
-             explained one Negro. “These
-             kids, for the most part, come
-             from schools where there were
-             90 per cent Negroes. They have
-             never been in an integrated en-
-             vironment and therefore remain
+             </p>
+             <p>
+             Most of these Negroes have<lb/>
+             definite views about the colored<lb/>
+             students who sit together in the<lb/>
+             Main Dining Hall and in the <choice><orig>Stu-
+             dent</orig><reg>Student</reg></choice><lb/>
+             Union. “It’s sociological,”<lb/>
+             explained one Negro. “These<lb/>
+             kids, for the most part, come<lb/>
+             from schools where there were<lb/>
+             90 per cent Negroes. They have<lb/>
+             never been in an integrated <choice><orig>en-
+             vironment</orig><reg>environment</reg></choice><lb/>
+             and therefore remain<lb/>
              together here.”
-
-             “They're mostly commuters
-             (in the Union)," analyzed an-
-             other. “They just go to the Union
-             because there is really nothing
-             else for them to do in between
-             classes--except to study. You
-             can’t do that all the time, and
+             </p>
+             <p>
+             “They're mostly commuters<lb/>
+             (in the Union)," analyzed <choice><orig>an-
+             other</orig><reg>another</reg></choice>.<lb/>
+             “They just go to the Union<lb/>
+             because there is really nothing<lb/>
+             else for them to do in between<lb/>
+             classes--except to study. You<lb/>
+             can’t do that all the time, and<lb/>
              it is nice to relax in the Union.”
-
-             "To me, the Student Union
-             Negro is the Negro that every
-             body expects to see,” asserted
-             a Negro coed with much resent-
-             ment. “I don’t go to the Union,”
-             she continued. "I don’t care to
-             classify myself. I find it posi-
-             tively revolting. All my people
-             are congregated in one section
-             playing pinochle, laughing and
+             </p>
+             <p>
+             "To me, the Student Union<lb/>
+             Negro is the Negro that every<lb/>
+             body expects to see,” asserted<lb/>
+             a Negro coed with much <choice><orig>resent-
+             ment</orig><reg>resentment</reg></choice>.<lb/>
+             “I don’t go to the Union,”<lb/>
+             she continued. "I don’t care to<lb/>
+             classify myself. I find it <choice><orig>posi-
+             tively</orig><reg>positively</reg></choice><lb/>
+             revolting. All my people<lb/>
+             are congregated in one section<lb/>
+             playing pinochle, laughing and<lb/>
              talking.
-
-             "When I sit with the Negroes
-             in the dining hall," she added,
-             "they make me feel more like a
-             Negro than white people do."
-             A Negro clique, she said, im-
-             plies that "the white world has
-             me down and I have to go hunt
+             </p>
+             <p>
+             "When I sit with the Negroes<lb/>
+             in the dining hall," she added,<lb/>
+             "they make me feel more like a<lb/>
+             Negro than white people do."<lb/>
+             A Negro clique, she said, <choice><orig>im-
+             plies</orig><reg>implies</reg></choice><lb/>
+             that "the white world has<lb/>
+             me down and I have to go hunt<lb/>
              up my people.”
-
-             "I picked the University of
-             Maryland as opposed to Negro
-             colleges in Baltimore. I still
-             have to live in a white man’s
-             world, therefore I have to learn
-             to live with them. The only way
-             you can let people know that you
-             are like them is to associate
+             </p>
+             <p>
+             "I picked the University of<lb/>
+             Maryland as opposed to Negro<lb/>
+             colleges in Baltimore. I still<lb/>
+             have to live in a white man’s<lb/>
+             world, therefore I have to learn<lb/>
+             to live with them. The only way<lb/>
+             you can let people know that you<lb/>
+             are like them is to associate<lb/>
              with them."
-
+             </p>
+             <p>
              Negro students who spend their
-
-             Negro should 'learn to live' in white world
-
-             time in the Union, however, dis-
-             agree with these viewpoints.
-             "These were my friends in high
-             school,” professed one boy. "I
-             came to college and stayed with
-             them. It’s natural to stay with
-             people you know. Many white
-             students segregate themselves,
-             too, and only stay with people
-             they associated with prior to
+             </p>
+        </div>
+        <pb/>
+        <div>
+            <head rend="center">
+                 <title type="sub">Negro should 'learn to live' in white world</title>
+            </head>
+        </div>
+        <div>
+            <p>
+             time in the Union, however, <choice><orig>dis-
+             agree</orig><reg>disagree</reg></choice><lb/>
+             with these viewpoints.<lb/>
+             "These were my friends in high<lb/>
+             school,” professed one boy. "I<lb/>
+             came to college and stayed with<lb/>
+             them. It’s natural to stay with<lb/>
+             people you know. Many white<lb/>
+             students segregate themselves,<lb/>
+             too, and only stay with people<lb/>
+             they associated with prior to<lb/>
              college.”
-
-             The Negro community on cam-
-             pus is not homogeneous in ideas--
-             nor can the Negro community
-             be considered an identifiable sub-
-             group. Some Negro students
-             stay segregated. Others inte-
-             grate to varying degrees. Like
-             all individuals, each Negro has
-             a distinct set of opinions. Even
-             college holds a different place
+             </p>
+             <p>
+             The Negro community on <choice><orig>cam-
+             pus</orig><reg>campus</reg></choice><lb/>
+             is not homogeneous in ideas--<lb/>
+             nor can the Negro community<lb/>
+             be considered an identifiable sub-<lb/>
+             group. Some Negro students<lb/>
+             stay segregated. Others <choice><orig>inte-
+             grate</orig><reg>integrate</reg></choice><lb/>
+             to varying degrees. Like<lb/>
+             all individuals, each Negro has<lb/>
+             a distinct set of opinions. Even<lb/>
+             college holds a different place<lb/>
              in each one’s scheme of values.
-
-             "I think college is a place
-             where you do a lot of learning,"
-             expressed one Negro. "All your
-             life you have been taught this and
-             that. Now your intellect begins
-             to take over... You learn whether
+             </p>
+             <p>
+             "I think college is a place<lb/>
+             where you do a lot of learning,"<lb/>
+             expressed one Negro. "All your<lb/>
+             life you have been taught this and<lb/>
+             that. Now your intellect begins<lb/>
+             to take over... You learn whether<lb/>
              it was all a big hoax."
-
-             In this generation, he reflected,
-             there are many opportunities for
-             whites and Negroes to interre-
-             late, many more opportunities
-             than "our parents” had. Inter-
-             racial contact stimulates thought
+             </p>
+             <p>
+             In this generation, he reflected,<lb/>
+             there are many opportunities for<lb/>
+             whites and Negroes to <choice><orig>interre-
+             late</orig><reg>interrelate</reg></choice>,<lb/>
+             many more opportunities<lb/>
+             than "our parents” had. <choice><orig>Inter-
+             racial</orig><reg>Interracial</reg></choice><lb/>
+             contact stimulates thought<lb/>
              and discussion.
-
-             "Sooner or later I hope every-
-             body will be one big happy family
-             —-all mixed up. Things could
-             really swing,” one Negro sug-
-             gested. “Or, then again, we
+             </p>
+             <p>
+             "Sooner or later I hope <choice><orig>every-
+             body</orig><reg>everybody</reg></choice><lb/>
+             will be one big happy family<lb/>
+             —-all mixed up. Things could<lb/>
+             really swing,” one Negro <choice><orig>sug-
+             gested</orig><reg>suggested</reg></choice>.<lb/>
+             “Or, then again, we<lb/>
              could have a recession.”
-         </p>
+            </p>
+        </div>
       </body>
   </text>
 </TEI>
