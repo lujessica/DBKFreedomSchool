@@ -196,37 +196,37 @@
     <body>
         <div>
             <head rend="center">
-                 <title type="main">The Negro on campus</title>
+                 <title type="main"><persName ref="#BLK">The Negro</persName> on campus</title>
                  <title type="sub">Racial issues down since <date when="1954">1954</date></title>
             </head>
         </div>
         <div rend="center">
-            <byline>By HOLLACE GOLDBERG</byline>
+            <byline>By <persName ref="#HG">HOLLACE GOLDBERG</persName></byline>
         </div>
         <div>
             <p>
-            Since the Supreme Court’s<lb/>
-            school desegregation decision in<lb/>
-            1954, the University has slowly<lb/>
+            Since the <orgName>Supreme Court</orgName>’s<lb/>
+            <interp ana="#JUST">school desegregation decision</interp> in<lb/>
+            <date when="1954">1954</date>, the <orgName ref="#UMD">University</orgName> has slowly<lb/>
             dropped all racial tones from its<lb/>
-            hiring, housing and admissions<lb/>
+            <interp ana="#LAB">hiring</interp>, <interp ana="#LAND">housing</interp> and <interp ana="#EDU">admissions</interp><lb/>
             policies.
             </p>
             <p>
-            In 1964 the Board of Regents<lb/>
+            In <date when="1964">1964</date> the <persName ref="#USM">Board of Regents</persName><lb/>
             ordered that questions of race<lb/>
             be deleted from application<lb/>
             forms. A student's race could<lb/>
             be requested only after he had<lb/>
-            been admitted to the University,<lb/>
+            been admitted to the <orgName ref="#UMD">University</orgName>,<lb/>
             and then only for statistical <choice><orig>pur-
             poses</orig><reg>purposes</reg></choice>.
             </p>
             <p>
-            The housing office also deleted<lb/>
+            The <interp ana="#LAND">housing office</interp> also deleted<lb/>
             race questions from its forms,<lb/>
             but continued to request pictures<lb/>
-            of students seeking dormitory<lb/>
+            of students seeking <interp ana="#LAND">dormitory</interp><lb/>
             rooms. Negro students felt this<lb/>
             was done to avoid <choice><orig>inter-racial</orig><reg>interracial</reg></choice><lb/>
             room assignments. Though such<lb/>
@@ -235,11 +235,11 @@
             true.
             </p>
             <p>
-            Under housing policies <choice><orig>initiat-
+            Under <interp ana="#LAND">housing policies</interp> <choice><orig>initiat-
             ed</orig><reg>initiated</reg></choice><lb/>
             this fall, no student’s picture<lb/>
             is requested. Housing Director<lb/>
-            Margaret Lloyd said that previous<lb/>
+            <persName ref="#ML">Margaret Lloyd</persName> said that previous<lb/>
             housing directors might have<lb/>
             used the pictures to match up<lb/>
             Negro roommates, but her<lb/>
@@ -248,14 +248,14 @@
             assignments.<lb/>
             “It is my determination that<lb/>
             we eliminate anything that smacks<lb/>
-            of discrimination," Miss Lloyd<lb/>
+            of discrimination," <persName ref="#ML">Miss Lloyd</persName><lb/>
             declared. “I can’t see that the<lb/>
             color of the skin has anything<lb/>
             more to do with a person than<lb/>
             the color of their hair."
             </p>
             <p>
-            Roommates, she explained, are<lb/>
+            Roommates, <seg corresp="#ML">she</seg> explained, are<lb/>
             at present matched objectively.<lb/>
             “If you don’t request a <choice><orig>room-
             mate</orig><reg>roommate</reg></choice><lb/>
@@ -266,69 +266,68 @@
             </p>
             <p>
             If a white student rooming with<lb/>
-            a Negro complains of “roommate<lb/>
-            incompatibility" due to race, Miss<lb/>
-            Lloyd handles this complaint<lb/>
+            <persName ref="#BLK">a Negro</persName> complains of “roommate<lb/>
+            incompatibility" due to race, <persName ref="#ML">Miss<lb/>
+            Lloyd</persName> handles this complaint<lb/>
             much as she would any other. The<lb/>
             students are asked to try to work<lb/>
             things out. But if the situation<lb/>
             remains unstatisfactory, the<lb/>
-            "complaining student is moved."<lb/>
-            Miss Lloyd added that such<lb/>
+            "<interp ana="#LAND">complaining student is moved</interp>."<lb/>
+            <persName ref="#ML">Miss Lloyd</persName> added that such<lb/>
             problems are often “more <choice><orig>pa-
             rental</orig><reg>parental</reg></choice><lb/>
             than student," and arise<lb/>
             infrequently.
             </p>
             <p>
-            Off-campus housing is another<lb/>
-            matter. Negroes have always<lb/>
-            had difficulty securing rooms<lb/>
+            <interp ana="#LAND">Off-campus housing</interp> is another<lb/>
+            matter. <persName ref="#BLK">Negroes</persName> have always<lb/>
+            had difficulty <interp ana="#LAND">securing rooms</interp><lb/>
             and apartments near campus.<lb/>
             According to the testimony of<lb/>
-            Bill Jones, a commuter, he and<lb/>
-            another Negro submitted an <choice><orig>ap-
+            <persName ref="#BJ">Bill Jones</persName>, <seg corresp="#BJ">a commuter</seg>, he and<lb/>
+            <persName>another Negro</persName> submitted an <choice><orig>ap-
             plication</orig><reg>application</reg></choice><lb/>
             in person for an <choice><orig>apart-
             ment</orig><reg>apartment</reg></choice>,<lb/>
             leaving a $5O room deposit.<lb/>
             Hearing no word after a month,<lb/>
-            “we called H.G. Smithy Realtors<lb/>
+            “we called <orgName>H.G. Smithy Realtors</orgName><lb/>
             and they in turn said ‘hold on a<lb/>
             minute.' No one ever came back<lb/>
-            to the phone," related Jones.
+            to the phone," related <persName ref="#BJ">Jones</persName>.
             </p>
             <p>
             "A week later, we received<lb/>
             (through the mall) our request for<lb/>
-            application—-denied. We called,<lb/>
+            <interp ana="#LAND">application—-denied</interp>. We called,<lb/>
             and a week later our check came<lb/>
             back. We had no time to raise<lb/>
             any issues about it.
             </p>
             <p>
-            "After that, well, I Just stayed<lb/>
-            in Washington with my aunt."
+            "After that, well, <seg corresp="#BJ">I</seg> just stayed<lb/>
+            in <placeName><settlement>Washington</settlement></placeName> with my aunt."
             </p>
             <p>
             According to off-campus <choice><orig>hous-
             ing</orig><reg>housing</reg></choice><lb/>
-            director Doyal P. Royal, the<lb/>
-            University aids students seeking<lb/>
-            off-campus housing by keeping a<lb/>
+            director <persName ref="#ROY">Doyal P. Royal</persName>, the<lb/>
+            <orgName ref="#UMD">University</orgName> aids students seeking<lb/>
+            <interp ana="#LAND">off-campus housing</interp> by keeping a<lb/>
             "public list of public facilities."<lb/>
             However, until last July that list<lb/>
             included many houses and <choice><orig>apart-
             ments</orig><reg>apartments</reg></choice><lb/>
-            that were closed to colored<lb/>
-            students.
+            that were <interp ana="#LAND">closed to colored students</interp>.
             </p>
             <p>
             Months of protests, picket lines,<lb/>
             pressure groups and politics<lb/>
-            forced the University to revise<lb/>
+            forced the <orgName ref="#UMD">University</orgName> to revise<lb/>
             its “public" list over the summer<lb/>
-            of 1966. A new form, sent out<lb/>
+            of <date when="1966">1966</date>. A new form, sent out<lb/>
             to area landlords, stated:<lb/>
             “We cannot accept your listing<lb/>
             if your only reason for not <choice><orig>accept-
@@ -339,13 +338,13 @@
             </p>
             <p>
             Reflecting on the new policy,<lb/>
-            Royal said, “Last summer we<lb/>
+            <persName ref="#ROY">Royal</persName> said, “Last summer we<lb/>
             decided to try to please <choice><orig>every-
             body</orig><reg>everybody</reg></choice><lb/>
             and neutralize the card."<lb/>
-            As a result, last year's 400-<lb/>
+            As a result, last year's <measure type="number" quantity="400">400</measure>-<lb/>
             apartment list has dwindled.<lb/>
-            "Only one large apartment house<lb/>
+            "Only <interp ana="#LAND">one large apartment house</interp><lb/>
             remains on the list," he said.
             </p>
             <p>
@@ -355,7 +354,7 @@
             program. In his <choice><orig>depart-
             ment</orig><reg>department</reg></choice>,<lb/>
             asserted Director of<lb/>
-            Athletics William W. Cobey, “the<lb/>
+            Athletics <persName ref="#WWC">William W. Cobey</persName>, “the<lb/>
             policy has been simply that any<lb/>
             student enrolled at the University<lb/>
             is welcome to come out for<lb/>
@@ -368,60 +367,60 @@
             Furthermore, the athletic <choice><orig>de-
             partment</orig><reg>department</reg></choice><lb/>
             keeps no record of an<lb/>
-            athlete’s race. Cobey could not<lb/>
+            athlete’s race. <persName ref="#WWC">Cobey</persName> could not<lb/>
             recall the date when the first<lb/>
             Negro athlete competed for the<lb/>
-            University in intercollegiate <choice><orig>var-
+            <orgName ref="#UMD">University</orgName> in intercollegiate <choice><orig>var-
             sity</orig><reg>varsity</reg></choice><lb/>
             ball. However, a perusal<lb/>
             of Terrapin yearbooks shows that<lb/>
             the swim team was the first to<lb/>
-            integrate, in 1963, with the <choice><orig>addi-
+            integrate, in <date when="1963">1963</date>, with the <choice><orig>addi-
             tion</orig><reg>additional</reg></choice><lb/>
-            of Negro swimmer Jason<lb/>
-            Williams.
+            of Negro swimmer <persName>Jason<lb/>
+            Williams</persName>.
             </p>
             <p>
             The football team followed the<lb/>
-            next year. In fall, 1964, Darryl<lb/>
-            Hill played on the varsity squad.<lb/>
-            Last year in football, Ernie<lb/>
-            Torain played halfback. He was<lb/>
-            joined this year by Alvin Lee,<lb/>
+            next year. In fall, <date when="1964">1964</date>, <persName>Darryl<lb/>
+            Hill</persName> played on the varsity squad.<lb/>
+            Last year in football, <persName>Ernie<lb/>
+            Torain</persName> played halfback. He was<lb/>
+            joined this year by <persName>Alvin Lee</persName>,<lb/>
             also a halfback.
             </p>
             <p>
-            Bill Jones played basketball<lb/>
-            last year, and this year Pete<lb/>
-            Johnson is also playing on the<lb/>
+            <persName ref="#BJ">Bill Jones</persName> played basketball<lb/>
+            last year, and this year <persName>Pete<lb/>
+            Johnson</persName> is also playing on the<lb/>
             court. The track team has had<lb/>
-            Negro members since last year.
+            <persName ref="#BLK">Negro members</persName> since last year.
             </p>
             <p>
-            In another area, the hiring of<lb/>
-            employees, recruitment depends<lb/>
+            In another area, the <interp ana="#LAB">hiring</interp> of<lb/>
+            employees, <interp ana="#LAB">recruitment</interp> depends<lb/>
             largely on state civil service<lb/>
             requirements.
             </p>
             <p>
-            The University is an "equal<lb/>
+            The <orgName ref="#UMD">University</orgName> is an "equal<lb/>
             opportunity" employer, reports<lb/>
-            George W. Fogg, director of<lb/>
-            personnel. "We have employed<lb/>
-            everyone (Negro) that is qualified<lb/>
+            <persName ref="#GWF">George W. Fogg</persName>, director of<lb/>
+            personnel. "We have <interp ana="#LAB">employed</interp><lb/>
+            <persName ref="#BLK">(Negro)</persName> that is qualified<lb/>
             for his job. We equalize white<lb/>
             and Negro... We don’t favor<lb/>
             either one or the other."<lb/>
             Answering a query about the<lb/>
             sparsity of Negro secretaries on<lb/>
-            campus, Fogg frankly conceded,<lb/>
+            <seg corresp="#UMD">campus</seg>, <persName ref="#GWF">Fogg</persName> frankly conceded,<lb/>
             “We have a lot of Negro <choice><orig>secre-
             taries</orig><reg>secretaries</reg></choice><lb/>
             —-but we have a lot more<lb/>
             white ones."
             </p>
             <p>
-            To recruit staff, Fogg's office<lb/>
+            <interp ana="#LAB">To recruit staff</interp>, <persName ref="#GWF">Fogg</persName>'s office<lb/>
             advertises through local <choice><orig>newspa-
             pers</orig><reg>newspapers</reg></choice><lb/>
             and employment agencies.<lb/>
@@ -430,7 +429,7 @@
             interviewed by the Personnel <choice><orig>Of-
             fice</orig><reg>Office</reg></choice>.<lb/>
             Departments with vacancies<lb/>
-            interview several job candidates<lb/>
+            <interp ana="#LAB">interview several job candidates</interp><lb/>
             and choose one to fill the position.<lb/>
             Once hired, the employees must<lb/>
             fill out income tax papers, pay<lb/>
@@ -442,7 +441,7 @@
             </p>
             <p>
             “This is only for statistics,"<lb/>
-            explained Fogg. “We never ask<lb/>
+            explained <persName ref="#GWF">Fogg</persName>. “We never ask<lb/>
             this until the person is hired."<lb/>
             These racial statistics are <choice><orig>re-
             quired</orig><reg>required</reg></choice><lb/>
@@ -456,59 +455,59 @@
             Commission on the ratio of Negro<lb/>
             and white employees. The first<lb/>
             such report, which is presently<lb/>
-            being compiled, is due Jan. 15.
+            being compiled, is due <date when="1967-01-15">Jan. 15</date>.
             </p>
             <p>
-            Hiring of faculty members is<lb/>
+            <interp ana="#LAB">Hiring of faculty members</interp> is<lb/>
             done largely at the departmental<lb/>
             level. Nominations are generated<lb/>
             by the department heads.
             </p>
             <p>
-            Here, related Fogg, <choice><orig>qualifica-
+            Here, related <persName ref="#GWF">Fogg</persName>, <choice><orig>qualifica-
             tions</orig><reg>qualifications</reg></choice><lb/>
             are very specific. <choice><reg>Nomi-
             nees</reg><orig>Nominees</orig></choice><lb/>
-            are interviewed by R.<lb/>
-            Lee Hornbake, vice-president for<lb/>
+            are interviewed by <persName ref="#RLH">R.<lb/>
+            Lee Hornbake</persName>, vice-president for<lb/>
             academic affairs, and <choice><orig>appoint-
             ments</orig><reg>appointments</reg></choice><lb/>
-            confirmed by the Board<lb/>
-            of Regents.
+            confirmed by the <persName ref="#USM">Board<lb/>
+            of Regents</persName>.
             </p>
             <p>
-            Hornbake stated that in <choice><orig>re-
+            <persName ref="#RLH">Hornbake</persName> stated that in <choice><orig>re-
             cruiting</orig><reg>recruiting</reg></choice><lb/>
             faculty, “we are not <choice><orig>try-
             ing</orig><reg>trying</reg></choice><lb/>
             to find people of any race.<lb/>
-            But," he added “qualified Negroes<lb/>
+            But," he added “<interp ana="#LAB">qualified Negroes</interp><lb/>
             are in very short supply, since<lb/>
             they are being sought after<lb/>
             eagerly by many instructors."
             </p>
             <p>
-            He mentioned that two Negroes<lb/>
-            --an African assistant professor<lb/>
-            in <choice><orig><abbr>G and P</abbr></orig><reg>Government and Politics</reg></choice> and an associate <choice><orig>pro-
+            <seg corresp="#RLH">He</seg> mentioned that <persName ref="#BLK">two Negroes</persName><lb/>
+            --<persName>an African assistant professor</persName><lb/>
+            in <choice><orig><abbr>G and P</abbr></orig><reg>Government and Politics</reg></choice> and <persName>an associate <choice><orig>pro-
             fessor</orig><reg>professor</reg></choice><lb/>
-            of education—-have been<lb/>
+            of education</persName>—-have been<lb/>
             hired in the past two years to<lb/>
-            teach in College Park. However,<lb/>
+            teach in <seg corresp="#UMD"><placeName><settlement>College Park</settlement></placeName></seg>. However,<lb/>
             as for the total number of Negro<lb/>
             instructors on the University’s<lb/>
-            many campuses, Hornbake said,<lb/>
+            many campuses, <persName ref="#RLH">Hornbake</persName> said,<lb/>
             “I don’t know how many there<lb/>
             are and honestly, I don't care.<lb/>
             All I am interested in is good<lb/>
             faculty."
             </p>
             <p>
-            Hornbake also dlsspelled a<lb/>
+            <persName ref="#RLH">Hornbake</persName> also disspelled a<lb/>
             rumor that has been pervading<lb/>
             the sociology department for the<lb/>
-            last twelve months. A Negro<lb/>
-            professor nominated by the<lb/>
+            last twelve months. A <persName>Negro<lb/>
+            professor</persName> nominated by the<lb/>
             sociology department did not<lb/>
             complete his contract <choice><orig>negotia-
             tions</orig><reg>negotiations</reg></choice><lb/>
@@ -521,18 +520,18 @@
             race.
             </p>
             <p>
-            Hornbake explained what<lb/>
-            happened. The man, a “highly<lb/>
+            <persName ref="#RLH">Hornbake</persName> explained what<lb/>
+            happened. <persName>The man</persName>, a “highly<lb/>
             recommended" professor of <choice><orig>an-
             thropology</orig><reg>anthropology</reg></choice>,<lb/>
-            told the University<lb/>
+            told the <orgName ref="#UMD">University</orgName><lb/>
             he had received “another offer<lb/>
             from a West coast institution."
             </p>
             <p>
             “He was a quality man, who<lb/>
             had been in demand in a variety<lb/>
-            of places," testified Hornbake.<lb/>
+            of places," testified <persName ref="#RLH">Hornbake</persName>.<lb/>
             “I did not infer from him that he<lb/>
             felt that race had been a factor<lb/>
             at all, in not accepting the <choice><orig>Uni-
@@ -541,8 +540,8 @@
             </p>
             <p>
             To learn just how many<lb/>
-            Negroes the University employs<lb/>
-            in College Park, last spring the<lb/>
+            <persName ref="#BLK">Negroes</persName> the <orgName ref="#UMD">University</orgName> employs<lb/>
+            in <placeName><settlement>College Park</settlement></placeName>, last spring the<lb/>
             Personnel Office sent to all <choice><orig>fac-
             ulty</orig><reg>faculty</reg></choice><lb/>
             and staff a short personal<lb/>
@@ -557,7 +556,7 @@
             many white faculty members <choice><orig>an-
             swered</orig><reg>answered</reg></choice><lb/>
             by writing “Eskimo" or<lb/>
-            “mixed." But according to Fogg,<lb/>
+            “mixed." But according to <persName ref="#GWF">Fogg</persName>,<lb/>
             “this was a misdirected form of<lb/>
             liberalism. These people <choice><orig>hinder-
             ed</orig><reg>hindered</reg></choice><lb/>
@@ -567,7 +566,7 @@
             </p>
             <p>
             The purpose of the survey was<lb/>
-            to indicate that the University<lb/>
+            to indicate that the <orgName ref="#UMD">University</orgName><lb/>
             does comply with the Civil Rights<lb/>
             Act.
             </p>
