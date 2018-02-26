@@ -16,7 +16,10 @@
             </author>
             <respStmt> <!-- Take note that each person/responsibility gets its own responsibility statement. Responsibility statements provide an opportunity to make visible the workflow and shared labor of a project -->
                 <resp>Encoded by</resp>
-                <persName ref="#JLU">Jessica H. Lu</persName>
+                <persName ref="#JLU">
+                    <forename>Jessica</forename>
+                    <surname>Lu</surname>
+                </persName>
             </respStmt>
             <respStmt>
                 <resp>Edited by staff at</resp>
@@ -24,7 +27,7 @@
             </respStmt>
             <respStmt>
                 <resp>Original TEI template provided by</resp>
-                <persName xml:id="RV">Raffaele Viglianti, PhD</persName>
+                <persName xml:id="RV">Raffaele Viglianti</persName>
             </respStmt>
             <respStmt>
                 <resp>Student newspapers archived and provided by</resp>
